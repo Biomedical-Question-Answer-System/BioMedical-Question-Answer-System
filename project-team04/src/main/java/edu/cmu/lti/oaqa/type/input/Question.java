@@ -11,8 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** The Question and any associated meta-data.
- * Updated by JCasGen Sat Oct 18 19:40:19 EDT 2014
- * XML source: /home/mog/dev/11791/project/project-team04-archetype/src/main/resources/type/OAQATypes.xml
+ * Updated by JCasGen Sun Nov 09 15:21:41 EST 2014
+ * XML source: /root/git/project-team04/project-team04/src/main/resources/descriptors/collectionReaderDescriptor.xml
  * @generated */
 public class Question extends Annotation {
   /** @generated
