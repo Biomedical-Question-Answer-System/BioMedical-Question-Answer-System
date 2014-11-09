@@ -14,9 +14,11 @@ public class GoPubMedServiceExample {
 
   public static void main(String[] args) throws ClientProtocolException, IOException,
           ConfigurationException {
-    // String text = "Is Rheumatoid Arthritis more common in men or women?";
-    String text = "Are there any DNMT3 proteins present in plants?";
-    GoPubMedService service = new GoPubMedService(args[0]);
+    String text = "Is Rheumatoid Arthritis more common in men or women";//remove questionmark
+    //String text = "Are there any DNMT3 proteins present in plants";
+    
+    GoPubMedService service = new GoPubMedService("/root/git/project-team04/project-team04/project.properties");
+
     OntologyServiceResponse.Result diseaseOntologyResult = service
             .findDiseaseOntologyEntitiesPaged(text, 0);
     System.out.println("Disease ontology: " + diseaseOntologyResult.getFindings().size());
