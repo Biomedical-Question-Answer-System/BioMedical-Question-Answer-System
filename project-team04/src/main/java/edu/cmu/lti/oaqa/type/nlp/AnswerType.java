@@ -11,8 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** A Named Entity type that represents the type of the answer being sought.
- * Updated by JCasGen Sat Oct 18 19:40:19 EDT 2014
- * XML source: /home/mog/dev/11791/project/project-team04-archetype/src/main/resources/type/OAQATypes.xml
+ * Updated by JCasGen Sun Nov 09 15:21:42 EST 2014
+ * XML source: /root/git/project-team04/project-team04/src/main/resources/descriptors/collectionReaderDescriptor.xml
  * @generated */
 public class AnswerType extends Annotation {
   /** @generated
