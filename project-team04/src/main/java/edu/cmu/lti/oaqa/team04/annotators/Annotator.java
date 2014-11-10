@@ -38,6 +38,7 @@ public class Annotator extends JCasAnnotator_ImplBase {
     }
 
   }
+  
 
   @Override
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
