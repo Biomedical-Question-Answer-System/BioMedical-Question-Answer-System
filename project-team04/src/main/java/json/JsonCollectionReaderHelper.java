@@ -46,6 +46,8 @@ public class JsonCollectionReaderHelper {
 			e.printStackTrace();
 		}*/
 		Object value = filePath;
+		int i=0;
+		while(true){
 		if (String.class.isAssignableFrom(value.getClass())) {
 			inputs = TestSet
 					.load(getClass().getResourceAsStream(
@@ -66,7 +68,15 @@ public class JsonCollectionReaderHelper {
 						input -> input.setBody(input.getBody().trim()
 								.replaceAll("\\s+", " ")));
 		System.out.println("concepts");
-		System.out.println(inputs.get(0).getConcepts());
+		if(inputs.get(i).getConcepts()==null)
+		  break;
+		System.out.println(inputs.get(i).getConcepts());
+		System.out.println(inputs.get(i).getDocuments());
+    System.out.println(inputs.get(i).getSnippets());
+    System.out.println(inputs.get(i).getTriples());
+    System.out.println(inputs.get(i).getType());
+    
+		i++;}
 	}
 
 	public static void addQuestionToIndex(Question input, String source,
