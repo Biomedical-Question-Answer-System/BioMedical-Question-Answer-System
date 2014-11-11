@@ -2,6 +2,20 @@
 <analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
   <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
   <primitive>false</primitive>  
+  <delegateAnalysisEngineSpecifiers>
+    <delegateAnalysisEngine key="ConaeDescriptor">
+      <import name="descriptors.ConaeDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="DocaeDescriptor">
+      <import name="descriptors.DocaeDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="StemaeDescriptor">
+      <import name="descriptors.StemaeDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="TripaeDescriptor">
+      <import name="descriptors.TripaeDescriptor"/>
+    </delegateAnalysisEngine>
+  </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
     <name>AaeDescriptor</name>
     <description/>
@@ -11,7 +25,11 @@
     <configurationParameterSettings/>
     <flowConstraints>
       <fixedFlow>
-        </fixedFlow>
+        <node>StemaeDescriptor</node>
+        <node>ConaeDescriptor</node>
+        <node>DocaeDescriptor</node>
+        <node>TripaeDescriptor</node>
+      </fixedFlow>
     </flowConstraints>
     <fsIndexCollection/>
     <capabilities>

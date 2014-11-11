@@ -8,9 +8,9 @@
         </collectionIterator>
     </collectionReader>
     <casProcessors casPoolSize="3" processingUnitThreadCount="1">
-        <casProcessor deployment="integrated" name="AnnotatorDescriptor">
+        <casProcessor deployment="integrated" name="AaeDescriptor">
             <descriptor>
-                <import location="src/main/resources/descriptors/AnnotatorDescriptor.xml"/>
+                <import location="src/main/resources/descriptors/AaeDescriptor.xml"/>
             </descriptor>
             <deploymentParameters/>
             <errorHandling>
