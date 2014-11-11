@@ -2,17 +2,6 @@
 <analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
   <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
   <primitive>false</primitive>  
-  <delegateAnalysisEngineSpecifiers>
-    <delegateAnalysisEngine key="AnnotatorDescriptor">
-      <import name="descriptors.AnnotatorDescriptor"/>
-    </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="CollectionReaderDescriptor">
-      <import name="descriptors.CollectionReaderDescriptor"/>
-    </delegateAnalysisEngine>
-  <delegateAnalysisEngine key="casConsumerDescriptor">
-      <import name="descriptors.casConsumerDescriptor"/>
-    </delegateAnalysisEngine>
-  </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
     <name>AaeDescriptor</name>
     <description/>
@@ -22,10 +11,7 @@
     <configurationParameterSettings/>
     <flowConstraints>
       <fixedFlow>
-        <node>CollectionReaderDescriptor</node>
-        <node>AnnotatorDescriptor</node>
-      <node>casConsumerDescriptor</node>
-      </fixedFlow>
+        </fixedFlow>
     </flowConstraints>
     <fsIndexCollection/>
     <capabilities>

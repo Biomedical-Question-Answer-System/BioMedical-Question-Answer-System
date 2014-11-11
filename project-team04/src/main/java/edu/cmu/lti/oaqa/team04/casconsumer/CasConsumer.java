@@ -112,3 +112,4 @@ public class CasConsumer extends CasConsumer_ImplBase {
   }
 
 }
+

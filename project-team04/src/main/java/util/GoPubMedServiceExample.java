@@ -14,10 +14,15 @@ public class GoPubMedServiceExample {
 
   public static void main(String[] args) throws ClientProtocolException, IOException,
           ConfigurationException {
+
     String text = "Tumors of which three organs are classically associated with the multiple endocrine neoplasia type 1 syndrome";//remove questionmark
     //String text = "Are there any DNMT3 proteins present in plants";
     
     GoPubMedService service = new GoPubMedService("./project.properties");
+
+ //   String text = "Is Rheumatoid Arthritis more common in men or women";//remove questionmark
+    //String text = "Are there any DNMT3 proteins present in plants";
+
 
     OntologyServiceResponse.Result diseaseOntologyResult = service
             .findDiseaseOntologyEntitiesPaged(text, 0);
