@@ -3,14 +3,14 @@
   <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
   <primitive>false</primitive>  
   <delegateAnalysisEngineSpecifiers>
+    <delegateAnalysisEngine key="StemaeDescriptor">
+      <import name="descriptors.StemaeDescriptor"/>
+    </delegateAnalysisEngine>
     <delegateAnalysisEngine key="ConaeDescriptor">
       <import name="descriptors.ConaeDescriptor"/>
     </delegateAnalysisEngine>
     <delegateAnalysisEngine key="DocaeDescriptor">
       <import name="descriptors.DocaeDescriptor"/>
-    </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="StemaeDescriptor">
-      <import name="descriptors.StemaeDescriptor"/>
     </delegateAnalysisEngine>
     <delegateAnalysisEngine key="TripaeDescriptor">
       <import name="descriptors.TripaeDescriptor"/>

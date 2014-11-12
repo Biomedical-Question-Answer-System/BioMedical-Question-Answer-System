@@ -22,7 +22,9 @@ import org.apache.uima.util.ProcessTrace;
 import org.uimafit.util.CasUtil;
 import org.uimafit.util.FSCollectionFactory;
 
+import edu.cmu.lti.oaqa.type.retrieval.ConceptSearchResult;
 import edu.cmu.lti.oaqa.type.retrieval.Document;
+import edu.cmu.lti.oaqa.type.retrieval.TripleSearchResult;
 import edu.cmu.lti.oaqa.type.input.Question;
 import edu.cmu.lti.oaqa.type.kb.Concept;
 import edu.cmu.lti.oaqa.type.kb.Triple;
@@ -58,23 +60,21 @@ public class CasConsumer extends CasConsumer_ImplBase {
 		} catch (CASException e) {
 			throw new ResourceProcessException(e);
 		}
+		Question question = new Question(jcas);
+		FSIterator<?> questionIt = jcas.getJFSIndexRepository().getAllIndexedFS(Question.type);
+		if(questionIt.hasNext()){
+		  question = (Question) questionIt.next();
+		}
 		writer.printf("\t{\n");
 		String body = jcas.getDocumentText();
 		writer.printf("\t\t\"body\": \"%s\",\n", body);
 		// concepts
 		writer.printf("\t\t\"concepts\": [");
 	//	FSIterator it = jcas.getAnnotationIndex(Question.type).iterator();
-		FSIterator<?> conceptIt = jcas.getJFSIndexRepository().getAllIndexedFS(Concept.type);//jcas.getAnnotationIndex(Concept.type).iterator();
+		FSIterator<?> conceptIt = jcas.getJFSIndexRepository().getAllIndexedFS(ConceptSearchResult.type);//jcas.getAnnotationIndex(Concept.type).iterator();
 		while(conceptIt.hasNext()){
-			Concept concept = (Concept)conceptIt.next();
-			StringList conceptList = concept.getUris();
-			Collection<String> conceptCollection =FSCollectionFactory
-			        .create(conceptList);
-	//		ArrayList<String> conceptArrayList =(ArrayList<String>) conceptCollection;
-			Iterator<String> conceptIterator= conceptCollection.iterator();
-			while(conceptIterator.hasNext()){
-			  writer.printf("\n\t\t\t\"%s\"", conceptIterator.next());
-			}
+		  ConceptSearchResult concept = (ConceptSearchResult)conceptIt.next();
+		  writer.printf("\n\t\t\t\"%s\"", concept.getUri());
 			if(conceptIt.hasNext())
 				writer.printf(",");
 		}
@@ -84,21 +84,23 @@ public class CasConsumer extends CasConsumer_ImplBase {
 		FSIterator docIt =  jcas.getJFSIndexRepository().getAllIndexedFS(Document.type);
 		while(docIt.hasNext()){
 			Document doc = (Document)docIt.next();
-			writer.printf("\n\t\t\t\"%s\"", doc.getDocId());
+			writer.printf("\n\t\t\t\"%s\"", doc.getTitle());
 			if(conceptIt.hasNext())
 				writer.printf(",");
 		}
 		writer.printf("\n\t\t],\n");
 		// triples
 		writer.printf("\t\t\"triples\": [");
-		FSIterator tripleIt =  jcas.getJFSIndexRepository().getAllIndexedFS(Triple.type);
-		while(docIt.hasNext()){
-			Triple triple = (Triple)tripleIt.next();
-			writer.printf("\n\t\t\t{\n\t\t\t\t\"o\": \"%s\"\n\t\t\t\t\"p\": \"%s\"\n\t\t\t\t\"s\": \"%s\"\n\t\t\t}", triple.getObject(), triple.getPredicate(), triple.getSubject());
+		FSIterator tripleIt =  jcas.getJFSIndexRepository().getAllIndexedFS(TripleSearchResult.type);
+		while(tripleIt.hasNext()){
+		  TripleSearchResult triple = (TripleSearchResult)tripleIt.next();
+			writer.printf("\n\t\t\t{\n\t\t\t\t\"o\": \"%s\"\n\t\t\t\t\"p\": \"%s\"\n\t\t\t\t\"s\": \"%s\"\n\t\t\t}", triple.getTriple().getObject(), triple.getTriple().getPredicate(), triple.getTriple().getSubject());
 			if(conceptIt.hasNext())
 				writer.printf(",");
 		}
 		writer.printf("\n\t\t],\n");
+	// question id
+		writer.printf("\t\t\"id\": \""+question.getId()+"\",\n");
 		// the end of the question
 		writer.printf("\t},\n");
 	}

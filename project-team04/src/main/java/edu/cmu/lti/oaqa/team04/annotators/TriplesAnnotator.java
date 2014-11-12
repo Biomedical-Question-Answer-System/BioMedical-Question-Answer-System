@@ -14,6 +14,7 @@ import edu.cmu.lti.oaqa.bio.bioasq.services.GoPubMedService;
 import edu.cmu.lti.oaqa.bio.bioasq.services.LinkedLifeDataServiceResponse;
 import edu.cmu.lti.oaqa.type.input.Question;
 import edu.cmu.lti.oaqa.type.kb.Triple;
+import edu.cmu.lti.oaqa.type.retrieval.TripleSearchResult;
 
 public class TriplesAnnotator extends JCasAnnotator_ImplBase {
   private static GoPubMedService service = null;
@@ -40,18 +41,32 @@ public class TriplesAnnotator extends JCasAnnotator_ImplBase {
     }
     String text = questionTypeSys.getText();
     Triple tripleTypeSys = null;
+    TripleSearchResult tripleSearchRe = null;
     try {
       LinkedLifeDataServiceResponse.Result linkedLifeDataResult = service
               .findLinkedLifeDataEntitiesPaged(text, 0);
       // System.out.println("LinkedLifeData: " + linkedLifeDataResult.getEntities().size());
       for (LinkedLifeDataServiceResponse.Entity entity : linkedLifeDataResult.getEntities()) {
-        // System.out.println(" > " + entity.getEntity());
-        for (LinkedLifeDataServiceResponse.Relation relation : entity.getRelations()) {
-          tripleTypeSys = new Triple(aJCas);
-          tripleTypeSys.setObject(relation.getObj());
-          tripleTypeSys.setSubject(relation.getSubj());
-          tripleTypeSys.setPredicate(relation.getPred());
-          tripleTypeSys.addToIndexes(aJCas);
+        if (entity.getScore() > 0.5) {
+          int count = 0;
+          for (LinkedLifeDataServiceResponse.Relation relation : entity.getRelations()) {
+            tripleTypeSys = new Triple(aJCas);
+            tripleTypeSys.setObject(relation.getObj());
+            tripleTypeSys.setSubject(relation.getSubj());
+            tripleTypeSys.setPredicate(relation.getPred());
+            tripleTypeSys.addToIndexes();
+            tripleSearchRe = new TripleSearchResult(aJCas);
+            tripleSearchRe.setTriple(tripleTypeSys);
+            tripleSearchRe.setScore(entity.getScore());
+            tripleSearchRe.addToIndexes(aJCas);
+            count++;
+            if (count >= 10) {
+              break;
+            }
+          }
+        }
+        else{
+          continue;
         }
       }
     } catch (IOException e) {
