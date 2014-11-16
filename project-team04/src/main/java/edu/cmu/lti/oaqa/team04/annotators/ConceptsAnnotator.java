@@ -98,7 +98,7 @@ public class ConceptsAnnotator extends JCasAnnotator_ImplBase {
       }
       FindingComparator findingComparator = new FindingComparator();
       findingList.sort(findingComparator);
-      int count = 0;
+      int count = 1;
       for (Finding f : findingList) {
         conceptTypeSys = new Concept(aJCas);
         conceptTypeSys.setName(f.getConcept().getLabel());
@@ -107,9 +107,9 @@ public class ConceptsAnnotator extends JCasAnnotator_ImplBase {
         result.setConcept(conceptTypeSys);
         result.setUri(f.getConcept().getUri());
         result.setScore(f.getScore());
+        result.setRank(count++);
         result.addToIndexes(aJCas);
-        count++;
-        if(count>=10){
+        if(count>10){
           break;
         }
       }

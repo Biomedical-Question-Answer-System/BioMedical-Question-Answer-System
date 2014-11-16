@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
   <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
-  <primitive>false</primitive>  
-  <delegateAnalysisEngineSpecifiers>
-    <delegateAnalysisEngine key="StemaeDescriptor">
-      <import name="descriptors.StemaeDescriptor"/>
-    </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="ConaeDescriptor">
-      <import name="descriptors.ConaeDescriptor"/>
-    </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="PasEvaluatorDescriptor">
-      <import name="descriptors.PasEvaluatorDescriptor"/>
-    </delegateAnalysisEngine>
-    </delegateAnalysisEngineSpecifiers>
+  <primitive>true</primitive>  <annotatorImplementationName>edu.cmu.lti.oaqa.team04.annotators.PassageEvaluatorAnnotator</annotatorImplementationName>
   <analysisEngineMetaData>
-    <name>AaeDescriptor</name>
+    <name>ConaeDescriptor</name>
     <description/>
     <version>1.0</version>
     <vendor/>
     <configurationParameters/>
     <configurationParameterSettings/>
-    <flowConstraints>
-      <fixedFlow>
-        <node>StemaeDescriptor</node>
-        <node>ConaeDescriptor</node>
-        <node>PasEvaluatorDescriptor</node>
-        </fixedFlow>
-    </flowConstraints>
+    <typeSystemDescription>
+      <imports>
+        <import name="type.OAQATypes"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
     <fsIndexCollection/>
     <capabilities>
       <capability>

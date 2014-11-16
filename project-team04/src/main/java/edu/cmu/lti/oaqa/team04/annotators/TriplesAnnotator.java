@@ -58,8 +58,9 @@ public class TriplesAnnotator extends JCasAnnotator_ImplBase {
             tripleSearchRe = new TripleSearchResult(aJCas);
             tripleSearchRe.setTriple(tripleTypeSys);
             tripleSearchRe.setScore(entity.getScore());
+            tripleSearchRe.setRank(count++);
             tripleSearchRe.addToIndexes(aJCas);
-            count++;
+     //       count++;
             if (count >= 10) {
               break;
             }
