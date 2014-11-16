@@ -29,9 +29,10 @@ import edu.cmu.lti.oaqa.bio.bioasq.services.OntologyServiceResponse.Finding;
 import edu.cmu.lti.oaqa.type.input.Question;
 import edu.cmu.lti.oaqa.type.kb.Concept;
 import edu.cmu.lti.oaqa.type.retrieval.ConceptSearchResult;
+import edu.cmu.lti.oaqa.type.retrieval.Document;
 
-public class PassageEvaluatorAnnotator extends JCasAnnotator_ImplBase {
-  private HashMap<String, ArrayList<String>> conceptMap = new HashMap<String, ArrayList<String>>();
+public class DocumentEvaluatorAnnotator extends JCasAnnotator_ImplBase {
+  private HashMap<String, ArrayList<String>> documentMap = new HashMap<String, ArrayList<String>>();
 
   private int correct_num = 0;
 
@@ -70,60 +71,58 @@ public class PassageEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     // inputs.stream().filter(input -> input.getBody() != null)
     // .forEach(input -> input.setBody(input.getBody().trim().replaceAll("\\s+", " ")));
     for (json.gson.Question q : inputs) {
-      List<String> conc = q.getConcepts();
-      ArrayList<String> individualConcList = new ArrayList<String>();
-      int count = 1;
-      for (String s : conc) {
-        individualConcList.add(s);
+      List<String> golddocuments = q.getDocuments();
+      ArrayList<String> individualDocList = new ArrayList<String>();
+      for (String s : golddocuments) {
+        individualDocList.add(s);
       }
-      conceptMap.put(q.getId(), individualConcList);
+      documentMap.put(q.getId(), individualDocList);
     }
   }
 
   @Override
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
     // TODO Auto-generated method stub
-    double map = 0;
-    double gmap = 1;
+ //   double map = 0;
+//    double gmap = 1;
     boolean flag = true;
-  //  questionnum++;
     int max = 0;
     Question question = new Question(aJCas);
     FSIterator<?> questionIt = aJCas.getJFSIndexRepository().getAllIndexedFS(Question.type);
     if (questionIt.hasNext()) {
       question = (Question) questionIt.next();
     }
-    if (conceptMap.containsKey(question.getId())) {
-      ArrayList<String> conceptList = conceptMap.get(question.getId());
-      supposed_num += conceptList.size();
-      FSIterator<?> concResultIt = aJCas.getJFSIndexRepository().getAllIndexedFS(
-              ConceptSearchResult.type);
-      HashMap<String, Integer> conceptResultMap = new HashMap<String, Integer>();
-      while (concResultIt.hasNext()) {
-        ConceptSearchResult conceptResult = (ConceptSearchResult) concResultIt.next();
-        conceptResultMap.put(conceptResult.getUri(), conceptResult.getRank());
+    if (documentMap.containsKey(question.getId())) {
+      ArrayList<String> golddocumentList = documentMap.get(question.getId());
+      supposed_num += golddocumentList.size();
+      FSIterator<?> docResultIt = aJCas.getJFSIndexRepository().getAllIndexedFS(
+              Document.type);
+      HashMap<String, Integer> documentResultMap = new HashMap<String, Integer>();
+      while (docResultIt.hasNext()) {
+        Document document = (Document) docResultIt.next();
+        documentResultMap.put(document.getTitle(), document.getRank());
         answer_num++;
       }
-      for (int i = 0; i < conceptList.size(); i++) {
-        String goldconcept = conceptList.get(i);
+      for (int i = 0; i < golddocumentList.size(); i++) {
+        String goldDocument = golddocumentList.get(i);
         if (flag) {
-          if (conceptResultMap.containsKey(goldconcept)) {
+          if (documentResultMap.containsKey(goldDocument)) {
             correct_num++;
-            if (max >= conceptResultMap.get(goldconcept)) {
-              map += (i + 1.0) / max;
-              gmap *= (i + 1.0) / max + 0.01;
+            if (max >= documentResultMap.get(goldDocument)) {
+              totalMap += (i + 1.0) / max;
+              totalGmap *= (i + 1.0) / max + 0.01;
             } else {
-              max = conceptResultMap.get(goldconcept);
-              map += (i + 1.0) / max;
-              gmap *= (i + 1.0) / max + 0.01;
+              max = documentResultMap.get(goldDocument);
+              totalMap += (i + 1.0) / max;
+              totalGmap *= (i + 1.0) / max + 0.01;
             }
           } else {
             flag = false;
-            gmap *= 0.01;
+            totalGmap *= 0.01;
           }
         } else {
-          gmap *= 0.01;
-          if (conceptResultMap.containsKey(goldconcept)) {
+          totalGmap *= 0.01;
+          if (documentResultMap.containsKey(goldDocument)) {
             correct_num++;
           }
         }
@@ -131,8 +130,8 @@ public class PassageEvaluatorAnnotator extends JCasAnnotator_ImplBase {
       }
  //     System.out.println("MAP: " + map / conceptList.size() + "\n");
   //    System.out.println("GMAP: " + Math.pow(gmap, 1.0 / conceptList.size()) + "\n");
-      totalMap += map;
-      totalGmap *= gmap;
+ //     totalMap += map;
+  //    totalGmap *= gmap;
       printReport();
     }
   }

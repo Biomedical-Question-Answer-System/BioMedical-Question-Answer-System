@@ -48,7 +48,7 @@ public class TriplesAnnotator extends JCasAnnotator_ImplBase {
       // System.out.println("LinkedLifeData: " + linkedLifeDataResult.getEntities().size());
       for (LinkedLifeDataServiceResponse.Entity entity : linkedLifeDataResult.getEntities()) {
         if (entity.getScore() > 0.5) {
-          int count = 0;
+          int count = 1;
           for (LinkedLifeDataServiceResponse.Relation relation : entity.getRelations()) {
             tripleTypeSys = new Triple(aJCas);
             tripleTypeSys.setObject(relation.getObj());

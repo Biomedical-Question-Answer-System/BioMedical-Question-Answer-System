@@ -46,11 +46,12 @@ public class DocumentAnnotator extends JCasAnnotator_ImplBase {
       List<Document> docList = pubmedResult.getDocuments();
       // String[] pmids = new String[docList.size()];
       // int i = 0;
-      int count = 0;
+      int count = 1;
       for (Document doc : docList) {
         documentTypeSys = new edu.cmu.lti.oaqa.type.retrieval.Document(aJCas);
         documentTypeSys.setTitle("http://www.ncbi.nlm.nih.gov/pubmed/" + doc.getPmid());
         documentTypeSys.setDocId(doc.getPmid());
+        documentTypeSys.setUri(doc.getPmid());
         documentTypeSys.setRank(count++);
         documentTypeSys.addToIndexes(aJCas);
      //   count++;

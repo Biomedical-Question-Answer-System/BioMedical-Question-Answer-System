@@ -2,18 +2,17 @@
 	{
 		"body": "Is Rheumatoid Arthritis more common in men or women?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001172",
-			"http://www.disease-ontology.org/api/metadata/DOID:7148",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001171",
-			"http://www.uniprot.org/uniprot/SAST_HUMAN",
-			"http://www.disease-ontology.org/api/metadata/DOID:676",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008571",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001168",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014930",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D005258",
-			"http://www.uniprot.org/uniprot/SERPH_HUMAN"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/24107643"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23974974"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23916348"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23900228"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23873887"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23812032"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23703486"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23553100"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23526031"
 		],
 		"triples": [
 		],
@@ -22,16 +21,6 @@
 	{
 		"body": "Are there any DNMT3 proteins present in plants?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010940",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017951",
-			"http://www.biosemantics.org/jochem#4265033",
-			"http://www.biosemantics.org/jochem#4263356",
-			"http://www.biosemantics.org/jochem#4261540",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D010944",
-			"http://www.biosemantics.org/jochem#4264167",
-			"http://www.biosemantics.org/jochem#4264313",
-			"http://www.biosemantics.org/jochem#4263521",
-			"http://www.biosemantics.org/jochem#4261980"
 		],
 		"documents": [
 		],
@@ -42,16 +31,6 @@
 	{
 		"body": "What is the most prominent sequence consensus for the polyadenylation site?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016384",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008618",
-			"http://www.uniprot.org/uniprot/IRF8_HUMAN",
-			"http://www.uniprot.org/uniprot/IRF8_MOUSE",
-			"http://www.uniprot.org/uniprot/IRF8_CHICK",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D032921",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D026723",
-			"http://www.biosemantics.org/jochem#4249823",
-			"http://www.biosemantics.org/jochem#4274011",
-			"http://www.biosemantics.org/jochem#4278087"
 		],
 		"documents": [
 		],
@@ -62,10 +41,17 @@
 	{
 		"body": "What is the function of the mammalian gene Irg1?",
 		"concepts": [
-			"http://www.uniprot.org/uniprot/IRG1_HUMAN",
-			"http://www.uniprot.org/uniprot/IRG1_MOUSE"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/23931757"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23610393"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23609450"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23455712"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22698585"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21947773"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21836375"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21424586"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20536725"
 		],
 		"triples": [
 		],
@@ -74,12 +60,17 @@
 	{
 		"body": "Is thrombophilia related to increased risk of miscarriage?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000022",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019851",
-			"http://www.disease-ontology.org/api/metadata/DOID:2452",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012306"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/23954867"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23809122"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22023244"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21039385"
+			"http://www.ncbi.nlm.nih.gov/pubmed/18064320"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17369990"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17043779"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16601830"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16194196"
 		],
 		"triples": [
 		],
@@ -88,18 +79,15 @@
 	{
 		"body": "Which extra thyroid tissues have thyrotropin (TSH) receptors?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011989",
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0004996",
-			"http://www.uniprot.org/uniprot/TSHR_PIG",
-			"http://www.uniprot.org/uniprot/TSHR_RAT",
-			"http://www.uniprot.org/uniprot/TSHR_SHEEP",
-			"http://www.uniprot.org/uniprot/TSHR_BOVIN",
-			"http://www.uniprot.org/uniprot/TSHR_CANFA",
-			"http://www.uniprot.org/uniprot/TSHR_MOUSE",
-			"http://www.uniprot.org/uniprot/TSHR_FELCA",
-			"http://www.uniprot.org/uniprot/TSHR_HUMAN"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/19553036"
+			"http://www.ncbi.nlm.nih.gov/pubmed/18400223"
+			"http://www.ncbi.nlm.nih.gov/pubmed/14669949"
+			"http://www.ncbi.nlm.nih.gov/pubmed/12515285"
+			"http://www.ncbi.nlm.nih.gov/pubmed/11399468"
+			"http://www.ncbi.nlm.nih.gov/pubmed/7794253"
+			"http://www.ncbi.nlm.nih.gov/pubmed/8320423"
 		],
 		"triples": [
 		],
@@ -108,18 +96,17 @@
 	{
 		"body": "What is the methyl donor of DNA (cytosine-5)-methyltransferases?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004248",
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003886",
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0032776",
-			"http://www.uniprot.org/uniprot/CMT1_DICDI",
-			"http://www.uniprot.org/uniprot/DNMT1_BOVIN",
-			"http://www.uniprot.org/uniprot/DNMT1_RAT",
-			"http://www.uniprot.org/uniprot/CMT1_MAIZE",
-			"http://www.uniprot.org/uniprot/DNMT1_MOUSE",
-			"http://www.uniprot.org/uniprot/DNMT1_CHICK",
-			"http://www.uniprot.org/uniprot/DNMT1_HUMAN"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/24205358"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24141114"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23724145"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23576011"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23408989"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23183753"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23030620"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22945834"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22558281"
 		],
 		"triples": [
 		],
@@ -128,7 +115,6 @@
 	{
 		"body": "Super-SILAC is a method used in quantitative proteomics. What is the super-SILAC mix? (SILAC: Stable Isotopic labelling by aminoacids in cell culture)",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007553"
 		],
 		"documents": [
 		],
@@ -139,18 +125,9 @@
 	{
 		"body": "Tumors of which three organs are classically associated with the multiple endocrine neoplasia type 1 syndrome?",
 		"concepts": [
-			"http://www.disease-ontology.org/api/metadata/DOID:10017",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018761",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009377",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018813",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018814",
-			"http://www.disease-ontology.org/api/metadata/DOID:10016",
-			"http://www.uniprot.org/uniprot/DNJC4_HUMAN",
-			"http://www.disease-ontology.org/api/metadata/DOID:0050430",
-			"http://www.uniprot.org/uniprot/DNJC4_MOUSE",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016884"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/9681845"
 		],
 		"triples": [
 		],
@@ -159,12 +136,9 @@
 	{
 		"body": "What is the mechanism of action of anticoagulant medication Dabigatran?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D045504",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000925",
-			"http://www.biosemantics.org/jochem#4242811",
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0050819"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/22302737"
 		],
 		"triples": [
 		],
@@ -173,16 +147,6 @@
 	{
 		"body": "Is Mammaprint approved by the United States Food and Drug Administration?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014486",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D017277",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D018795",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014493",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014481",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014482",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014489",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014488",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D019131",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D014487"
 		],
 		"documents": [
 		],
@@ -193,17 +157,17 @@
 	{
 		"body": "Which acetylcholinesterase inhibitors are used for treatment of myasthenia gravis?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D009157",
-			"http://www.disease-ontology.org/api/metadata/DOID:437",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D002800",
-			"http://www.uniprot.org/uniprot/AKA12_HUMAN",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020294",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020941",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020720",
-			"http://www.disease-ontology.org/api/metadata/DOID:14043",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000110"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/24291968"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24220173"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24164490"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24145588"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24141560"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24112993"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24095170"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24088269"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23938353"
 		],
 		"triples": [
 		],
@@ -222,10 +186,9 @@
 	{
 		"body": "Does the Oncotype DX test work with paraffin embedded tissues?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016612",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016610"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/21370017"
 		],
 		"triples": [
 		],
@@ -234,13 +197,16 @@
 	{
 		"body": "Is depression associated with poor prognosis of brain tumor patients?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001932",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011379",
-			"http://www.uniprot.org/uniprot/BRAT_DROME",
-			"http://www.uniprot.org/uniprot/LRRC4_HUMAN",
-			"http://www.disease-ontology.org/api/metadata/DOID:1319"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/23735702"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23480214"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22911682"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21478187"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20528763"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17664480"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16989906"
+			"http://www.ncbi.nlm.nih.gov/pubmed/12709669"
 		],
 		"triples": [
 		],
@@ -249,7 +215,6 @@
 	{
 		"body": "What is known about the reimbursement of Viagra",
 		"concepts": [
-			"http://www.biosemantics.org/jochem#4266960"
 		],
 		"documents": [
 		],
@@ -260,14 +225,6 @@
 	{
 		"body": "Does HER2 under-expression lead to favorable response to trastuzumab?",
 		"concepts": [
-			"http://www.biosemantics.org/jochem#4002084",
-			"http://www.uniprot.org/uniprot/ERBB2_HUMAN",
-			"http://www.uniprot.org/uniprot/GATA_CANAL",
-			"http://www.uniprot.org/uniprot/GATA_CANAW",
-			"http://www.uniprot.org/uniprot/GATA_ASHGO",
-			"http://www.uniprot.org/uniprot/GATA_YEAST",
-			"http://www.uniprot.org/uniprot/GATA_YARLI",
-			"http://www.biosemantics.org/jochem#4275113"
 		],
 		"documents": [
 		],
@@ -278,10 +235,6 @@
 	{
 		"body": "Can Alzheimer's disease related miRNAs be detected in patients' blood?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000544",
-			"http://www.disease-ontology.org/api/metadata/DOID:10652",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D035683",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006402"
 		],
 		"documents": [
 		],
@@ -292,13 +245,9 @@
 	{
 		"body": "Which antiepileptic drug is most strongly associated with spina bifida?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016135",
-			"http://www.disease-ontology.org/api/metadata/DOID:0080016",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D000927",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016137",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D016136"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/9216039"
 		],
 		"triples": [
 		],
@@ -307,11 +256,6 @@
 	{
 		"body": "Where in the cell do we find the protein Cep135?",
 		"concepts": [
-			"http://www.uniprot.org/uniprot/DCSTP_HUMAN",
-			"http://www.uniprot.org/uniprot/CP135_DANRE",
-			"http://www.uniprot.org/uniprot/CP135_MOUSE",
-			"http://www.uniprot.org/uniprot/CP135_HUMAN",
-			"http://www.biosemantics.org/jochem#4249034"
 		],
 		"documents": [
 		],
@@ -322,16 +266,6 @@
 	{
 		"body": "In which isochores are Alu elements enriched?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020087",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D032085",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004251",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D004602",
-			"http://www.biosemantics.org/jochem#4277567",
-			"http://www.biosemantics.org/jochem#4277703",
-			"http://www.biosemantics.org/jochem#4277478",
-			"http://www.uniprot.org/uniprot/PRDX5_HUMAN",
-			"http://www.biosemantics.org/jochem#4022433",
-			"http://www.biosemantics.org/jochem#4277570"
 		],
 		"documents": [
 		],
@@ -342,16 +276,6 @@
 	{
 		"body": "Which forms of cancer is the Tpl2 gene associated with?",
 		"concepts": [
-			"http://www.uniprot.org/uniprot/DDX53_HUMAN",
-			"http://www.uniprot.org/uniprot/CTU1_HUMAN",
-			"http://www.uniprot.org/uniprot/CAGE1_HUMAN",
-			"http://www.uniprot.org/uniprot/M3K8_RAT",
-			"http://www.uniprot.org/uniprot/CAGE1_MOUSE",
-			"http://www.uniprot.org/uniprot/CAGE1_MACFA",
-			"http://www.uniprot.org/uniprot/CAGE1_RAT",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D052138",
-			"http://www.uniprot.org/uniprot/MAGD2_HUMAN",
-			"http://www.uniprot.org/uniprot/AKIP1_HUMAN"
 		],
 		"documents": [
 		],
@@ -362,16 +286,17 @@
 	{
 		"body": "What is the INSURE procedure in premature babies.",
 		"concepts": [
-			"http://www.biosemantics.org/jochem#4175209",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007341",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D007343",
-			"http://www.uniprot.org/uniprot/MTB1_BRUSU",
-			"http://www.uniprot.org/uniprot/MTB1_BRUO2",
-			"http://www.uniprot.org/uniprot/MTB1_BRUAB",
-			"http://www.uniprot.org/uniprot/MTB1_BRUA2",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D008722"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/24075206"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23808250"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23612264"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23336160"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23235135"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22954263"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22430447"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22266202"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21815280"
 		],
 		"triples": [
 		],
@@ -380,9 +305,9 @@
 	{
 		"body": "Which species may be used for the biotechnological production of itaconic acid?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D001709"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/23420787"
 		],
 		"triples": [
 		],
@@ -391,18 +316,17 @@
 	{
 		"body": "What is the role of TRH in hypertension?",
 		"concepts": [
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D012380",
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008437",
-			"http://www.uniprot.org/uniprot/TRHB_XENLA",
-			"http://www.uniprot.org/uniprot/TRH_NOTVI",
-			"http://www.uniprot.org/uniprot/HLY2_VIBPA",
-			"http://www.uniprot.org/uniprot/TRH_MOUSE",
-			"http://www.uniprot.org/uniprot/PH4H_DICDI",
-			"http://www.uniprot.org/uniprot/TRH_RAT",
-			"http://www.uniprot.org/uniprot/TRH_HUMAN",
-			"http://www.uniprot.org/uniprot/TRH_CYPCA"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/24295737"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24288596"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23931276"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21900943"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21718733"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21135357"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17884458"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17227965"
+			"http://www.ncbi.nlm.nih.gov/pubmed/15837533"
 		],
 		"triples": [
 		],
@@ -411,15 +335,6 @@
 	{
 		"body": "Which histone marks are deposited by Set7?",
 		"concepts": [
-			"http://www.uniprot.org/uniprot/SETD7_HUMAN",
-			"http://www.uniprot.org/uniprot/RKM4_YEAST",
-			"http://www.uniprot.org/uniprot/SET7_SCHPO",
-			"http://www.uniprot.org/uniprot/SETD7_MOUSE",
-			"http://www.uniprot.org/uniprot/ASHH3_ARATH",
-			"http://www.uniprot.org/uniprot/MARK1_HUMAN",
-			"http://www.biosemantics.org/jochem#4278518",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006657",
-			"http://www.uniprot.org/uniprot/TAOK1_HUMAN"
 		],
 		"documents": [
 		],
@@ -430,16 +345,6 @@
 	{
 		"body": "Are there any desmins present in plants?",
 		"concepts": [
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0045098",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D003893",
-			"http://www.uniprot.org/uniprot/DESM_CHICK",
-			"http://www.uniprot.org/uniprot/DESM_PIG",
-			"http://www.uniprot.org/uniprot/DESM_MESAU",
-			"http://www.uniprot.org/uniprot/DESM_HUMAN",
-			"http://www.uniprot.org/uniprot/DESM_XENLA",
-			"http://www.uniprot.org/uniprot/DESM_CANFA",
-			"http://www.uniprot.org/uniprot/DESM_BOVIN",
-			"http://www.uniprot.org/uniprot/DESM_MOUSE"
 		],
 		"documents": [
 		],
@@ -460,18 +365,17 @@
 	{
 		"body": "How do histone methyltransferases cause histone modification?",
 		"concepts": [
-			"http://www.uniprot.org/uniprot/HOW_DROME",
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0016570",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D015254",
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031058",
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031056",
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0042054",
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0008469",
-			"http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?field=uid&exact=Find+Exact+Term&term=D011495",
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0031057",
-			"http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0035097"
 		],
 		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/24259318"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24169358"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23592277"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23448925"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23349634"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23002135"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22696466"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22471978"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22140624"
 		],
 		"triples": [
 		],
