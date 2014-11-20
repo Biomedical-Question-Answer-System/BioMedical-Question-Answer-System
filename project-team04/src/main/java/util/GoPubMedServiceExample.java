@@ -14,6 +14,7 @@ public class GoPubMedServiceExample {
 
   public static void main(String[] args) throws ClientProtocolException, IOException,
           ConfigurationException {
+
     String text = "Is Rheumatoid Arthritis more common in men or women";//remove questionmark
     //String text = "Are there any DNMT3 proteins present in plants";
     
@@ -51,19 +52,23 @@ public class GoPubMedServiceExample {
       System.out.println(" > " + finding.getConcept().getLabel() + " "
               + finding.getConcept().getUri());
     }
+    
     LinkedLifeDataServiceResponse.Result linkedLifeDataResult = service
             .findLinkedLifeDataEntitiesPaged(text, 0);
     System.out.println("LinkedLifeData: " + linkedLifeDataResult.getEntities().size());
     for (LinkedLifeDataServiceResponse.Entity entity : linkedLifeDataResult.getEntities()) {
       System.out.println(" > " + entity.getEntity());
+      if (entity.getScore() > 0.2) 
       for (LinkedLifeDataServiceResponse.Relation relation : entity.getRelations()) {
+        System.out.println(entity.getScore() );
         System.out.println("   - labels: " + relation.getLabels());
         System.out.println("   - pred: " + relation.getPred());
         System.out.println("   - sub: " + relation.getSubj());
         System.out.println("   - obj: " + relation.getObj());
       }
     }
-    PubMedSearchServiceResponse.Result pubmedResult = service.findPubMedCitations(text, 0);
-    System.out.println(pubmedResult.getSize());
+//    PubMedSearchServiceResponse.Result pubmedResult = service.findPubMedCitations(text, 0);
+//    pubmedResult.getDocuments();
+//    System.out.println(pubmedResult.getSize());
   }
 }

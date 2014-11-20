@@ -1,0 +1,3 @@
+14-11-11 21:42:30 - 12: org.apache.uima.collection.impl.cpm.BaseCPMImpl.process: 警告: Processing the request to stop the CPM. (Thread Name: AWT-EventQueue-0)
+14-11-11 21:42:30 - 12: org.apache.uima.collection.impl.cpm.engine.CPMEngine.process: 信息: The collection reader thread state is: 1004 (Thread Name: AWT-EventQueue-0) 
+14-11-11 21:42:30 - 12: org.apache.uima.collection.impl.cpm.engine.CPMEngine.process: 信息: The CPM processing unit is 0 and processing state 2005. (Thread Name: AWT-EventQueue-0)
