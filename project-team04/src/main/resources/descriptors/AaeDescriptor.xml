@@ -3,16 +3,16 @@
   <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
   <primitive>false</primitive>  
   <delegateAnalysisEngineSpecifiers>
-    <delegateAnalysisEngine key="StemaeDescriptor">
-      <import name="descriptors.StemaeDescriptor"/>
-    </delegateAnalysisEngine>
     <delegateAnalysisEngine key="DocaeDescriptor">
       <import name="descriptors.DocaeDescriptor"/>
     </delegateAnalysisEngine>
     <delegateAnalysisEngine key="DocumentEvaluatorDescriptor">
       <import name="descriptors.DocumentEvaluatorDescriptor"/>
     </delegateAnalysisEngine>
-    </delegateAnalysisEngineSpecifiers>
+    <delegateAnalysisEngine key="StemaeDescriptor">
+      <import name="descriptors.StemaeDescriptor"/>
+    </delegateAnalysisEngine>
+  </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
     <name>AaeDescriptor</name>
     <description/>
@@ -25,7 +25,7 @@
         <node>StemaeDescriptor</node>
         <node>DocaeDescriptor</node>
         <node>DocumentEvaluatorDescriptor</node>
-        </fixedFlow>
+      </fixedFlow>
     </flowConstraints>
     <fsIndexCollection/>
     <capabilities>

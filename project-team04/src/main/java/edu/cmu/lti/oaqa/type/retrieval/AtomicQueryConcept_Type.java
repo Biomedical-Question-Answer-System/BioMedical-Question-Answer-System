@@ -13,7 +13,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** A primitive query concept represented by a single text string
- * Updated by JCasGen Sun Nov 09 15:21:42 EST 2014
+ * Updated by JCasGen Mon Nov 17 13:55:46 EST 2014
  * @generated */
 public class AtomicQueryConcept_Type extends QueryConcept_Type {
   /** @generated 

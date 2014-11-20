@@ -160,7 +160,7 @@ public class DocumentEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     System.out.println();
     System.out.println("Correct Num:" + correct_num);
     System.out.println("Total Returned Answer:" + answer_num);
-    System.out.println("Supposed Answer Num:" + supposed_num);
+    System.out.println("Gold Answer Num:" + supposed_num);
     System.out.println("Precision:" + getPrecision());
     System.out.println("Recall:" + getRecall());
     System.out.println("F-socre:" + getfScore());
