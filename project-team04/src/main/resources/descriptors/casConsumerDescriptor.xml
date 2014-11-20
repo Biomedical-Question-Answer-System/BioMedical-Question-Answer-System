@@ -9,14 +9,12 @@
     <vendor/>
     <configurationParameters/>
     <configurationParameterSettings/>
-<<<<<<< HEAD
-=======
+
     <typeSystemDescription>
       <imports>
         <import name="type.OAQATypes"/>
       </imports>
     </typeSystemDescription>
->>>>>>> branch 'master' of https://github.com/11693-04/project-team04.git
     <typeSystemDescription/>
     <typePriorities/>
     <fsIndexCollection/>
