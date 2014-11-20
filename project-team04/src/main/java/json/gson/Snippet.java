@@ -13,9 +13,11 @@ public final class Snippet {
   private String beginSection;
 
   private String endSection;
+  
+  private double confidence;
 
   public Snippet(String document, String text, int offsetInBeginSection, int offsetInEndSection,
-          String beginSection, String endSection) {
+          String beginSection, String endSection, double confidence) {
     super();
     this.document = document;
     this.text = text;
@@ -23,6 +25,7 @@ public final class Snippet {
     this.offsetInEndSection = offsetInEndSection;
     this.beginSection = beginSection;
     this.endSection = endSection;
+    this.confidence = confidence;
   }
 
   @Override
@@ -122,4 +125,11 @@ public final class Snippet {
     this.endSection = endSection;
   }
 
+  public double getConfidence() {
+    return confidence;
+  }
+
+  public void setConfidence(Double confidence) {
+    this.confidence = confidence;
+  }
 }

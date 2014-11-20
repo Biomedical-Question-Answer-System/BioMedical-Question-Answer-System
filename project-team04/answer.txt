@@ -13,8 +13,115 @@
 			"http://www.ncbi.nlm.nih.gov/pubmed/23703486"
 			"http://www.ncbi.nlm.nih.gov/pubmed/23553100"
 			"http://www.ncbi.nlm.nih.gov/pubmed/23526031"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23423442"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23264337"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23217568"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23006836"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22833513"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22828565"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22825589"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22717204"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22577060"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22505696"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22462416"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22455933"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22388357"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22300712"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22204900"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22108779"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21881200"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21834821"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21619489"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21459948"
 		],
 		"triples": [
+		],
+		"id": "5118dd1305c10fae75000001",
+	},
+		"triples": [
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22825589"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "0"
+				"offsetInEndSection": "183"
+				"text": "Introduction
+The prevalence, course and severity of many common traits and diseases, including autoimmune diseases,1 cardiovascular diseases2 and asthma3 differ between men and women."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22825589"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "184"
+				"offsetInEndSection": "301"
+				"text": "For example, the prevalence of type 1 diabetes (T1D) and type 2 diabetes (T2D) in women is 58% and 47%, respectively."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22455933"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1820"
+				"offsetInEndSection": "2070"
+				"text": "We recently, however, used information obtained from a large ongoing case-control study (Epidemiological Investigation of Rheumatoid Arthritis (EIRA)) to describe an association between occupational exposure to mineral oil and development of RA [18]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22455933"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2576"
+				"offsetInEndSection": "2910"
+				"text": "The level of exposure to mineral oil via cosmetic use is probably essentially lower than the level we previously analysed in the context of occupational exposure [18], but exposure via cosmetic use is very common, especially among women, and even a small increase in risk of RA might be of importance from a public health perspective."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22455933"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "796"
+				"offsetInEndSection": "919"
+				"text": "Arthritis may develop in certain strains of rats after exposure to adjuvants both intracutaneously and percutaneously [15]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22455933"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "0"
+				"offsetInEndSection": "222"
+				"text": "Introduction
+Rheumatoid arthritis (RA) is a disease that is dependent on genetic as well as environmental factors, as seen from both concordance data in twins and from a number of epidemiological and genetic studies [1,2]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22455933"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1195"
+				"offsetInEndSection": "1501"
+				"text": "In the context of mineral oil, we investigated the arthritogenic capacity of common cosmetics that are known to contain high amounts of mineral oils, and we observed that several such cosmetics could induce arthritis in the DA strain of rats when administered subcutaneously as well as percutaneously [16]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23006836"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "0"
+				"offsetInEndSection": "217"
+				"text": "Background
+According to the United Nations (UN), the proportion of older people (i.e. aged 60 and over) will triple over the next 40 years and will account for more than 20% of the world’s population by year 2050 [1]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23006836"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "218"
+				"offsetInEndSection": "329"
+				"text": "In addition, it is estimated that one in five of the elderly population will be more than 80 years old in 2050."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23006836"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "330"
+				"offsetInEndSection": "456"
+				"text": "The exponential increase of elderly people is mainly due to a rise in life expectancy, especially in the developing countries."
+			}
 		],
 		"id": "5118dd1305c10fae75000001",
 	},
@@ -28,12 +135,20 @@
 		],
 		"id": "511a16f9df1ebcce7d000005",
 	},
+		"triples": [
+		],
+		"id": "511a16f9df1ebcce7d000005",
+	},
 	{
 		"body": "What is the most prominent sequence consensus for the polyadenylation site?",
 		"concepts": [
 		],
 		"documents": [
 		],
+		"triples": [
+		],
+		"id": "5133b9455274a5fb0700000c",
+	},
 		"triples": [
 		],
 		"id": "5133b9455274a5fb0700000c",
@@ -52,8 +167,107 @@
 			"http://www.ncbi.nlm.nih.gov/pubmed/21836375"
 			"http://www.ncbi.nlm.nih.gov/pubmed/21424586"
 			"http://www.ncbi.nlm.nih.gov/pubmed/20536725"
+			"http://www.ncbi.nlm.nih.gov/pubmed/19014335"
+			"http://www.ncbi.nlm.nih.gov/pubmed/18522745"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16951324"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16415166"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16116224"
+			"http://www.ncbi.nlm.nih.gov/pubmed/15937114"
+			"http://www.ncbi.nlm.nih.gov/pubmed/15178747"
+			"http://www.ncbi.nlm.nih.gov/pubmed/14500577"
+			"http://www.ncbi.nlm.nih.gov/pubmed/12893884"
+			"http://www.ncbi.nlm.nih.gov/pubmed/12356687"
+			"http://www.ncbi.nlm.nih.gov/pubmed/11356686"
+			"http://www.ncbi.nlm.nih.gov/pubmed/10707257"
+			"http://www.ncbi.nlm.nih.gov/pubmed/10489423"
+			"http://www.ncbi.nlm.nih.gov/pubmed/7721348"
 		],
 		"triples": [
+		],
+		"id": "513832a75274a5fb07000012",
+	},
+		"triples": [
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23455712"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "0"
+				"offsetInEndSection": "94"
+				"text": "Virus infection of mammalian cells induces signaling pathways that promote an antiviral state."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/18522745"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1260"
+				"offsetInEndSection": "1480"
+				"text": "We thus reasoned that it should be possible to dissect the membrane away from the overlying tissues and use this isolated membrane to study tissue-wide gene expression changes in an inflamed tissue of minimal complexity."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23455712"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "95"
+				"offsetInEndSection": "394"
+				"text": "RNA intermediates of virus replication are recognized by pathogen recognition receptors (PRR), such as Toll-like receptors (TLR) and RIG-I-like receptors (RLR), which signal specific transcription factors to induce innate defense programs, including type I interferon (IFN) expression and secretion."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23455712"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "395"
+				"offsetInEndSection": "599"
+				"text": "Binding of IFN to IFN-αβ receptor (Ifnar) on infected and uninfected cells results in a signaling cascade that restricts infection of many viruses through expression of interferon-stimulated genes (ISGs)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23455712"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "600"
+				"offsetInEndSection": "800"
+				"text": "Several studies report that type I IFN receptor-knockout mice (Ifnar−/−) exhibit enhanced mortality after viral infection due to increased viral burden and expanded tropism in neurons of the brain1,2."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/18522745"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "0"
+				"offsetInEndSection": "142"
+				"text": "Introduction
+The murine air pouch is an easily accessible bursa-like space that can be produced de novo in the dorsal subcutaneous tissue [1]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/18522745"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "143"
+				"offsetInEndSection": "369"
+				"text": "Within several days of injecting a small volume of air (2 to 3 ml), a membrane of several layers of cells, which consist mostly of fibroblasts, mononuclear cells and small blood vessels, grows around this air-filled space [1]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/18522745"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "370"
+				"offsetInEndSection": "559"
+				"text": "This membrane resembles the synovial membrane histologically and has important properties of the synovial lining, such as hyaluronic acid synthesis [2] and expression of the Ia antigen [1]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/18522745"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "560"
+				"offsetInEndSection": "713"
+				"text": "Inflammatory substances or micro-organisms can be injected easily into the pouch, leading to different forms of inflammation depending on the agent used."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/18522745"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "714"
+				"offsetInEndSection": "933"
+				"text": "For instance, inflammation caused by monosodium urate (MSU) [3] and calcium pyrophosphate crystals [4], carrageenan [4], joint prosthesis debris [5] and bacterial cell wall components [6] has been studied in this model."
+			}
 		],
 		"id": "513832a75274a5fb07000012",
 	},
@@ -71,7 +285,14 @@
 			"http://www.ncbi.nlm.nih.gov/pubmed/17043779"
 			"http://www.ncbi.nlm.nih.gov/pubmed/16601830"
 			"http://www.ncbi.nlm.nih.gov/pubmed/16194196"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16026277"
+			"http://www.ncbi.nlm.nih.gov/pubmed/12706634"
+			"http://www.ncbi.nlm.nih.gov/pubmed/10874575"
 		],
+		"triples": [
+		],
+		"id": "513cdc38bee46bd34c000007",
+	},
 		"triples": [
 		],
 		"id": "513cdc38bee46bd34c000007",
@@ -93,6 +314,10 @@
 		],
 		"id": "513f45abbee46bd34c000013",
 	},
+		"triples": [
+		],
+		"id": "513f45abbee46bd34c000013",
+	},
 	{
 		"body": "What is the methyl donor of DNA (cytosine-5)-methyltransferases?",
 		"concepts": [
@@ -107,8 +332,113 @@
 			"http://www.ncbi.nlm.nih.gov/pubmed/23030620"
 			"http://www.ncbi.nlm.nih.gov/pubmed/22945834"
 			"http://www.ncbi.nlm.nih.gov/pubmed/22558281"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22438930"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22260147"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21949694"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21735817"
+			"http://www.ncbi.nlm.nih.gov/pubmed/19451595"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17440941"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17259861"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17107663"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16855792"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16829525"
+			"http://www.ncbi.nlm.nih.gov/pubmed/15195996"
+			"http://www.ncbi.nlm.nih.gov/pubmed/12538347"
+			"http://www.ncbi.nlm.nih.gov/pubmed/11208790"
+			"http://www.ncbi.nlm.nih.gov/pubmed/11087417"
+			"http://www.ncbi.nlm.nih.gov/pubmed/9461031"
+			"http://www.ncbi.nlm.nih.gov/pubmed/8918941"
+			"http://www.ncbi.nlm.nih.gov/pubmed/8625314"
+			"http://www.ncbi.nlm.nih.gov/pubmed/7578083"
+			"http://www.ncbi.nlm.nih.gov/pubmed/8645558"
+			"http://www.ncbi.nlm.nih.gov/pubmed/8065896"
 		],
 		"triples": [
+		],
+		"id": "51404dd723fec90375000002",
+	},
+		"triples": [
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24205358"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "0"
+				"offsetInEndSection": "232"
+				"text": "Introduction
+DNA (cytosine-5) methylation is catalyzed by C5-methyltransferases (C5-MTase), which transfer a methyl group from the methyl donor S-adenosyl-methionine (SAM) onto carbon 5 of cytosines in specific nucleotide sequences."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23408989"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1504"
+				"offsetInEndSection": "1608"
+				"text": "Both DNA and protein methyltransferases use S-adenosylmethionine (AdoMet) as the methyl group donor [3]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23408989"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "309"
+				"offsetInEndSection": "372"
+				"text": "DNA methylation is catalyzed by DNA methyltransferases (DNMTs)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22438930"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2034"
+				"offsetInEndSection": "2282"
+				"text": "It occurs by transfer of a methyl group from S-adenosyl methionine (SAM), a universal methyl group donor in biochemical reactions in cells, to cytosine residues at the dinucletide sequence CpG, and is catalyzed by DNA methytransferases (DNMTs) [9]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24205358"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "823"
+				"offsetInEndSection": "1007"
+				"text": "It was observed that the CCGG-specific prokaryotic C5-MTase M.HpaII can catalyze conversion of the target cytosine to uracil when the methyl donor SAM is missing from the reaction [5]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22558281"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2411"
+				"offsetInEndSection": "2667"
+				"text": "Intracellular arsenic metabolism and DNA methylation require S-adenosylmethionine (SAM) as a methyl donor, and the consumption of methyl groups in arsenic biotransformation presumably results in a deficiency of methyl donors, reducing DNA methylation [10]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24205358"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "374"
+				"offsetInEndSection": "475"
+				"text": "Cytosine and especially 5-methylcytosine (m5C) are chemically less stable than the other nucleobases."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22438930"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1034"
+				"offsetInEndSection": "1249"
+				"text": "In addition, repeated cocaine exposures increase histone H3 acetylation on the gene promoters of both Cdk5 (Cyclin-dependent kinase 5) and Bdnf (brain derived neurotrophic factor) in the nucleus accumbens (NAc) [5]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23408989"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1609"
+				"offsetInEndSection": "1702"
+				"text": "Upon the transfer of the methyl group AdoMet is converted to S-adenosylhomocysteine (AdoHcy)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24205358"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2548"
+				"offsetInEndSection": "2735"
+				"text": "Under conditions where deamination of cytosine was enhanced almost 100-fold by M.SssI and 5’-amino-5’-deoxyadenosine, we could not detect M.SssI-catalyzed deamination of 5-methylcytosine."
+			}
 		],
 		"id": "51404dd723fec90375000002",
 	},
@@ -118,6 +448,10 @@
 		],
 		"documents": [
 		],
+		"triples": [
+		],
+		"id": "51430930d24251bc0500000b",
+	},
 		"triples": [
 		],
 		"id": "51430930d24251bc0500000b",
@@ -133,6 +467,10 @@
 		],
 		"id": "51477de5d24251bc05000020",
 	},
+		"triples": [
+		],
+		"id": "51477de5d24251bc05000020",
+	},
 	{
 		"body": "What is the mechanism of action of anticoagulant medication Dabigatran?",
 		"concepts": [
@@ -144,12 +482,20 @@
 		],
 		"id": "51485a4dd24251bc0500002a",
 	},
+		"triples": [
+		],
+		"id": "51485a4dd24251bc0500002a",
+	},
 	{
 		"body": "Is Mammaprint approved by the United States Food and Drug Administration?",
 		"concepts": [
 		],
 		"documents": [
 		],
+		"triples": [
+		],
+		"id": "51487821d24251bc0500002f",
+	},
 		"triples": [
 		],
 		"id": "51487821d24251bc0500002f",
@@ -168,8 +514,114 @@
 			"http://www.ncbi.nlm.nih.gov/pubmed/24095170"
 			"http://www.ncbi.nlm.nih.gov/pubmed/24088269"
 			"http://www.ncbi.nlm.nih.gov/pubmed/23938353"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23909021"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23893883"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23823963"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23794683"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23768983"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23678983"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23670841"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23559196"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23537506"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23535158"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23452772"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23460475"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23440963"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23423465"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23381166"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23376659"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23341732"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23337001"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23279780"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23278581"
 		],
 		"triples": [
+		],
+		"id": "5149199dd24251bc05000040",
+	},
+		"triples": [
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24088269"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2999"
+				"offsetInEndSection": "3207"
+				"text": "Our primary goal was to test the hypothesis that MG severity is associated with symptoms of autonomic disturbance, and a secondary goal was to document the prevalence of fatigue in myasthenia gravis patients."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23341732"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1170"
+				"offsetInEndSection": "1433"
+				"text": "AChE inhibitors were among the earliest treatment options for MG and they remain one of the most widely used drug options.4 They are used as symptomatic treatment: slowing the degradation of ACh at the NMJ, they provide a temporary improvement in muscle strength."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23341732"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1715"
+				"offsetInEndSection": "1927"
+				"text": "We did a systematic PubMed search using the search terms “myasthenia gravis” and “antisense oligonucleotides” and appropriate citations were manually selected from the search results for inclusion in this review."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23341732"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1434"
+				"offsetInEndSection": "1594"
+				"text": "ACh inhibitors are used as adjunctive therapy in patients receiving immunomodulatory agents (such as steroids) that represent the usual long-term immunotherapy."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24088269"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2376"
+				"offsetInEndSection": "2568"
+				"text": "This syndrome responded to acetylcholine esterase inhibitors (AChEI) [15], which could indicate that presynaptic impairment is an underlying cause of the autonomic disturbances in MG patients."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24088269"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "0"
+				"offsetInEndSection": "188"
+				"text": "Background
+Myasthenia gravis (MG) is a chronic autoimmune disease that affects the neuromuscular junction, causing reduced muscular strength and reduced endurance of repetitive muscle use."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23341732"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1595"
+				"offsetInEndSection": "1714"
+				"text": "In this review, we present a summary of current treatment progresses in managing MG, regarding the symptomatic therapy."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23341732"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "945"
+				"offsetInEndSection": "1169"
+				"text": "Binding of ACh to its receptor is a short-lived phenomenon: it rapidly fades away because of the decrease of its concentration within the synaptic cleft, due to diffusion processes and acetylcholinesterase (AChE) hydrolysis."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23341732"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "0"
+				"offsetInEndSection": "489"
+				"text": "Introduction
+Myasthenia gravis (MG) is an autoimmune disorder caused by autoantibodies binding to the nicotinic acetylcholine receptor (nAChR) on the postsynaptic membrane at the neuromuscular junction (NMJ),1 or, less frequently, to a muscle-specific tyrosine kinase (MuSK), an AChR-associated protein involved in clustering of AChRs and expressed in mature NMJ.2 In MG, the binding of autoantibodies to AChRs or MuSK results in an abnormal neuromuscular transmission and muscle weakness."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24088269"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "189"
+				"offsetInEndSection": "318"
+				"text": "Fatigue has been reported in both neurological and non-neurological diseases, including MG, independent of muscle weakness [1,2]."
+			}
 		],
 		"id": "5149199dd24251bc05000040",
 	},
@@ -183,6 +635,10 @@
 		],
 		"id": "5149f494d24251bc0500004c",
 	},
+		"triples": [
+		],
+		"id": "5149f494d24251bc0500004c",
+	},
 	{
 		"body": "Does the Oncotype DX test work with paraffin embedded tissues?",
 		"concepts": [
@@ -190,6 +646,10 @@
 		"documents": [
 			"http://www.ncbi.nlm.nih.gov/pubmed/21370017"
 		],
+		"triples": [
+		],
+		"id": "514a0f0ad24251bc05000052",
+	},
 		"triples": [
 		],
 		"id": "514a0f0ad24251bc05000052",
@@ -212,12 +672,100 @@
 		],
 		"id": "514cc8dcd24251bc05000066",
 	},
+		"triples": [
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22911682"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "3214"
+				"offsetInEndSection": "3377"
+				"text": "In this study, we hypothesized that genetic variants located within the SLC6A4, BDNF, and AVPR1B genes are associated with prognosis in colorectal cancer patients."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22911682"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1098"
+				"offsetInEndSection": "1229"
+				"text": "These challenges often surface as depression or anxiety in cancer patients, which are observed in up to 50% of cancer patients [4]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22911682"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "542"
+				"offsetInEndSection": "623"
+				"text": "Clinical outcomes are associated with disease stage, age, and co-morbidities [3]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22911682"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2533"
+				"offsetInEndSection": "2726"
+				"text": "The BDNF gene codes for a protein (brain-derived neurotrophic factor) involved in survival, growth, and differentiation of neurons [11], and, like SLC6A4, is involved in the response to stress."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22911682"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "725"
+				"offsetInEndSection": "963"
+				"text": "An important determinant of the emotional health and quality of life in cancer patients is the patients’ effectiveness of coping with the psychological distress caused by the cancer diagnosis and the undesirable consequences of treatment."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22911682"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2083"
+				"offsetInEndSection": "2196"
+				"text": "Serotonin is a neurotransmitter, deficiency of which leads to clinical depression in susceptible individuals [8]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22911682"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "964"
+				"offsetInEndSection": "1097"
+				"text": "In patients with advanced stage, especially in palliative care, coping with the prospect of death is also a serious emotional burden."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22911682"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "3037"
+				"offsetInEndSection": "3213"
+				"text": "Functional and epidemiological studies have shown that this gene and its ligand vasopressin are also linked to anxiety and depression in humans and in model species [15], [16]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22911682"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1230"
+				"offsetInEndSection": "1410"
+				"text": "Some studies have suggested an association between distress coping effectiveness and survival in cancer patients [5], [6], although conflicting results have also been reported [7]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22911682"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2316"
+				"offsetInEndSection": "2532"
+				"text": "Various observational and experimental studies have shown that SLC6A4 and its variations are involved in susceptibility to several psychiatric conditions in humans and mice, including depression and anxiety [8]–[10]."
+			}
+		],
+		"id": "514cc8dcd24251bc05000066",
+	},
 	{
 		"body": "What is known about the reimbursement of Viagra",
 		"concepts": [
 		],
 		"documents": [
 		],
+		"triples": [
+		],
+		"id": "5150b45ad24251bc0500006f",
+	},
 		"triples": [
 		],
 		"id": "5150b45ad24251bc0500006f",
@@ -232,12 +780,20 @@
 		],
 		"id": "51542eacd24251bc05000084",
 	},
+		"triples": [
+		],
+		"id": "51542eacd24251bc05000084",
+	},
 	{
 		"body": "Can Alzheimer's disease related miRNAs be detected in patients' blood?",
 		"concepts": [
 		],
 		"documents": [
 		],
+		"triples": [
+		],
+		"id": "5156beb4d24251bc05000089",
+	},
 		"triples": [
 		],
 		"id": "5156beb4d24251bc05000089",
@@ -253,12 +809,20 @@
 		],
 		"id": "51588bb2d24251bc05000091",
 	},
+		"triples": [
+		],
+		"id": "51588bb2d24251bc05000091",
+	},
 	{
 		"body": "Where in the cell do we find the protein Cep135?",
 		"concepts": [
 		],
 		"documents": [
 		],
+		"triples": [
+		],
+		"id": "51596a8ad24251bc0500009e",
+	},
 		"triples": [
 		],
 		"id": "51596a8ad24251bc0500009e",
@@ -273,12 +837,20 @@
 		],
 		"id": "515bd543298dcd4e51000001",
 	},
+		"triples": [
+		],
+		"id": "515bd543298dcd4e51000001",
+	},
 	{
 		"body": "Which forms of cancer is the Tpl2 gene associated with?",
 		"concepts": [
 		],
 		"documents": [
 		],
+		"triples": [
+		],
+		"id": "515bf6d6298dcd4e51000004",
+	},
 		"triples": [
 		],
 		"id": "515bf6d6298dcd4e51000004",
@@ -297,7 +869,23 @@
 			"http://www.ncbi.nlm.nih.gov/pubmed/22430447"
 			"http://www.ncbi.nlm.nih.gov/pubmed/22266202"
 			"http://www.ncbi.nlm.nih.gov/pubmed/21815280"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21506654"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21089712"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20642659"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20616570"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20545934"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20180736"
+			"http://www.ncbi.nlm.nih.gov/pubmed/19679893"
+			"http://www.ncbi.nlm.nih.gov/pubmed/19485954"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17069738"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16549210"
+			"http://www.ncbi.nlm.nih.gov/pubmed/10218338"
+			"http://www.ncbi.nlm.nih.gov/pubmed/8472042"
 		],
+		"triples": [
+		],
+		"id": "515db54c298dcd4e51000016",
+	},
 		"triples": [
 		],
 		"id": "515db54c298dcd4e51000016",
@@ -310,6 +898,91 @@
 			"http://www.ncbi.nlm.nih.gov/pubmed/23420787"
 		],
 		"triples": [
+		],
+		"id": "515ffc2b298dcd4e51000035",
+	},
+		"triples": [
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23420787"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1639"
+				"offsetInEndSection": "1784"
+				"text": "The current knowledge about the biotechnological production of itaconic acid was recently reviewed (Willke and Vorlop, 2001; Okabe et al., 2009)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23420787"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1350"
+				"offsetInEndSection": "1556"
+				"text": "Especially, for the production of polymers it is of interest, because in the future it can function as a substitute for acrylic and methacrylic acid used for the production of plastics (Okabe et al., 2009)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23420787"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "634"
+				"offsetInEndSection": "871"
+				"text": "(Kawamura et al., 1981) were found to produce itaconic acid, A. terreus is still the dominant production host, because so far only bred strains of this species can reach levels of up to 80–86 g/L (Okabe et al., 2009; Kuenz et al., 2012)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23420787"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1785"
+				"offsetInEndSection": "1890"
+				"text": "The latter review covers the industrial production of itaconic acid and the applications of this product."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23420787"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "95"
+				"offsetInEndSection": "330"
+				"text": "It has a broad application spectrum in the industrial production of resins and is used as a building block for acrylic plastics, acrylate latexes, super-absorbents, and anti-scaling agents (Willke and Vorlop, 2001; Okabe et al., 2009)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23420787"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "331"
+				"offsetInEndSection": "488"
+				"text": "Since the 1960s the production of itaconic acid is achieved by the fermentation with Aspergillus terreus on sugar containing media (Willke and Vorlop, 2001)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23420787"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "872"
+				"offsetInEndSection": "959"
+				"text": "Since the 1990s, itaconic acid as a renewable material is attracting a lot of interest."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23420787"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1157"
+				"offsetInEndSection": "1349"
+				"text": "Currently, the worldwide production capacity of itaconic acid is expected to be about 50 kt per year, facing a demand of about 30 kt (Shaw, 2013, Itaconix Corporation, personal communication)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23420787"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "960"
+				"offsetInEndSection": "1156"
+				"text": "Although the production costs for itaconic acid are declining in the last years ($ 4 per kg in 2001; Willke and Vorlop, 2001), it is still a valuable product with an estimated price of $ 2 per kg."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/23420787"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "0"
+				"offsetInEndSection": "94"
+				"text": "INTRODUCTION
+Itaconic acid (2-methylidenebutanedioic acid) is an unsaturated di-carbonic acid."
+			}
 		],
 		"id": "515ffc2b298dcd4e51000035",
 	},
@@ -327,8 +1000,111 @@
 			"http://www.ncbi.nlm.nih.gov/pubmed/17884458"
 			"http://www.ncbi.nlm.nih.gov/pubmed/17227965"
 			"http://www.ncbi.nlm.nih.gov/pubmed/15837533"
+			"http://www.ncbi.nlm.nih.gov/pubmed/12377295"
+			"http://www.ncbi.nlm.nih.gov/pubmed/11566956"
+			"http://www.ncbi.nlm.nih.gov/pubmed/11230301"
+			"http://www.ncbi.nlm.nih.gov/pubmed/8853637"
+			"http://www.ncbi.nlm.nih.gov/pubmed/7498977"
+			"http://www.ncbi.nlm.nih.gov/pubmed/7554113"
+			"http://www.ncbi.nlm.nih.gov/pubmed/8139877"
+			"http://www.ncbi.nlm.nih.gov/pubmed/1595355"
+			"http://www.ncbi.nlm.nih.gov/pubmed/1667428"
+			"http://www.ncbi.nlm.nih.gov/pubmed/1784404"
+			"http://www.ncbi.nlm.nih.gov/pubmed/1802392"
+			"http://www.ncbi.nlm.nih.gov/pubmed/1681822"
+			"http://www.ncbi.nlm.nih.gov/pubmed/2107018"
+			"http://www.ncbi.nlm.nih.gov/pubmed/2856652"
+			"http://www.ncbi.nlm.nih.gov/pubmed/2854272"
+			"http://www.ncbi.nlm.nih.gov/pubmed/3035513"
+			"http://www.ncbi.nlm.nih.gov/pubmed/3938843"
+			"http://www.ncbi.nlm.nih.gov/pubmed/104513"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20256"
 		],
 		"triples": [
+		],
+		"id": "51602609298dcd4e5100003a",
+	},
+		"triples": [
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24288596"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "401"
+				"offsetInEndSection": "646"
+				"text": "Among those most severely affected are persons with treatment resistant hypertension (TRH) who have uncontrolled hypertension (HTN) on ≥3 antihypertensive medication classes or require ≥4 antihypertensive medications to reach their BP goals [2]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24288596"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1776"
+				"offsetInEndSection": "2038"
+				"text": "Therefore, we assessed genetic associations with TRH among African American and white participants in the Genetics of Hypertension Associated Treatment (GenHAT) study using 78 candidate genetic polymorphisms implicated in the development of hypertension and CVD."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24288596"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "747"
+				"offsetInEndSection": "1021"
+				"text": "However, some limitations of these estimates in the context of epidemiological studies are noted (e.g., potential misclassification due to BP measuring technique, nonadherence to medication, inadequate dosing, white-coat hypertension, and/or secondary causes of HTN) [3, 4]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24288596"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1608"
+				"offsetInEndSection": "1775"
+				"text": "A handful of small candidate gene studies suggest a genetic component for TRH, although the genetics of TRH are incompletely understood and largely understudied [7–9]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24288596"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2187"
+				"offsetInEndSection": "2396"
+				"text": "Strengths of ALLHAT/GenHAT for the current study of TRH are that drug utilization and dose optimization are well documented, in addition to adherence data, resulting in less potential misclassification of TRH."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24288596"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2397"
+				"offsetInEndSection": "2531"
+				"text": "Ultimately, better understanding of genetic risk may improve clinical care for TRH and prevent associated CVD morbidity and mortality."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24288596"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "647"
+				"offsetInEndSection": "746"
+				"text": "Recently, multiple studies have reported that the prevalence of TRH is 10–20% among those with HTN."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24288596"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1450"
+				"offsetInEndSection": "1607"
+				"text": "However, these risk factors only partially account for the incidence of TRH, suggesting that other factors, including genetic factors, may increase risk [6]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24288596"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1022"
+				"offsetInEndSection": "1200"
+				"text": "Most concerning is the fact that TRH is consistently associated with increased cardiovascular disease (CVD) morbidity and mortality compared to more easily controlled HTN [3, 4]."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24288596"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1201"
+				"offsetInEndSection": "1449"
+				"text": "Demonstrated risk factors for TRH include increasing age, diminished kidney function, higher body mass index (BMI), diabetes mellitus (DM), and African American race (e.g., African Americans are approximately twice as likely to be affected [1, 5])."
+			}
 		],
 		"id": "51602609298dcd4e5100003a",
 	},
@@ -338,6 +1114,10 @@
 		],
 		"documents": [
 		],
+		"triples": [
+		],
+		"id": "5160412d298dcd4e5100003c",
+	},
 		"triples": [
 		],
 		"id": "5160412d298dcd4e5100003c",
@@ -352,12 +1132,20 @@
 		],
 		"id": "5162e011298dcd4e51000049",
 	},
+		"triples": [
+		],
+		"id": "5162e011298dcd4e51000049",
+	},
 	{
 		"body": "Is it possible to detect survivin protein expression in normal human adult tissues?",
 		"concepts": [
 		],
 		"documents": [
 		],
+		"triples": [
+		],
+		"id": "516425ff298dcd4e51000051",
+	},
 		"triples": [
 		],
 		"id": "516425ff298dcd4e51000051",
@@ -376,8 +1164,110 @@
 			"http://www.ncbi.nlm.nih.gov/pubmed/22696466"
 			"http://www.ncbi.nlm.nih.gov/pubmed/22471978"
 			"http://www.ncbi.nlm.nih.gov/pubmed/22140624"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20821252"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20714703"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20668449"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20436342"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20230882"
+			"http://www.ncbi.nlm.nih.gov/pubmed/19333872"
+			"http://www.ncbi.nlm.nih.gov/pubmed/19308066"
+			"http://www.ncbi.nlm.nih.gov/pubmed/18404682"
+			"http://www.ncbi.nlm.nih.gov/pubmed/18000371"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17925448"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17760648"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17267293"
+			"http://www.ncbi.nlm.nih.gov/pubmed/17168308"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16611076"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16607652"
+			"http://www.ncbi.nlm.nih.gov/pubmed/16503937"
+			"http://www.ncbi.nlm.nih.gov/pubmed/15024081"
+			"http://www.ncbi.nlm.nih.gov/pubmed/12447821"
 		],
 		"triples": [
+		],
+		"id": "51659356298dcd4e5100005a",
+	},
+		"triples": [
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22140624"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "11267"
+				"offsetInEndSection": "11397"
+				"text": "Unlike histone acetylation, histone methylation can activate or inhibit transcription, depending on where the modification occurs."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22140624"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "11955"
+				"offsetInEndSection": "12020"
+				"text": "Similarly, histone demethylases remove methylation from histones."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22140624"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "11800"
+				"offsetInEndSection": "11954"
+				"text": "Histone acetylation and deacetylation are dynamic processes determined by the balance between histone acetyltransferases and histone deacetylases (HDACs)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22140624"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "11398"
+				"offsetInEndSection": "11496"
+				"text": "The methylation of histones is carried out by a large family of histone methyltransferases (HMTs)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22140624"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "10141"
+				"offsetInEndSection": "10248"
+				"text": "Nucleosomes package approximately 146 base pairs of DNA wrapped around an octamer of core histone proteins."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22140624"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "11072"
+				"offsetInEndSection": "11173"
+				"text": "This process is catalyzed by histone acetyltransferases (HATs) that utilize acetyl-CoA as a cofactor."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22140624"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "10904"
+				"offsetInEndSection": "11071"
+				"text": "Increased levels of histone acetylation are highly correlated with increased transcriptional activity, whereas decreased levels of acetylation repress gene expression."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22140624"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "6131"
+				"offsetInEndSection": "6265"
+				"text": "DNA methylation, histone modifications, and RNA-mediated gene silencing constitute three distinct mechanisms of epigenetic regulation."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22140624"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "13911"
+				"offsetInEndSection": "15527"
+				"text": "Despite this vast regulatory network and hundreds of microRNAs, few targets have been validated.[35]As the functions of individual microRNAs are being studied, it has become clear that microRNAs can be regulated by epigenetic mechanisms including DNA methylation and histone modification such as let-7a, miR- 9, miR-34a, miR-124, miR-137, miR-148 and miR-203.[36–40] Conversely, another subset of miRNAs controls the expression of important epigenetic regulators, including DNA methyltransferases and histone deacetylases.[41] MicroRNA-29b can reduce the expression of DNMT enzymes and thereby affect global methylation status.[42] This complex network between miRNAs and epigenetic pathways appear to form an epigenetics-miRNA regulatory circuit intertwined with the transcriptional and post-transcriptional pathways known to regulate epigenetic modulators and to organize the whole gene expression profile.[41] Though not yet demonstrated, one can conceive of situations in which potential microRNA target binding site accessibility is influenced by the methylation of the target region.Examples of epigenetic regulation of PAHSuperoxide dismutase 2Superoxide dismutase 2 (SOD2), a candidate tumor-suppressor gene,[43] is silenced in several malignancies.[4445] In multiple myeloma and pancreatic carcinoma, the epigenetic silencing of SOD2 is caused by hypermethylation of CpG islands within the promoter for SOD2.[45] SOD2 is subject both to DNA methylation and histone acetylation.[4647] Demethylation of SOD2 in cancer restores SOD2, increases H2O2 production and decreases cell proliferation and tumor growth."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/22140624"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "11497"
+				"offsetInEndSection": "11799"
+				"text": "Just like DNMTs, HMTs utilize S-adenosylmethionine (SAM) as a cofactor to methylate their target amino acids and produce S-adenosylhomocysteine (SAH) as a byproduct (Table 1).Table 1Summary of epigenetic histone modificationsAcetylation and methylation of histone tails are not permanent modifications."
+			}
 		],
 		"id": "51659356298dcd4e5100005a",
 	},

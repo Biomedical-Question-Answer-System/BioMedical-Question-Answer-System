@@ -47,12 +47,13 @@ public class ConceptsAnnotator extends JCasAnnotator_ImplBase {
     Concept conceptTypeSys = null;
     ConceptSearchResult result = null;
     List<Finding> findingList = new ArrayList<Finding>();
+    double scorebar = 0;
 
     try {
       OntologyServiceResponse.Result diseaseOntologyResult = service
               .findDiseaseOntologyEntitiesPaged(text, 0);
       for (OntologyServiceResponse.Finding finding : diseaseOntologyResult.getFindings()) {
-        if (finding.getScore() > 0.15) {
+        if (finding.getScore() > scorebar) {
           findingList.add(finding);
         } else {
           break;
@@ -63,7 +64,7 @@ public class ConceptsAnnotator extends JCasAnnotator_ImplBase {
       OntologyServiceResponse.Result geneOntologyResult = service.findGeneOntologyEntitiesPaged(
               text, 0, 10);
       for (OntologyServiceResponse.Finding finding : geneOntologyResult.getFindings()) {
-        if (finding.getScore() > 0.15) {
+        if (finding.getScore() > scorebar) {
           findingList.add(finding);
         } else {
           break;
@@ -72,7 +73,7 @@ public class ConceptsAnnotator extends JCasAnnotator_ImplBase {
 
       OntologyServiceResponse.Result jochemResult = service.findJochemEntitiesPaged(text, 0);
       for (OntologyServiceResponse.Finding finding : jochemResult.getFindings()) {
-        if (finding.getScore() > 0.15) {
+        if (finding.getScore() > scorebar) {
           findingList.add(finding);
         } else {
           break;
@@ -81,7 +82,7 @@ public class ConceptsAnnotator extends JCasAnnotator_ImplBase {
 
       OntologyServiceResponse.Result meshResult = service.findMeshEntitiesPaged(text, 0);
       for (OntologyServiceResponse.Finding finding : meshResult.getFindings()) {
-        if (finding.getScore() > 0.15) {
+        if (finding.getScore() >scorebar) {
           findingList.add(finding);
         } else {
           break;
@@ -90,7 +91,7 @@ public class ConceptsAnnotator extends JCasAnnotator_ImplBase {
 
       OntologyServiceResponse.Result uniprotResult = service.findUniprotEntitiesPaged(text, 0);
       for (OntologyServiceResponse.Finding finding : uniprotResult.getFindings()) {
-        if (finding.getScore() > 0.15) {
+        if (finding.getScore() > scorebar) {
           findingList.add(finding);
         } else {
           break;
@@ -109,7 +110,7 @@ public class ConceptsAnnotator extends JCasAnnotator_ImplBase {
         result.setScore(f.getScore());
         result.setRank(count++);
         result.addToIndexes(aJCas);
-        if(count>10){
+        if(count>100){
           break;
         }
       }

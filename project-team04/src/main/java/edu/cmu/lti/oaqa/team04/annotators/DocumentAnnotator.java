@@ -55,7 +55,7 @@ public class DocumentAnnotator extends JCasAnnotator_ImplBase {
         documentTypeSys.setRank(count++);
         documentTypeSys.addToIndexes(aJCas);
      //   count++;
-        if(count>=10){
+        if(count>=30){
           break;
         }
       }

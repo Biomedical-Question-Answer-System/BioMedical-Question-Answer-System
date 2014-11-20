@@ -12,20 +12,24 @@
     <delegateAnalysisEngine key="DocumentEvaluatorDescriptor">
       <import name="descriptors.DocumentEvaluatorDescriptor"/>
     </delegateAnalysisEngine>
-    </delegateAnalysisEngineSpecifiers>
+    <delegateAnalysisEngine key="SnippetaeDescriptor">
+      <import name="descriptors.SnippetaeDescriptor"/>
+    </delegateAnalysisEngine>
+  </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
     <name>AaeDescriptor</name>
     <description/>
     <version>1.0</version>
     <vendor/>
-    <configurationParameters/>
+    <configurationParameters searchStrategy="language_fallback"/>
     <configurationParameterSettings/>
     <flowConstraints>
       <fixedFlow>
         <node>StemaeDescriptor</node>
         <node>DocaeDescriptor</node>
         <node>DocumentEvaluatorDescriptor</node>
-        </fixedFlow>
+        <node>SnippetaeDescriptor</node>
+      </fixedFlow>
     </flowConstraints>
     <fsIndexCollection/>
     <capabilities>
