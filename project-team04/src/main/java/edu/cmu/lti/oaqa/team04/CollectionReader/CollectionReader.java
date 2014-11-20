@@ -65,6 +65,7 @@ public class CollectionReader extends CollectionReader_ImplBase {
     // add all the information to CAS using helper
     Question question = inputs.get(CurrPos++);
     JsonCollectionReaderHelper.addQuestionToIndex(question, "", jcas);
+
     jcas.setDocumentText(question.getBody());
   }
 

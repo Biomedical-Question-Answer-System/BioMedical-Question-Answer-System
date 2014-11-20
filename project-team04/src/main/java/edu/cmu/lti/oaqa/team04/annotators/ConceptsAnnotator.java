@@ -13,7 +13,6 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 
 import util.FindingComparator;
-import util.Utils;
 import edu.cmu.lti.oaqa.bio.bioasq.services.GoPubMedService;
 import edu.cmu.lti.oaqa.bio.bioasq.services.OntologyServiceResponse;
 import edu.cmu.lti.oaqa.bio.bioasq.services.OntologyServiceResponse.Finding;

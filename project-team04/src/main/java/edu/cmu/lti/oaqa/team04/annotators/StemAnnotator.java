@@ -7,9 +7,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 
-import org.apache.commons.configuration.ConfigurationException;
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_component.JCasAnnotator_ImplBase;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
@@ -17,8 +15,10 @@ import org.apache.uima.cas.FSIterator;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 
-import edu.cmu.lti.oaqa.bio.bioasq.services.GoPubMedService;
 import edu.cmu.lti.oaqa.type.input.Question;
+
+
+
 
 public class StemAnnotator extends JCasAnnotator_ImplBase {
   static private HashSet<String> stopwordsSet;
@@ -58,7 +58,7 @@ public class StemAnnotator extends JCasAnnotator_ImplBase {
       questionTypeSys = (Question) it.next();
     }
     String text = questionTypeSys.getText();
-    System.out.println(text);
+ //   System.out.println(text);
     String finaltext ="";
     text = text.replace(",", " ");
     text = text.replace(".", " ");
@@ -67,8 +67,9 @@ public class StemAnnotator extends JCasAnnotator_ImplBase {
     text = text.replace("?", " ");
     text = text.replace("-", " ");
     text = text.replace("'s ", " ");
+    System.out.println(text);
     List<String> res = new ArrayList<String>();
-    for (String s: text.split("\\s+"))
+    for (String s: text.replaceAll("[^0-9a-zA-Z ]", "").toLowerCase().split("\\s+"))
           if(!stopwordsSet.contains(s))
             res.add(s);
     for(String s :res){

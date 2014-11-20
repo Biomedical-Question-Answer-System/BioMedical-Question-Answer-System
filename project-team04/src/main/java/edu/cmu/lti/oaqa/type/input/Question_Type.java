@@ -14,7 +14,11 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** The Question and any associated meta-data.
- * Updated by JCasGen Sun Nov 09 15:21:41 EST 2014
+<<<<<<< HEAD
+ * Updated by JCasGen Mon Nov 10 16:58:32 EST 2014
+=======
+ * Updated by JCasGen Mon Nov 17 13:55:45 EST 2014
+>>>>>>> branch 'master' of https://github.com/11693-04/project-team04.git
  * @generated */
 public class Question_Type extends Annotation_Type {
   /** @generated 

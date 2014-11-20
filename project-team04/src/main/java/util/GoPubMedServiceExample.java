@@ -15,48 +15,44 @@ public class GoPubMedServiceExample {
   public static void main(String[] args) throws ClientProtocolException, IOException,
           ConfigurationException {
 
-   // String text = "Tumors of which three organs are classically associated with the multiple endocrine neoplasia type 1 syndrome";//remove questionmark
+    String text = "Is Rheumatoid Arthritis more common in men or women";//remove questionmark
     //String text = "Are there any DNMT3 proteins present in plants";
     
-    GoPubMedService service = new GoPubMedService("./project.properties");
+    GoPubMedService service = new GoPubMedService("/root/git/project-team04/project-team04/project.properties");
 
-    String text = "Is Mammaprint approved by the United States Food and Drug Administration";//remove questionmark
-    //String text = "Are there any DNMT3 proteins present in plants";
-
-//    OntologyServiceResponse.Result diseaseOntologyResult = service
-//            .findDiseaseOntologyEntitiesPaged(text, 0);
-//    System.out.println("Disease ontology: " + diseaseOntologyResult.getFindings().size());
-//    for (OntologyServiceResponse.Finding finding : diseaseOntologyResult.getFindings()) {
-//      System.out.println(" > " + finding.getConcept().getLabel() + " "
-//              + finding.getConcept().getUri());
-//      System.out.println(" > " + finding.getScore() + " "
-//              + finding.getConcept().getUri());
-//    }
-//    OntologyServiceResponse.Result geneOntologyResult = service.findGeneOntologyEntitiesPaged(text,
-//            0, 10);
-//    System.out.println("Gene ontology: " + geneOntologyResult.getFindings().size());
-//    for (OntologyServiceResponse.Finding finding : geneOntologyResult.getFindings()) {
-//      System.out.println(" > " + finding.getConcept().getLabel() + " "
-//              + finding.getConcept().getUri());
-//    }
-//    OntologyServiceResponse.Result jochemResult = service.findJochemEntitiesPaged(text, 0);
-//    System.out.println("Jochem: " + jochemResult.getFindings().size());
-//    for (OntologyServiceResponse.Finding finding : jochemResult.getFindings()) {
-//      System.out.println(" > " + finding.getConcept().getLabel() + " "
-//              + finding.getConcept().getUri());
-//    }
-//    OntologyServiceResponse.Result meshResult = service.findMeshEntitiesPaged(text, 0);
-//    System.out.println("MeSH: " + meshResult.getFindings().size());
-//    for (OntologyServiceResponse.Finding finding : meshResult.getFindings()) {
-//      System.out.println(" > " + finding.getConcept().getLabel() + " "
-//              + finding.getConcept().getUri());
-//    }
-//    OntologyServiceResponse.Result uniprotResult = service.findUniprotEntitiesPaged(text, 0);
-//    System.out.println("UniProt: " + uniprotResult.getFindings().size());
-//    for (OntologyServiceResponse.Finding finding : uniprotResult.getFindings()) {
-//      System.out.println(" > " + finding.getConcept().getLabel() + " "
-//              + finding.getConcept().getUri());
-//    }
+    OntologyServiceResponse.Result diseaseOntologyResult = service
+            .findDiseaseOntologyEntitiesPaged(text, 0);
+    System.out.println("Disease ontology: " + diseaseOntologyResult.getFindings().size());
+    for (OntologyServiceResponse.Finding finding : diseaseOntologyResult.getFindings()) {
+      System.out.println(" > " + finding.getConcept().getLabel() + " "
+              + finding.getConcept().getUri());
+    }
+    OntologyServiceResponse.Result geneOntologyResult = service.findGeneOntologyEntitiesPaged(text,
+            0, 10);
+    System.out.println("Gene ontology: " + geneOntologyResult.getFindings().size());
+    for (OntologyServiceResponse.Finding finding : geneOntologyResult.getFindings()) {
+      System.out.println(" > " + finding.getConcept().getLabel() + " "
+              + finding.getConcept().getUri());
+    }
+    OntologyServiceResponse.Result jochemResult = service.findJochemEntitiesPaged(text, 0);
+    System.out.println("Jochem: " + jochemResult.getFindings().size());
+    for (OntologyServiceResponse.Finding finding : jochemResult.getFindings()) {
+      System.out.println(" > " + finding.getConcept().getLabel() + " "
+              + finding.getConcept().getUri());
+    }
+    OntologyServiceResponse.Result meshResult = service.findMeshEntitiesPaged(text, 0);
+    System.out.println("MeSH: " + meshResult.getFindings().size());
+    for (OntologyServiceResponse.Finding finding : meshResult.getFindings()) {
+      System.out.println(" > " + finding.getConcept().getLabel() + " "
+              + finding.getConcept().getUri());
+    }
+    OntologyServiceResponse.Result uniprotResult = service.findUniprotEntitiesPaged(text, 0);
+    System.out.println("UniProt: " + uniprotResult.getFindings().size());
+    for (OntologyServiceResponse.Finding finding : uniprotResult.getFindings()) {
+      System.out.println(" > " + finding.getConcept().getLabel() + " "
+              + finding.getConcept().getUri());
+    }
+    
     LinkedLifeDataServiceResponse.Result linkedLifeDataResult = service
             .findLinkedLifeDataEntitiesPaged(text, 0);
     System.out.println("LinkedLifeData: " + linkedLifeDataResult.getEntities().size());
