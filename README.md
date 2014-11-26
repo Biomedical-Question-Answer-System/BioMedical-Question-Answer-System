@@ -1,5 +1,5 @@
 We are a team of students in Language Technologies Institute (LTI), School of Computer Science (SCS) at Carnegie Mellon University (CMU).  
-We are doing a project to build an Question Answer System.  
+We are doing a project to build an Question Answer System.    
 | Team Members          |
 | ------                |
 | Xiaoming (Ryan) Sun   |
