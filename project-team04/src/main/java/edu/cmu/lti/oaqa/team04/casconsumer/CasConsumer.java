@@ -97,7 +97,7 @@ public class CasConsumer extends CasConsumer_ImplBase {
     // the end of the question
     writer.printf("\t},\n");
     // snippets
-    writer.printf("\t\t\"triples\": [");
+    writer.printf("\t\t\"snippets\": [");
     FSIterator snippetIt = jcas.getJFSIndexRepository().getAllIndexedFS(Passage.type);
     while (snippetIt.hasNext()) {
       Passage snippet = (Passage) snippetIt.next();

@@ -9,11 +9,11 @@
     <delegateAnalysisEngine key="DocaeDescriptor">
       <import name="descriptors.DocaeDescriptor"/>
     </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="DocumentEvaluatorDescriptor">
-      <import name="descriptors.DocumentEvaluatorDescriptor"/>
-    </delegateAnalysisEngine>
     <delegateAnalysisEngine key="SnippetaeDescriptor">
       <import name="descriptors.SnippetaeDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="SnippetEvaluatorDescriptor">
+      <import name="descriptors.SnippetEvaluatorDescriptor"/>
     </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
@@ -27,8 +27,8 @@
       <fixedFlow>
         <node>StemaeDescriptor</node>
         <node>DocaeDescriptor</node>
-        <node>DocumentEvaluatorDescriptor</node>
         <node>SnippetaeDescriptor</node>
+        <node>SnippetEvaluatorDescriptor</node>
       </fixedFlow>
     </flowConstraints>
     <fsIndexCollection/>

@@ -67,7 +67,7 @@ public class StemAnnotator extends JCasAnnotator_ImplBase {
     text = text.replace("?", " ");
     text = text.replace("-", " ");
     text = text.replace("'s ", " ");
-    System.out.println(text);
+//    System.out.println(text);
     List<String> res = new ArrayList<String>();
     for (String s: text.replaceAll("[^0-9a-zA-Z ]", "").toLowerCase().split("\\s+"))
           if(!stopwordsSet.contains(s))
@@ -75,7 +75,7 @@ public class StemAnnotator extends JCasAnnotator_ImplBase {
     for(String s :res){
       finaltext += s+" ";
     }
-    System.out.println(finaltext);
+ //   System.out.println(finaltext);
     questionTypeSys.setText(finaltext.trim());
   }
 
