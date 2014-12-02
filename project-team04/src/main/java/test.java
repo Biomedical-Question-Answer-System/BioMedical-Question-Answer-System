@@ -1,13 +1,19 @@
-import com.aliasi.util.Files;
+import static java.util.stream.Collectors.toList;
 
+import com.aliasi.util.Files;
 import com.aliasi.classify.Classification;
 import com.aliasi.classify.Classified;
 import com.aliasi.classify.DynamicLMClassifier;
-
 import com.aliasi.lm.NGramProcessLM;
+import com.google.common.collect.Lists;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
+
+import json.gson.TestSet;
+import json.gson.TestYesNoQuestion;
 
 public class test {
 
@@ -24,6 +30,10 @@ public class test {
         mClassifier 
             = DynamicLMClassifier
             .createNGramProcess(mCategories,nGram);
+    }
+
+    public test() {
+      // TODO Auto-generated constructor stub
     }
 
     void run() throws ClassNotFoundException, IOException {
@@ -87,13 +97,31 @@ public class test {
                            + ((double)numCorrect)/(double)numTests);
     }
 
+    public void test(){
+      String filePath = "/BioASQ-SampleData1B.json";
+      Object value = filePath;
+      List<json.gson.TestYesNoQuestion> inputs = Lists.newArrayList();
+      if (String.class.isAssignableFrom(value.getClass())) {
+        inputs = (List<TestYesNoQuestion>) TestSet.load(getClass().getResourceAsStream(String.class.cast(value))).stream()
+                .collect(toList());
+      } else if (String[].class.isAssignableFrom(value.getClass())) {
+        inputs = (List<TestYesNoQuestion>) Arrays.stream(String[].class.cast(value))
+                .flatMap(path -> TestSet.load(getClass().getResourceAsStream(path)).stream())
+                .collect(toList());
+      }
+      inputs.stream().filter(input -> input.getBody() != null)
+              .forEach(input -> input.setBody(input.getBody().trim().replaceAll("\\s+", " ")));
+
+      for (json.gson.TestYesNoQuestion  q : inputs) {
+     
+     //   yesnoMap.put(q.getId(), q.getExactAnswer());
+      }
+    }
+    
     public static void main(String[] args) {
-        try {
-            new test(args).run();
-        } catch (Throwable t) {
-            System.out.println("Thrown: " + t);
-            t.printStackTrace(System.out);
-        }
+       test t = new test();
+       t.test();
+       
     }
 
 }

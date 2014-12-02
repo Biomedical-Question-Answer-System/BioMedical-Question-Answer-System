@@ -1,0 +1,163 @@
+"questions": [
+	{
+		"body": "Are there any DNMT3 proteins present in plants?",
+		"concepts": [
+		],
+		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/24327140"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24316013"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24127215"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24127212"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24123478"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24098800"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23894490"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23852726"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23836914"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23688924"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23626723"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23611774"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23484688"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23159436"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22995292"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22972351"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22642896"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22481891"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22450363"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23552838"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22174693"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22140515"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22122805"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22088914"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22081970"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21695170"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21666679"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21549127"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21541319"
+		],
+		"triples": [
+		],
+		"id": "511a16f9df1ebcce7d000005",
+	},
+		"snippets": [
+			[
+				"exact answer": "No"
+			]
+		],
+		"snippets": [
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24098800"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "5642"
+				"offsetInEndSection": "5937"
+				"text": "In addition to EST library construction, we explored the possibility of DNA methylation in the three termite species by examining whether gene sequences of DNA (cytosine-5) methyltransferases, namely, dnmt1, dnmt2 and dnmt3, and methyl-CpG binding domain, mbd, were present in the EST libraries."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24127215"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "0"
+				"offsetInEndSection": "247"
+				"text": "Introduction
+One defining characteristic of stem cells is their ability to divide asymmetrically, such that one daughter cell self-renews to remain stem, whereas the other daughter cell commits to lineage-specific differentiation (Knoblich, 2008)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24127215"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "248"
+				"offsetInEndSection": "618"
+				"text": "This often coincides with asymmetric inheritance of macromolecules to the daughter cells, for example, misfolded proteins (Rujano et al., 2006), centrioles (Yamashita et al., 2007), and the younger versus older replicated chromatids in different organisms, such as bacteria (Lark, 1966), plants (Lark, 1967), filamentous fungi (Rosenberger and Kessel, 1968), or mammals."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24127215"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "619"
+				"offsetInEndSection": "930"
+				"text": "In mammals, it has been described in a variety of cell types: epithelium (Potten et al., 1978), intestine (Potten et al., 2002; Falconer et al., 2010; Quyn et al., 2010), mammary (Smith, 2005), neural (Karpowicz et al., 2005), and muscle (Shinin et al., 2006; Conboy et al., 2007; Rocheteau et al., 2012) cells."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24127215"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "931"
+				"offsetInEndSection": "1187"
+				"text": "The earliest observations led to the immortal DNA strand hypothesis, postulating that stem cells avoid accumulating mutations arising from DNA replication by consecutively and infinitely segregating old DNA strands in the stem daughter cell (Cairns, 1975)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24127215"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1188"
+				"offsetInEndSection": "1773"
+				"text": "Aspects of this hypothesis and the underlying phenomenon have been debated (Lansdorp, 2007; Rando, 2007; Steinhauser et al., 2012) because of the lack of evidence supporting the infinite ability of stem cells to sort their DNA, conflicting studies in similar tissues (Potten et al., 2002; Falconer et al., 2010; Quyn et al., 2010; Escobar et al., 2011; Schepers et al., 2011), and the reported inability of some other tissue-specific stem cells to segregate DNA strands nonrandomly, such as blood (Kiel et al., 2007), hair (Waghmare et al., 2008), and skin (Sotiropoulou et al., 2008)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24127215"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1774"
+				"offsetInEndSection": "1924"
+				"text": "Nevertheless, a growing body of evidence supports DNA strand nonrandom template segregation (NRTS) in a variety of asymmetrically dividing stem cells."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24127215"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "1925"
+				"offsetInEndSection": "2086"
+				"text": "Asymmetric segregation of epigenetically unequal sister chromatids might be required to affect gene expression and consequently cell fate in asymmetric division."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24127215"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2087"
+				"offsetInEndSection": "2258"
+				"text": "Moreover, such distinct epigenetic marks between sister chromatids might be necessary to sort older versus younger DNA strands during mitosis (Klar, 1994; Lansdorp, 2007)."
+			}
+			{
+				"beginSection": "sections.0"
+				"document": "http://metal.lti.cs.cmu.edu:30002/pmc/24127215"
+				"endSection": "sections.0"
+				"offsetInBeginSection": "2259"
+				"offsetInEndSection": "2519"
+				"text": "However, before this current work, these notions remained undemonstrated, and the identification of epigenetic marks had been poorly—if at all—documented (Huh and Sherley, 2011), perhaps because of the lack of an in vitro cellular model exhibiting robust NRTS."
+			}
+		],
+		"id": "511a16f9df1ebcce7d000005",
+	},
+	{
+		"body": "Is thrombophilia related to increased risk of miscarriage?",
+		"concepts": [
+		],
+		"documents": [
+			"http://www.ncbi.nlm.nih.gov/pubmed/24200686"
+			"http://www.ncbi.nlm.nih.gov/pubmed/24082554"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23999648"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23954867"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23809122"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23715104"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23587581"
+			"http://www.ncbi.nlm.nih.gov/pubmed/23400304"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22160027"
+			"http://www.ncbi.nlm.nih.gov/pubmed/22023244"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21869933"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21346577"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21241403"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21239788"
+			"http://www.ncbi.nlm.nih.gov/pubmed/21039385"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20605623"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20563311"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20403270"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20185181"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20083915"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20063840"
+			"http://www.ncbi.nlm.nih.gov/pubmed/20008211"
+			"http://www.ncbi.nlm.nih.gov/pubmed/19937485"
+			"http://www.ncbi.nlm.nih.gov/pubmed/19912516"
+			"http://www.ncbi.nlm.nih.gov/pubmed/19786941"
+			"http://www.ncbi.nlm.nih.gov/pubmed/19203641"
+			"http://www.ncbi.nlm.nih.gov/pubmed/19228606"
+			"http://www.

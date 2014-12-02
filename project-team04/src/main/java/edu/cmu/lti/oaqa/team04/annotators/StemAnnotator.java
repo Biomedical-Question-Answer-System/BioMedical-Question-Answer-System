@@ -73,10 +73,11 @@ public class StemAnnotator extends JCasAnnotator_ImplBase {
           if(!stopwordsSet.contains(s))
             res.add(s);
     for(String s :res){
-      finaltext += s+" ";
+      finaltext += s+" "+"AND"+" ";
     }
- //   System.out.println(finaltext);
-    questionTypeSys.setText(finaltext.trim());
+    System.out.println(finaltext.substring(0, finaltext.lastIndexOf("AND")).trim());
+    questionTypeSys.setText(finaltext.substring(0, finaltext.lastIndexOf("AND")).trim());
   }
 
 }
+

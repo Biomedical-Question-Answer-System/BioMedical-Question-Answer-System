@@ -59,7 +59,15 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     }
     inputs.stream().filter(input -> input.getBody() != null)
             .forEach(input -> input.setBody(input.getBody().trim().replaceAll("\\s+", " ")));
-
+    // if (String.class.isAssignableFrom(value.getClass()))
+    // inputs = TrainingSet.load(getClass().getResourceAsStream(String.class.cast(value))).stream()
+    // .collect(toList());
+    // else if (String[].class.isAssignableFrom(value.getClass()))
+    // inputs = Arrays.stream(String[].class.cast(value))
+    // .flatMap(path -> TrainingSet.load(getClass().getResourceAsStream(filePath)).stream())
+    // .collect(toList());
+    // inputs.stream().filter(input -> input.getBody() != null)
+    // .forEach(input -> input.setBody(input.getBody().trim().replaceAll("\\s+", " ")));
     for (json.gson.Question q : inputs) {
       List<Snippet> goldSnippets = q.getSnippets();
       HashMap<String, Snippet> singleSnippetMap = new HashMap<String, Snippet>();
@@ -86,16 +94,23 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
         supposed_num += s.getOffsetInEndSection() - s.getOffsetInBeginSection();
 
       }
+      //System.out.println("hahahah"+goldSnippetMap.toString());
       // supposed_num += goldSnippetMap.size();
       FSIterator<?> snippetResultIt = aJCas.getJFSIndexRepository().getAllIndexedFS(Passage.type);
       HashMap<String, Snippet> snippetResultMap = new HashMap<String, Snippet>();
+      //System.out.println("here i am @@@@@@@@@");
       while (snippetResultIt.hasNext()) {
+        //System.out.println("what the ffff&&&&&&&&&");
         Passage snippetResult = (Passage) snippetResultIt.next();
+        System.out.println(snippetResult.getTitle()+"huohuohuohuo");
         answer_num += snippetResult.getOffsetInEndSection()
                 - snippetResult.getOffsetInBeginSection();
-        if (snippetResultMap.containsKey(snippetResult.getTitle())) {
-          Snippet goldSnippet = snippetResultMap.get(snippetResult);
-          if (goldSnippet.getBeginSection().equals(snippetResult.getBeginSection())) {
+        if (goldSnippetMap.toString().contains(snippetResult.getTitle().substring(snippetResult.getTitle().lastIndexOf("/"), snippetResult.getTitle().length()-1))) {
+          Snippet goldSnippet = goldSnippetMap.get(snippetResult);
+          System.out.println("im here1!!!!!!!!!!!!");
+          if (goldSnippet!=null&&snippetResult!=null&&goldSnippet.getOffsetInBeginSection()==snippetResult.getOffsetInBeginSection()) {
+
+            System.out.println("ohohohoho*******");
             correct_num += getintersection(goldSnippet.getOffsetInBeginSection(),
                     goldSnippet.getOffsetInEndSection(), snippetResult.getOffsetInBeginSection(),
                     snippetResult.getOffsetInEndSection());
@@ -109,7 +124,6 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     // System.out.println("GMAP: " + Math.pow(gmap, 1.0 / conceptList.size()) + "\n");
     // totalMap += map;
     // totalGmap *= gmap;
-    System.out.println(question.getText());
     printReport();
 
   }
@@ -129,23 +143,30 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
   }
 
   public int getintersection(int start1, int end1, int start2, int end2) {
-    if (start1 > start2) {
-      if (end2 < start1) {
-        return 0;
-      } else if (end2 < end1) {
-        return end2 - start1;
-      } else {
-        return end1 - start1;
-      }
-    } else {
-      if (end1 < start2) {
-        return 0;
-      } else if (end1 < end2) {
-        return end1 - start2;
-      } else {
-        return end2 - start2;
-      }
-    }
+    if(start1>end2) return 0;
+    if(start2>end1) return 0;
+    if(start1<=end2 && start1>=start2&&end1>=end2) return end2-start1;
+    if(start1<=end2 && start1>=start2&&end1<end2) return end1-start1;
+    if(start1<=start2 && start2<=end1 && end1 <= end2) return end1-start2;
+    if(start1<start2 && start2<=end2 && end2<=end1) return end2-start2;
+    else return 0;
+//    if (start1 > start2) {
+//      if (end2 < start1) {
+//        return 0;
+//      } else if (end2 < end1) {
+//        return end2 - start1;
+//      } else {
+//        return end1 - start1;
+//      }
+//    } else {
+//      if (end1 < start2) {
+//        return 0;
+//      } else if (end1 < end2) {
+//        return end1 - start2;
+//      } else {
+//        return end2 - start2;
+//      }
+//    }
   }
 
   public void printReport() {
@@ -160,3 +181,4 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     // System.out.println("GMAP:" + getGmap());
   }
 }
+

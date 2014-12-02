@@ -98,7 +98,7 @@ public class AnswerAnnotator extends JCasAnnotator_ImplBase {
     if (questionsIt.hasNext()) {
       question = (Question) questionsIt.next();
     }
-    if (!question.getType().equals("yesno")) {
+    if (!question.getQuestionType().equals("YES_NO")) {
       return;
     }
     FSIterator snippetsIt = aJCas.getJFSIndexRepository().getAllIndexedFS(

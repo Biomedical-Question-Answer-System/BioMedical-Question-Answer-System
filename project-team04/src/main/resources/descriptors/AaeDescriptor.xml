@@ -6,17 +6,17 @@
     <delegateAnalysisEngine key="DocaeDescriptor">
       <import name="descriptors.DocaeDescriptor"/>
     </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="SnippetEvaluatorDescriptor">
-      <import name="descriptors.SnippetEvaluatorDescriptor"/>
-    </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="DocumentEvaluatorDescriptor">
-      <import name="descriptors.DocumentEvaluatorDescriptor"/>
-    </delegateAnalysisEngine>
     <delegateAnalysisEngine key="SnippetaeDescriptor">
       <import name="descriptors.SnippetaeDescriptor"/>
     </delegateAnalysisEngine>
-  <delegateAnalysisEngine key="StemaeDescriptor">
+    <delegateAnalysisEngine key="StemaeDescriptor">
       <import name="descriptors.StemaeDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="AnsweraeDescriptor">
+      <import name="descriptors.AnsweraeDescriptor"/>
+    </delegateAnalysisEngine>
+  <delegateAnalysisEngine key="AnswerEvaluatorDescriptor">
+      <import name="descriptors.AnswerEvaluatorDescriptor"/>
     </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
@@ -30,9 +30,9 @@
       <fixedFlow>
         <node>StemaeDescriptor</node>
         <node>DocaeDescriptor</node>
-        <node>DocumentEvaluatorDescriptor</node>
         <node>SnippetaeDescriptor</node>
-      <node>SnippetEvaluatorDescriptor</node>
+        <node>AnsweraeDescriptor</node>
+      <node>AnswerEvaluatorDescriptor</node>
       </fixedFlow>
     </flowConstraints>
     <fsIndexCollection/>
