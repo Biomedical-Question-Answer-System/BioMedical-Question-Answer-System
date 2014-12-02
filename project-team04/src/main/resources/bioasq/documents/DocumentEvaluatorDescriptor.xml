@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
   <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
-  <primitive>true</primitive>  <annotatorImplementationName>edu.cmu.lti.oaqa.team04.annotators.SnippetEvaluatorAnnotator</annotatorImplementationName>
+  <primitive>true</primitive>  <annotatorImplementationName>edu.cmu.lti.oaqa.team04.annotators.DocumentEvaluatorAnnotator</annotatorImplementationName>
   <analysisEngineMetaData>
     <name>ConaeDescriptor</name>
     <description/>
@@ -11,7 +11,7 @@
     <configurationParameterSettings/>
     <typeSystemDescription>
       <imports>
-        <import name="type.OAQATypes"/>
+        <import name="bioasq.type.OAQATypes"/>
       </imports>
     </typeSystemDescription>
     <typePriorities/>

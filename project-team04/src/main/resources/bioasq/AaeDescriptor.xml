@@ -3,20 +3,26 @@
   <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
   <primitive>false</primitive>  
   <delegateAnalysisEngineSpecifiers>
-    <delegateAnalysisEngine key="DocaeDescriptor">
-      <import name="descriptors.DocaeDescriptor"/>
-    </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="SnippetaeDescriptor">
-      <import name="descriptors.SnippetaeDescriptor"/>
-    </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="StemaeDescriptor">
-      <import name="descriptors.StemaeDescriptor"/>
+    <delegateAnalysisEngine key="AnswerEvaluatorDescriptor">
+      <import name="bioasq.AnswerEvaluatorDescriptor"/>
     </delegateAnalysisEngine>
     <delegateAnalysisEngine key="AnsweraeDescriptor">
-      <import name="descriptors.AnsweraeDescriptor"/>
+      <import name="bioasq.AnsweraeDescriptor"/>
     </delegateAnalysisEngine>
-  <delegateAnalysisEngine key="AnswerEvaluatorDescriptor">
-      <import name="descriptors.AnswerEvaluatorDescriptor"/>
+    <delegateAnalysisEngine key="SnippetaeDescriptor">
+      <import name="bioasq.SnippetaeDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="StemaeDescriptor">
+      <import name="bioasq.StemaeDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="DocaeDescriptor">
+      <import name="bioasq.documents.DocaeDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="ConaeDescriptor">
+      <import name="bioasq.concepts.ConaeDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="TripaeDescriptor">
+      <import name="bioasq.triple.TripaeDescriptor"/>
     </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
@@ -32,7 +38,9 @@
         <node>DocaeDescriptor</node>
         <node>SnippetaeDescriptor</node>
         <node>AnsweraeDescriptor</node>
-      <node>AnswerEvaluatorDescriptor</node>
+        <node>AnswerEvaluatorDescriptor</node>
+        <node>ConaeDescriptor</node>
+        <node>TripaeDescriptor</node>
       </fixedFlow>
     </flowConstraints>
     <fsIndexCollection/>

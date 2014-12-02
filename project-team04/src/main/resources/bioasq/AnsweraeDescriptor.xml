@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
   <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
-  <primitive>true</primitive>  <annotatorImplementationName>edu.cmu.lti.oaqa.team04.annotators.StemAnnotator</annotatorImplementationName>
+   <primitive>true</primitive>  <annotatorImplementationName>edu.cmu.lti.oaqa.team04.annotators.AnswerAnnotator</annotatorImplementationName>
   <analysisEngineMetaData>
-    <name>StemaeDescriptor</name>
+    <name>AnnotatorDescriptor</name>
     <description/>
     <version>1.0</version>
     <vendor/>
@@ -11,15 +11,21 @@
     <configurationParameterSettings/>
     <typeSystemDescription>
       <imports>
-        <import name="type.OAQATypes"/>
+        <import name="bioasq.type.OAQATypes"/>
       </imports>
     </typeSystemDescription>
     <typePriorities/>
     <fsIndexCollection/>
     <capabilities>
       <capability>
-        <inputs/>
-        <outputs/>
+        <inputs>
+          <type allAnnotatorFeatures="true">edu.cmu.lti.oaqa.type.input.Question</type>
+        </inputs>
+        <outputs>
+          <type allAnnotatorFeatures="true">edu.cmu.lti.oaqa.type.kb.Triple</type>
+          <type allAnnotatorFeatures="true">edu.cmu.lti.oaqa.type.retrieval.Document</type>
+          <type allAnnotatorFeatures="true">edu.cmu.lti.oaqa.type.kb.Concept</type>
+        </outputs>
         <languagesSupported/>
       </capability>
     </capabilities>

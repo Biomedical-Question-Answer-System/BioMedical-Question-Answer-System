@@ -25,7 +25,7 @@
     </configurationParameterSettings>
     <typeSystemDescription>
       <imports>
-        <import name="type.OAQATypes"/>
+        <import name="bioasq.type.OAQATypes"/>
       </imports>
     </typeSystemDescription>
     <typePriorities/>
