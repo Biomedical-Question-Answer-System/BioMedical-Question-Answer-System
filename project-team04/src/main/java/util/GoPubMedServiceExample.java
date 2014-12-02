@@ -18,7 +18,7 @@ public class GoPubMedServiceExample {
     String text = "Is Rheumatoid Arthritis more common in men or women";//remove questionmark
     //String text = "Are there any DNMT3 proteins present in plants";
     
-    GoPubMedService service = new GoPubMedService("/root/git/project-team04/project-team04/project.properties");
+    GoPubMedService service = new GoPubMedService("./project.properties");
 
     OntologyServiceResponse.Result diseaseOntologyResult = service
             .findDiseaseOntologyEntitiesPaged(text, 0);

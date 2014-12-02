@@ -59,15 +59,7 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     }
     inputs.stream().filter(input -> input.getBody() != null)
             .forEach(input -> input.setBody(input.getBody().trim().replaceAll("\\s+", " ")));
-    // if (String.class.isAssignableFrom(value.getClass()))
-    // inputs = TrainingSet.load(getClass().getResourceAsStream(String.class.cast(value))).stream()
-    // .collect(toList());
-    // else if (String[].class.isAssignableFrom(value.getClass()))
-    // inputs = Arrays.stream(String[].class.cast(value))
-    // .flatMap(path -> TrainingSet.load(getClass().getResourceAsStream(filePath)).stream())
-    // .collect(toList());
-    // inputs.stream().filter(input -> input.getBody() != null)
-    // .forEach(input -> input.setBody(input.getBody().trim().replaceAll("\\s+", " ")));
+
     for (json.gson.Question q : inputs) {
       List<Snippet> goldSnippets = q.getSnippets();
       HashMap<String, Snippet> singleSnippetMap = new HashMap<String, Snippet>();
@@ -104,7 +96,6 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
         if (snippetResultMap.containsKey(snippetResult.getTitle())) {
           Snippet goldSnippet = snippetResultMap.get(snippetResult);
           if (goldSnippet.getBeginSection().equals(snippetResult.getBeginSection())) {
-            int intersection = 0;
             correct_num += getintersection(goldSnippet.getOffsetInBeginSection(),
                     goldSnippet.getOffsetInEndSection(), snippetResult.getOffsetInBeginSection(),
                     snippetResult.getOffsetInEndSection());
@@ -118,6 +109,7 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     // System.out.println("GMAP: " + Math.pow(gmap, 1.0 / conceptList.size()) + "\n");
     // totalMap += map;
     // totalGmap *= gmap;
+    System.out.println(question.getText());
     printReport();
 
   }

@@ -3806,7 +3806,7 @@
             "http://www.ncbi.nlm.nih.gov/pubmed/2659540", 
             "http://www.ncbi.nlm.nih.gov/pubmed/7460905"
         ], 
-        "exact_answer": "No.", 
+        "exact_answer": "No", 
         "id": "5162e011298dcd4e51000049", 
         "ideal_answer": "No. Desmins are type III intermediate filament (IF) proteins that have been identified to date only in metazoa (human, Danio rerio, bovine). Desmins are also associated with severe forms of skeletal, cardiac and myofibrillar myopathies.", 
         "snippets": [

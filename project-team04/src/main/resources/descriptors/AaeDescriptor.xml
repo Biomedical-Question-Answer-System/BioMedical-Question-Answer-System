@@ -3,17 +3,20 @@
   <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
   <primitive>false</primitive>  
   <delegateAnalysisEngineSpecifiers>
-    <delegateAnalysisEngine key="StemaeDescriptor">
-      <import name="descriptors.StemaeDescriptor"/>
-    </delegateAnalysisEngine>
     <delegateAnalysisEngine key="DocaeDescriptor">
       <import name="descriptors.DocaeDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="SnippetEvaluatorDescriptor">
+      <import name="descriptors.SnippetEvaluatorDescriptor"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="DocumentEvaluatorDescriptor">
+      <import name="descriptors.DocumentEvaluatorDescriptor"/>
     </delegateAnalysisEngine>
     <delegateAnalysisEngine key="SnippetaeDescriptor">
       <import name="descriptors.SnippetaeDescriptor"/>
     </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="SnippetEvaluatorDescriptor">
-      <import name="descriptors.SnippetEvaluatorDescriptor"/>
+  <delegateAnalysisEngine key="StemaeDescriptor">
+      <import name="descriptors.StemaeDescriptor"/>
     </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
@@ -27,8 +30,9 @@
       <fixedFlow>
         <node>StemaeDescriptor</node>
         <node>DocaeDescriptor</node>
+        <node>DocumentEvaluatorDescriptor</node>
         <node>SnippetaeDescriptor</node>
-        <node>SnippetEvaluatorDescriptor</node>
+      <node>SnippetEvaluatorDescriptor</node>
       </fixedFlow>
     </flowConstraints>
     <fsIndexCollection/>

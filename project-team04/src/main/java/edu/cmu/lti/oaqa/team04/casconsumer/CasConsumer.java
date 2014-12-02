@@ -12,6 +12,7 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.resource.ResourceProcessException;
 import org.apache.uima.util.ProcessTrace;
 
+import edu.cmu.lti.oaqa.type.answer.Answer;
 import edu.cmu.lti.oaqa.type.input.Question;
 import edu.cmu.lti.oaqa.type.retrieval.ConceptSearchResult;
 import edu.cmu.lti.oaqa.type.retrieval.Document;
@@ -98,6 +99,11 @@ public class CasConsumer extends CasConsumer_ImplBase {
     writer.printf("\t},\n");
     // snippets
     writer.printf("\t\t\"snippets\": [");
+    FSIterator answerIt = jcas.getJFSIndexRepository().getAllIndexedFS(Answer.type);
+    while(answerIt.hasNext()){
+      Answer answer = (Answer) answerIt.next();
+      writer.printf("\n\t\t\t{\n\t\t\t\t\"beginSection\": \"%s\"\n\t\t\t", answer.getText());
+    }
     FSIterator snippetIt = jcas.getJFSIndexRepository().getAllIndexedFS(Passage.type);
     while (snippetIt.hasNext()) {
       Passage snippet = (Passage) snippetIt.next();
