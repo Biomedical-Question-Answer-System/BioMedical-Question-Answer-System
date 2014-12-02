@@ -174,7 +174,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:11693-04/project-team04.git</connection>
 		<developerConnection>scm:git:git@github.com:11693-04/project-team04.git</developerConnection>
-		<tag>project-team04-0.0.1</tag>
+		<tag>project-team04-0.0.2</tag>
 	</scm>
 	<repositories>
 		<repository>
