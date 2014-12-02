@@ -1,0 +1,44 @@
+{
+    "questions": [
+        {
+            "body": "Are there any DNMT3 proteins present in plants?", 
+            "type": "yesno", 
+            "id": "511a16f9df1ebcce7d000005"
+        }, 
+        {
+            "body": "Is thrombophilia related to increased risk of miscarriage?", 
+            "type": "yesno", 
+            "id": "513cdc38bee46bd34c000007"
+        }, 
+        {
+            "body": "Is Mammaprint approved by the United States Food and Drug Administration?", 
+            "type": "yesno", 
+            "id": "51487821d24251bc0500002f"
+        }, 
+        {
+            "body": "Does the Oncotype DX test work with paraffin embedded tissues?", 
+            "type": "yesno", 
+            "id": "514a0f0ad24251bc05000052"
+        }, 
+        {
+            "body": "Is depression associated with poor prognosis of brain tumor patients?", 
+            "type": "yesno", 
+            "id": "514cc8dcd24251bc05000066"
+        }, 
+        {
+            "body": "Does HER2 under-expression lead to favorable response to trastuzumab?", 
+            "type": "yesno", 
+            "id": "51542eacd24251bc05000084"
+        }, 
+        {
+            "body": "Can Alzheimer's disease related miRNAs be detected in patients' blood?", 
+            "type": "yesno", 
+            "id": "5156beb4d24251bc05000089"
+        }, 
+        {
+            "body": "Are there any desmins present in plants?", 
+            "type": "yesno", 
+            "id": "5162e011298dcd4e51000049"
+        }
+    ]
+}
