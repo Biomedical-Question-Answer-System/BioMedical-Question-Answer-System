@@ -1,0 +1,1 @@
+160-fold acceleration of the Smith-Waterman algorithm using a field programmable gate array (FPGA)

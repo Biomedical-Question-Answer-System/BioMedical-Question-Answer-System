@@ -1,0 +1,1 @@
+by considering only “simple” merges and splits that are unaccompanied by generation, duplication, or loss events, the merge-to-split ratio became 5.28:1, which is much more comparable to previously determine ratios.

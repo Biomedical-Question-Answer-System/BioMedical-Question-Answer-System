@@ -1,0 +1,1 @@
+An 8-lane PCI Express [35] add-in card with a Xilinx Virtex-4 FX100 FPGA provides the hardware acceleration for pairwise alignment.

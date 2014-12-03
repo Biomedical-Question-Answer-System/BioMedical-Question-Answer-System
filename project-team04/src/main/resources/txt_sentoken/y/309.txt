@@ -1,0 +1,1 @@
+The concentration of this inhibited complex is determined by the dissociation constant for the PLN pentamer (which is mutation-sensitive) and by the dissociation constant for the PLN/SERCA2a heterodimer (which is likely to be mutation-sensitive).

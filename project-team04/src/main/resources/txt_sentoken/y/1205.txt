@@ -1,0 +1,1 @@
+METHODS: We used this combined ISH/IHC assay to study a subset of cancer-associated miRNAs, including miRNAs frequently detected at low (miR-34a and miR-126) and high (miR-21 and miR-155) levels, in a panel of breast, colorectal, lung, pancreas, and prostate carcinomas.

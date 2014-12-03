@@ -1,0 +1,1 @@
+Comet assay under neutral conditions allows detection of DNA double-strand breaks (DSBs), which has consequence to genome instability and carcinogenesis.

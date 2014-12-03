@@ -1,0 +1,1 @@
+Response (Clinical Global Impressions Scale score of 1 or 2) occurred in 70% of subjects randomized to paroxetine CR and 10% of those assigned to placebo (chi2(1) = 7.5, P = 0.006).

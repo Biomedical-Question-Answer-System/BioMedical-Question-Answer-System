@@ -1,0 +1,1 @@
+A major function of long non-coding RNAs (lncRNAs) is regulating gene expression through changes in chromatin state. Experimental evidence suggests that in cancer, they can influence Polycomb Repressive Complexes (PRC) to retarget to an occupancy pattern resembling that of the embryonic state.

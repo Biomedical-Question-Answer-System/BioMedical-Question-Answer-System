@@ -1,3 +1,83 @@
-14-12-1 23:07:46 - 12: org.apache.uima.collection.impl.cpm.BaseCPMImpl.process: 警告: Processing the request to stop the CPM. (Thread Name: AWT-EventQueue-0)
-14-12-1 23:07:46 - 12: org.apache.uima.collection.impl.cpm.engine.CPMEngine.process: 信息: The collection reader thread state is: 1001 (Thread Name: AWT-EventQueue-0) 
-14-12-1 23:07:46 - 12: org.apache.uima.collection.impl.cpm.engine.CPMEngine.process: 信息: The CPM processing unit is 0 and processing state 2005. (Thread Name: AWT-EventQueue-0)
+14-12-2 22:00:42 - 31: org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.callAnalysisComponentProcess(407): 严重: Exception occurred
+org.apache.uima.analysis_engine.AnalysisEngineProcessException: Annotator processing failed.    
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.callAnalysisComponentProcess(PrimitiveAnalysisEngine_impl.java:391)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.processAndOutputNewCASes(PrimitiveAnalysisEngine_impl.java:296)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl$AggregateCasIterator.processUntilNextOutputCas(ASB_impl.java:567)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl$AggregateCasIterator.<init>(ASB_impl.java:409)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl.process(ASB_impl.java:342)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.processAndOutputNewCASes(AggregateAnalysisEngine_impl.java:267)
+	at org.apache.uima.analysis_engine.impl.AnalysisEngineImplBase.process(AnalysisEngineImplBase.java:267)
+	at org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.processNext(ProcessingUnit.java:897)
+	at org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.run(ProcessingUnit.java:577)
+Caused by: org.json.JSONException: Missing value at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+	at org.json.JSONTokener.nextValue(JSONTokener.java:388)
+	at org.json.JSONArray.<init>(JSONArray.java:115)
+	at org.json.JSONArray.<init>(JSONArray.java:144)
+	at util.SnippetWebService.getSnippets(SnippetWebService.java:57)
+	at util.SnippetWebService.getSnippets(SnippetWebService.java:29)
+	at edu.cmu.lti.oaqa.team04.annotators.SnippetAnnotator.process(SnippetAnnotator.java:67)
+	at org.apache.uima.analysis_component.JCasAnnotator_ImplBase.process(JCasAnnotator_ImplBase.java:48)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.callAnalysisComponentProcess(PrimitiveAnalysisEngine_impl.java:375)
+	... 8 more
+
+14-12-2 22:00:42 - 31: org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.processAndOutputNewCASes(275): 严重: Exception occurred
+org.apache.uima.analysis_engine.AnalysisEngineProcessException: Annotator processing failed.    
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.callAnalysisComponentProcess(PrimitiveAnalysisEngine_impl.java:391)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.processAndOutputNewCASes(PrimitiveAnalysisEngine_impl.java:296)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl$AggregateCasIterator.processUntilNextOutputCas(ASB_impl.java:567)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl$AggregateCasIterator.<init>(ASB_impl.java:409)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl.process(ASB_impl.java:342)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.processAndOutputNewCASes(AggregateAnalysisEngine_impl.java:267)
+	at org.apache.uima.analysis_engine.impl.AnalysisEngineImplBase.process(AnalysisEngineImplBase.java:267)
+	at org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.processNext(ProcessingUnit.java:897)
+	at org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.run(ProcessingUnit.java:577)
+Caused by: org.json.JSONException: Missing value at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+	at org.json.JSONTokener.nextValue(JSONTokener.java:388)
+	at org.json.JSONArray.<init>(JSONArray.java:115)
+	at org.json.JSONArray.<init>(JSONArray.java:144)
+	at util.SnippetWebService.getSnippets(SnippetWebService.java:57)
+	at util.SnippetWebService.getSnippets(SnippetWebService.java:29)
+	at edu.cmu.lti.oaqa.team04.annotators.SnippetAnnotator.process(SnippetAnnotator.java:67)
+	at org.apache.uima.analysis_component.JCasAnnotator_ImplBase.process(JCasAnnotator_ImplBase.java:48)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.callAnalysisComponentProcess(PrimitiveAnalysisEngine_impl.java:375)
+	... 8 more
+
+14-12-2 22:00:42 - 31: org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.process: 严重: The container AaeDescriptor returned the following error message: Annotator processing failed.     (Thread Name: [Procesing Pipeline#1 Thread]::) 
+14-12-2 22:00:42 - 31: org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.maybeLogSevereException(2502): 严重: Thread: [Procesing Pipeline#1 Thread]::, message: Annotator processing failed.    
+org.apache.uima.analysis_engine.AnalysisEngineProcessException: Annotator processing failed.    
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.callAnalysisComponentProcess(PrimitiveAnalysisEngine_impl.java:391)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.processAndOutputNewCASes(PrimitiveAnalysisEngine_impl.java:296)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl$AggregateCasIterator.processUntilNextOutputCas(ASB_impl.java:567)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl$AggregateCasIterator.<init>(ASB_impl.java:409)
+	at org.apache.uima.analysis_engine.asb.impl.ASB_impl.process(ASB_impl.java:342)
+	at org.apache.uima.analysis_engine.impl.AggregateAnalysisEngine_impl.processAndOutputNewCASes(AggregateAnalysisEngine_impl.java:267)
+	at org.apache.uima.analysis_engine.impl.AnalysisEngineImplBase.process(AnalysisEngineImplBase.java:267)
+	at org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.processNext(ProcessingUnit.java:897)
+	at org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.run(ProcessingUnit.java:577)
+Caused by: org.json.JSONException: Missing value at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+	at org.json.JSONTokener.nextValue(JSONTokener.java:388)
+	at org.json.JSONArray.<init>(JSONArray.java:115)
+	at org.json.JSONArray.<init>(JSONArray.java:144)
+	at util.SnippetWebService.getSnippets(SnippetWebService.java:57)
+	at util.SnippetWebService.getSnippets(SnippetWebService.java:29)
+	at edu.cmu.lti.oaqa.team04.annotators.SnippetAnnotator.process(SnippetAnnotator.java:67)
+	at org.apache.uima.analysis_component.JCasAnnotator_ImplBase.process(JCasAnnotator_ImplBase.java:48)
+	at org.apache.uima.analysis_engine.impl.PrimitiveAnalysisEngine_impl.callAnalysisComponentProcess(PrimitiveAnalysisEngine_impl.java:375)
+	... 8 more
+
+14-12-2 22:00:46 - 31: org.apache.uima.collection.impl.cpm.container.ProcessingContainer_Impl.process: 严重: The CPM stopped because the configured error threshold 0 was exceeded. (Thread Name: [Procesing Pipeline#1 Thread]::) Component Name: AaeDescriptor 
+14-12-2 22:00:46 - 31: org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.process: 严重: The CPM is terminating. The current component is AaeDescriptor. (Thread Name: [Procesing Pipeline#1 Thread]::) 
+14-12-2 22:00:46 - 31: org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.process: 警告: The CPM cannot be stopped by force. The current container is AaeDescriptor. (Thread Name: [Procesing Pipeline#1 Thread]::) Reason: The CAS processor AaeDescriptor is configured to stop the CPM when excessive errors are encountered.  (Thread Name: [Procesing Pipeline#1 Thread]::)
+14-12-2 22:00:46 - 31: org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.maybeLogSevereException(2502): 严重: Thread: [Procesing Pipeline#1 Thread]::, message: 
+org.apache.uima.collection.base_cpm.AbortCPMException: 
+	at org.apache.uima.collection.impl.cpm.container.ProcessingContainer_Impl.incrementCasProcessorErrors(ProcessingContainer_Impl.java:804)
+	at org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.processNext(ProcessingUnit.java:1041)
+	at org.apache.uima.collection.impl.cpm.engine.ProcessingUnit.run(ProcessingUnit.java:577)
+
+14-12-2 22:00:46 - 31: org.apache.uima.collection.impl.cpm.engine.CPMEngine.process: 信息: The collection reader thread state is: 1001 (Thread Name: [Procesing Pipeline#1 Thread]::) 
+14-12-2 22:00:46 - 31: org.apache.uima.collection.impl.cpm.engine.CPMEngine.process: 信息: The CPM processing unit is 0 and processing state 2003. (Thread Name: [Procesing Pipeline#1 Thread]::)
+14-12-2 22:00:46 - 31: org.apache.uima.collection.impl.cpm.engine.CPMEngine.process: 信息: The application stopped the CPM. (Thread Name: [Procesing Pipeline#1 Thread]::)
+14-12-2 22:00:46 - 31: org.apache.uima.collection.impl.cpm.engine.CPMEngine.process: 信息: The CPM engine is stopping. An end-of-file token is added to the worker queue. (Thread Name: [Procesing Pipeline#1 Thread]::) Forced stop: true

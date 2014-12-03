@@ -1,0 +1,1 @@
+The NCI-60 has also been profiled for mRNA and protein expression, mutational status, chromosomal aberrations, and DNA copy number, generating an unparalleled public resource for integrated chemogenomic studies.

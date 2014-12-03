@@ -18,11 +18,8 @@
     <delegateAnalysisEngine key="DocaeDescriptor">
       <import name="bioasq.documents.DocaeDescriptor"/>
     </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="ConaeDescriptor">
-      <import name="bioasq.concepts.ConaeDescriptor"/>
-    </delegateAnalysisEngine>
-    <delegateAnalysisEngine key="TripaeDescriptor">
-      <import name="bioasq.triple.TripaeDescriptor"/>
+    <delegateAnalysisEngine key="DocumentEvaluatorDescriptor">
+      <import name="bioasq.documents.DocumentEvaluatorDescriptor"/>
     </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
@@ -36,11 +33,10 @@
       <fixedFlow>
         <node>StemaeDescriptor</node>
         <node>DocaeDescriptor</node>
+        <node>DocumentEvaluatorDescriptor</node>
         <node>SnippetaeDescriptor</node>
         <node>AnsweraeDescriptor</node>
         <node>AnswerEvaluatorDescriptor</node>
-        <node>ConaeDescriptor</node>
-        <node>TripaeDescriptor</node>
       </fixedFlow>
     </flowConstraints>
     <fsIndexCollection/>

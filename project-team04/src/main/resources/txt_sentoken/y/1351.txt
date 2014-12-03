@@ -1,0 +1,1 @@
+Recognition and testing of individual highly conserved noncoding elementsThere is mounting evidence for the regulatory role of HCNEs. Soon after their genome wide discovery, it was realized that a significant number of previously characterized developmental enhancers overlap with HCNEs.

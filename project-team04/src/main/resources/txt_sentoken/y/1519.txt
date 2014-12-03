@@ -1,0 +1,1 @@
+A speedup over 150 is demonstrated when discrete profile alignment is combined with an FPGA accelerator that uses a fine-grained parallel approach for the DP calculations of pairwise alignment

@@ -1,0 +1,1 @@
+In this paper, we have shown that Slt2 and Hog1 are involved in mitophagy, as both slt2Δ and hog1Δ cells showed severe defects in selective mitochondria degradation.

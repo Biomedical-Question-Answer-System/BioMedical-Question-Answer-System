@@ -12,6 +12,7 @@ import json.gson.Snippet;
 import json.gson.TestSet;
 import json.gson.TestYesNoQuestion;
 import json.gson.TrainingSet;
+import json.gson.TrainingYesNoQuestion;
 
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.uima.UimaContext;
@@ -48,26 +49,26 @@ public class AnswerEvaluatorAnnotator extends JCasAnnotator_ImplBase {
 
   @Override
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
-    String filePath = "/BioASQ-SampleData1B.json";
+    String filePath = "/NewAnswer.json";
     Object value = filePath;
     List<json.gson.Question> inputs = Lists.newArrayList();
     if (String.class.isAssignableFrom(value.getClass())) {
-      inputs = TestSet.load(getClass().getResourceAsStream(String.class.cast(value))).stream()
+      inputs = TrainingSet.load(getClass().getResourceAsStream(String.class.cast(value))).stream()
               .collect(toList());
     } else if (String[].class.isAssignableFrom(value.getClass())) {
       inputs = Arrays.stream(String[].class.cast(value))
-              .flatMap(path -> TestSet.load(getClass().getResourceAsStream(path)).stream())
+              .flatMap(path -> TrainingSet.load(getClass().getResourceAsStream(path)).stream())
               .collect(toList());
     }
     inputs.stream().filter(input -> input.getBody() != null)
             .forEach(input -> input.setBody(input.getBody().trim().replaceAll("\\s+", " ")));
 
     for (json.gson.Question q : inputs) {
-      if (q instanceof TestYesNoQuestion) {
-        yesnoMap.put(q.getId(), ((TestYesNoQuestion)q).getExactAnswer());
+      if (q instanceof TrainingYesNoQuestion) {
+        yesnoMap.put(q.getId(), ((TrainingYesNoQuestion)q).getExactAnswer());
     
       }
-     
+
     }
   }
 
@@ -81,7 +82,7 @@ public class AnswerEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     if (questionIt.hasNext()) {
       question = (Question) questionIt.next();
     }
-    if(!question.getType().equals("YES_NO")){
+    if(!question.getQuestionType().equals("YES_NO")){
       return;
     }
     if (yesnoMap.containsKey(question.getId())) {
@@ -92,7 +93,7 @@ public class AnswerEvaluatorAnnotator extends JCasAnnotator_ImplBase {
       if(answerIt.hasNext()){
         resultAnswer =  (Answer) answerIt.next();
       }
-        if(resultAnswer.equals(goldAnswer)){
+        if(resultAnswer.getText().substring(0, 1).toLowerCase().equals(goldAnswer.substring(0,1).toLowerCase())){
           correct_num++;
       }
 

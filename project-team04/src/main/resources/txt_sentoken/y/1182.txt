@@ -1,0 +1,1 @@
+As demonstrated in Figure 3A, the five miRNAs (mir-21, mir-223, mir-224, mir-29A and mir-29B) were significantly up-regulated in CRC tissues, except for mir-27a due to non-efficient amplification (CT value in most of the samples was either higher than 35 or even cannot be defined).

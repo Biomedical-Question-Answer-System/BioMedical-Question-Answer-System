@@ -1,0 +1,1 @@
+yeast origins are characterized by an asymmetric pattern of positioned nucleosomes flanking the ACS. The origin sequences are sufficient to maintain a nucleosome-free origin; however, ORC is required for the precise positioning of nucleosomes flanking the origin.

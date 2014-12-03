@@ -1,0 +1,1 @@
+Decreased relative expression levels of hsa-miR-590-3p was observed in patients with AD versus controls (0.685 ± 0.080 versus 0.931 ± 0.111, p = 0.079), and correlated negatively with hnRNP-A1 mRNA levels (r = -0.615, p = 0.0237).

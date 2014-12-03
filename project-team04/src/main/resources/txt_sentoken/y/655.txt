@@ -1,0 +1,1 @@
+The DNA non-homologous end-joining repair gene XRCC6/Ku70 plays an important role in the repair of DNA double-strand breaks (DSBs) induced by both exogenous and endogenous DNA-damaging agents. Defects in overall DSB repair capacity can lead to genomic instability and carcinogenesis.

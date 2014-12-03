@@ -1,0 +1,1 @@
+More than 25% of Alu exons analyzed by RNA-Seq have estimated transcript inclusion levels of at least 50% in the human cerebellum, indicating widespread establishment of Alu exons in human genes.

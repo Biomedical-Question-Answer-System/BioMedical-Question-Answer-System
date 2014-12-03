@@ -1,0 +1,1 @@
+uncovered two anciently conserved noncoding sequences (CNS) upstream of COUP-TFII (CNS-62kb and CNS-66kb). Testing these two elements using reporter constructs in liver cells (HepG2) revealed that CNS-66kb, but not CNS-62kb, yielded robust in vitro enhancer activity.

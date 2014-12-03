@@ -1,0 +1,1 @@
+Sequences are aligned on the FPGA accelerator with a space-efficient dynamic programming algorithm and a traceback procedure.

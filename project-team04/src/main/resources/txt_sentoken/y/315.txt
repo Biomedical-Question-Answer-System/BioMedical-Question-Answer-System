@@ -1,0 +1,1 @@
+Phospholamban (PLN) reversibly inhibits the Ca(2+)-ATPase of cardiac sarcoplasmic reticulum (SERCA2a) through a direct protein-protein interaction, playing a pivotal role in the regulation of intracellular Ca(2+) in heart muscle cells.

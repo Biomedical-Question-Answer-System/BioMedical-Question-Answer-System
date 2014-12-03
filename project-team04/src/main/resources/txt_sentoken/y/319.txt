@@ -1,0 +1,1 @@
+Differences in TR, PFS and OS for any genotype comparison, UGT1A1*28/*28 versus (vs) UGT1A1*1/*1 (homozygous model), UGT1A1*1/*28 vs UGT1A1*1/*1 (heterozygous model), and UGT1A1*28/*28 vs all others (recessive model, only for TR) were not statistically significant.

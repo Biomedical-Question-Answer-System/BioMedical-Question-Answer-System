@@ -1,0 +1,1 @@
+The tumour-suppressor protein p53 is an important activator of apoptosis. Although p53-deficient cancer cells are less responsive to chemotherapy, their resistance is not complete, which suggests that other apoptotic pathways may exist. A p53-related gene, p73, which encodes several proteins as a result of alternative splicing, can also induce apoptosis.

@@ -1,0 +1,1 @@
+One version (MUDISC) implements our pairwise alignment in software on the host, while the other (MUFPGA) accelerates pairwise alignment on the FPGA.

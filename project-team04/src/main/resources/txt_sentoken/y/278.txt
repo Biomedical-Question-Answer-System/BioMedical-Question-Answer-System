@@ -1,0 +1,1 @@
+A major discovery is the ability of miRNAs to determine the efficacy of drugs, which has given rise to the field of 'miRNA pharmacogenomics' through 'Pharmaco-miRs'. miRNAs play a significant role in pharmacogenomics by down-regulating genes that are important for drug function.

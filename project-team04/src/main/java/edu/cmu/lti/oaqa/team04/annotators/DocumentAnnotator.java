@@ -52,11 +52,10 @@ public class DocumentAnnotator extends JCasAnnotator_ImplBase {
         documentTypeSys = new edu.cmu.lti.oaqa.type.retrieval.Document(aJCas);
         documentTypeSys.setTitle("http://www.ncbi.nlm.nih.gov/pubmed/" + doc.getPmid());
         documentTypeSys.setDocId(doc.getPmid());
-      //  System.out.println(doc.getPmid()+"********");
+   //     System.out.println(doc.getPmid()+"********");
         documentTypeSys.setUri(doc.getPmid());
         documentTypeSys.setRank(count++);
         documentTypeSys.addToIndexes(aJCas);
-     //   count++;
         if(count>=30){
 
           break;

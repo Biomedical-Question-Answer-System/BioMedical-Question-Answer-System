@@ -1,0 +1,1 @@
+Whereas the historical view of splicing envisioned a cascade of temporal events initiated by transcription, followed by polyadenylation, and finalized with splicing and export of mRNAs from the nucleus, it is now clear that these pathways are not independent from one another but rather are functionally coupled.

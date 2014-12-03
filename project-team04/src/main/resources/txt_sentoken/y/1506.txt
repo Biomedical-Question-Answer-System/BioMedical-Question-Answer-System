@@ -1,0 +1,1 @@
+we also observed a higher exonization level within human genome: 0.05% exonization in human both in coding and non-protein-coding genes, versus 0.03% and 0.02% in mouse coding and non-protein-coding genes, respectively (χ2; P < 10-16 [degrees of freedom = 1] for protein-coding genes and P < 10-22 [degrees of freedom = 1] for non-protein-coding genes; see Additional data file 1).

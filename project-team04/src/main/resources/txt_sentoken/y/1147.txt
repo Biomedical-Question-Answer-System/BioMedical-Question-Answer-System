@@ -1,0 +1,3 @@
+Although the FFPE proteomic literature is still quite limited, it
+is not unreasonable to propose that the same situation applies to
+the proteomic analysis of FFPE tissues.

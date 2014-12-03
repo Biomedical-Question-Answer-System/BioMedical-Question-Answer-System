@@ -1,0 +1,1 @@
+Most efforts to accelerate bio-sequence applications with hardware have focused solely on database searches and have employed a pairwise local comparison algorithm. Ramdas and Egan [7] discuss several FPGA-based architectures in their survey.

@@ -27,7 +27,7 @@ public class StemAnnotator extends JCasAnnotator_ImplBase {
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     stopwordsSet = new HashSet<String>();
     String sLine;
-    URL docUrl = StemAnnotator.class.getResource("/stopwords.txt");
+    URL docUrl = StemAnnotator.class.getResource("/stopwordsenhancedforyesno");
     if (docUrl == null) {
       throw new IllegalArgumentException("Error opening /stopwords.txt");
     }

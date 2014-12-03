@@ -1,0 +1,1 @@
+Volinia et al. (2006) conducted a large-scale microarray analysis on six solid tumors (including lung, breast, stomach, prostate, colon, and pancreatic tumors) and identified a common miRNA signature for solid tumors largely composed of overexpressed miRNAs, such as miR-17-5p, miR-20a, miR-21, miR-92, miR-106a, and miR-155 (45).

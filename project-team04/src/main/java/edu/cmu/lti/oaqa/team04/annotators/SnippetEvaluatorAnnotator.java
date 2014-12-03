@@ -72,7 +72,7 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
       List<Snippet> goldSnippets = q.getSnippets();
       HashMap<String, Snippet> singleSnippetMap = new HashMap<String, Snippet>();
       for (Snippet s : goldSnippets) {
-        singleSnippetMap.put(s.getDocument(), s);
+        singleSnippetMap.put(s.getDocument().substring(s.getDocument().lastIndexOf('/')), s);
       }
       snippetMap.put(q.getId(), singleSnippetMap);
     }
@@ -102,21 +102,18 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
       while (snippetResultIt.hasNext()) {
         //System.out.println("what the ffff&&&&&&&&&");
         Passage snippetResult = (Passage) snippetResultIt.next();
-        System.out.println(snippetResult.getTitle()+"huohuohuohuo");
         answer_num += snippetResult.getOffsetInEndSection()
                 - snippetResult.getOffsetInBeginSection();
-        if (goldSnippetMap.toString().contains(snippetResult.getTitle().substring(snippetResult.getTitle().lastIndexOf("/"), snippetResult.getTitle().length()-1))) {
-          Snippet goldSnippet = goldSnippetMap.get(snippetResult);
-          System.out.println("im here1!!!!!!!!!!!!");
-          if (goldSnippet!=null&&snippetResult!=null&&goldSnippet.getOffsetInBeginSection()==snippetResult.getOffsetInBeginSection()) {
+        if (goldSnippetMap.containsKey(snippetResult.getUri())) {
+          Snippet goldSnippet = goldSnippetMap.get(snippetResult.getUri());
+          if (goldSnippet!=null&&snippetResult!=null&&goldSnippet.getBeginSection().equals(snippetResult.getBeginSection())) {
 
-            System.out.println("ohohohoho*******");
             correct_num += getintersection(goldSnippet.getOffsetInBeginSection(),
                     goldSnippet.getOffsetInEndSection(), snippetResult.getOffsetInBeginSection(),
                     snippetResult.getOffsetInEndSection());
           }
+        
         }
-
       }
 
     }

@@ -50,6 +50,7 @@ public class AnswerAnnotator extends JCasAnnotator_ImplBase {
 
   DynamicLMClassifier<NGramProcessLM> mClassifier;
 
+  private int question_count = 0;
   void train() throws IOException {
     int numTrainingCases = 0;
     int numTrainingChars = 0;
@@ -106,7 +107,7 @@ public class AnswerAnnotator extends JCasAnnotator_ImplBase {
     while(snippetsIt.hasNext()){
       Passage snippetResult = (Passage) snippetsIt.next();
       Classification classification = mClassifier.classify(snippetResult.getText());
-      if (classification.bestCategory().equals("neg")){
+      if (classification.bestCategory().equals("n")){
         no++;
       }
       else{
@@ -115,12 +116,13 @@ public class AnswerAnnotator extends JCasAnnotator_ImplBase {
       
     }
     Answer finalAnswer = new Answer(aJCas);
-    if(yes< no){
+    if(no>0){
       finalAnswer.setText("No");
     }
     else{
       finalAnswer.setText("Yes");
     }
+    System.out.println("Question :"+question_count+"  Yes:"+yes+"  No:"+no);
     finalAnswer.addToIndexes(aJCas);
   }
 

@@ -1,0 +1,1 @@
+To determine if production of miR-132 is regulated by neuronal activity its expression in mouse brain was monitored by quantitative RT-PCR (RT-qPCR)

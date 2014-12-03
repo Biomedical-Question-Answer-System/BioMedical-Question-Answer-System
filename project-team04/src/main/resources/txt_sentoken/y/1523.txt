@@ -1,0 +1,1 @@
+The main contribution of this paper is a case-study demonstrating how an Aho-Corasick architecture and finite state machine (FSM) organization can be specifically optimized for incorporation into proteogenomic pipeline using field programmable gate array (FPGA) hardware.

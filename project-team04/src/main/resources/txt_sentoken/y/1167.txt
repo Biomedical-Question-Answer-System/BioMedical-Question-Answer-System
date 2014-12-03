@@ -1,0 +1,1 @@
+In 2005, Hood et al. (7) first described the successful application of shotgun proteome analysis to FFPE tissue. Using laser capture microdissected cells and an optimized extraction method, hundreds of proteins were identified from a cancerous prostate lesion and benign prostate hyperplasia, thus opening the door to comparative proteomic analyses of FFPE tissue.

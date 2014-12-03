@@ -1,0 +1,1 @@
+To complement the existing NCI-60 data sets, we have measured expression levels of microRNAs in the NCI-60 and incorporated the resulting data into the CellMiner program package for integrative analysis.

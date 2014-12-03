@@ -1,0 +1,1 @@
+we screened 462 human miRNA (from let-7 family to miR-663) in BMC derived from well-characterized cases of mild sporadic AD and age-matched normal elderly control subjects and, based on predicted miRNA targets, ascertained whether the accruing data may account for the patterns of mRNA downregulation in Alzheimer BMC previously reported by our laboratories (Maes et al. 2006).

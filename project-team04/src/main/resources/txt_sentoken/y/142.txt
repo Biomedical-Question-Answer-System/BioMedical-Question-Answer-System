@@ -1,0 +1,1 @@
+Atg32 is a mitophagy-specific receptor and is necessary for the recruitment of mitochondria to the PAS through interaction with Atg11, which is an adaptor protein for selective types of autophagy

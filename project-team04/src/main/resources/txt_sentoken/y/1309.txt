@@ -1,0 +1,1 @@
+This CNE does not act as an enhancer at E11.5, because no lacZ expression was detected in four out of the six (67%) transgenic embryos obtained for this developmental stage.

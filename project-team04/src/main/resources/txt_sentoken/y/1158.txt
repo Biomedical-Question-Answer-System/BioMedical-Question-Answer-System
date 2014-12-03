@@ -1,0 +1,1 @@
+The CAAR method presented here complements previously described antigen-retrieval protocols and is an important step in being able to fully analyze the proteome of archived FFPE tissue.

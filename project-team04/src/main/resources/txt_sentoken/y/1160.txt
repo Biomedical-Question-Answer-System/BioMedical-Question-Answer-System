@@ -1,0 +1,1 @@
+It has only recently been shown that proteins in FFPE tissues can be identified by mass spectrometry-based proteomics but analysis of post-translational modifications is thought to be difficult or impossible

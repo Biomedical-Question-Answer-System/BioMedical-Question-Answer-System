@@ -1,0 +1,1 @@
+Single nucleotide polymorphisms (SNPs) in the miRNA target sequences may affect or impair the binding of miRNAs. Studies have shown that SNPs in miRNA target sites (miR-TS-SNPs) have a great influence on diverse biological functions, including pharmacogenomics and disease susceptibilities in human.

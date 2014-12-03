@@ -1,0 +1,1 @@
+Recent improvements in proteomics technologies, from the 2D gel analysis of intact proteins to the "shotgun" quantification of peptides and the use of isobaric tags for absolute and relative quantification (iTRAQ) method, have made the analysis of FFPE tissues possible.

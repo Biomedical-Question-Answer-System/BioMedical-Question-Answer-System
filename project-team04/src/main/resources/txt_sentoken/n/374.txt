@@ -1,0 +1,1 @@
+Plasma levels of T3, T4, and rT3 were changed after SR 33589 treatment except a decrease in T4 level at the highest dose whilst the T4 T3 ratio and the level of rT3 were dose-dependently increased by amiodarone treatment.

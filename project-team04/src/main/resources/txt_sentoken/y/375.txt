@@ -1,0 +1,1 @@
+AM and Dron affected TR expression in the RA similarly by decreasing TRalpha 1 and beta 1 expression by about 50%

@@ -1,0 +1,1 @@
+Primary factors correlating with fusion rates are the presence of transmembrane helices in HKs and the presence of DNA-binding domains in RRs, features that require correct (and separate) spatial location. In the absence of such features, there is a relative abundance of fused genes.

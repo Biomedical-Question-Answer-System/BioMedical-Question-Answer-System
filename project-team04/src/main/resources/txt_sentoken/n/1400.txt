@@ -1,0 +1,1 @@
+Single-cell analysis (SCA) has been increasingly recognized as the key technology for the elucidation of cellular functions, which are not accessible from bulk measurements on the population level. Thus far, SCA has been achieved by miniaturization of established engineering concepts to match the dimensions of a single cell

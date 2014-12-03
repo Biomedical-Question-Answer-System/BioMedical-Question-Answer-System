@@ -18,7 +18,7 @@ public class Question {
 
   private List<Triple> triples;
 
-  protected Question(String id, String body, QuestionType type, List<String> documents,
+  public Question(String id, String body, QuestionType type, List<String> documents,
           List<Snippet> snippets, List<String> concepts, List<Triple> triples) {
     super();
     this.id = id;

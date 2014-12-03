@@ -1,0 +1,1 @@
+Laser ablation electrospray ionization (LAESI) is a novel method for the direct imaging of biological tissues by mass spectrometry. By performing ionization in the ambient environment, this technique enables in vivo studies with potential for single-cell analysis.

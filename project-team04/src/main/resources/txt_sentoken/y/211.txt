@@ -1,0 +1,1 @@
+Bortezomib induces mitochondrial damage in native cells and also activates the UPR by splicing of Xbp-1 and induction of CHOP, which is significantly reduced by silencing of MUC4.

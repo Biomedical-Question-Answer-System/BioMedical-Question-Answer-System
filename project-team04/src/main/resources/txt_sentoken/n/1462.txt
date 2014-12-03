@@ -1,0 +1,1 @@
+The lack of CMT homologs in animal genomes could account for the observation that in contrast to plants, animals maintain primarily CG methylation.

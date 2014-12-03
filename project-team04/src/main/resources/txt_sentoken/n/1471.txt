@@ -1,0 +1,1 @@
+We have detected a chromodomain embedded within the catalytic region of a predicted Arabidopsis DNA methyltransferase that is diverged from other eukaryotic enzymes. The 791 residue "chromomethylase" (CMT1) is encoded by a floral transcript that is spliced from 20 exons and is present at only approximately 1/10(-7) of total mRNA.

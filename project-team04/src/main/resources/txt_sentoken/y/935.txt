@@ -1,0 +1,1 @@
+e area under the receiver operating characteristic curve of CRP measured on postoperative day 1 or 2 (CRP POD1-2) for predicting a poor clinical outcome was 0.870, and its cutoff point of 4 mg/dL had a sensitivity of 0.826 and a specificity of 0.843.

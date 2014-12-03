@@ -1,0 +1,1 @@
+The amount of single proteins in single cells can be as low as one copy per cell and is for most proteins in the attomole range or below; usually considered as insufficient for proteomic analysis.

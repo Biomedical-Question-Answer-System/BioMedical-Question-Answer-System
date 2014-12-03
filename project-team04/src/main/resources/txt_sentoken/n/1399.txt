@@ -1,0 +1,1 @@
+his is rapidly changing with the recent examples of single cell genomics, transcriptomics, proteomics and metabolomics. The rate of change is expected to accelerate owing to emerging technologies that range from micro/nanofluidics to microfabricated interfaces for mass spectrometry to third- and fourth-generation automated DNA sequencers

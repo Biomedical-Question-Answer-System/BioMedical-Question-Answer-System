@@ -1,0 +1,1 @@
+Different from p38, which is a negative regulator of autophagy, Hog1 is a positive regulator only required for mitophagy, but not other types of selective autophagy or bulk autophagy.

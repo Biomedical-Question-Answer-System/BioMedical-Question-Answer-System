@@ -1,0 +1,1 @@
+Other approaches for MS-based chemical imaging and profiling include those based on near-field laser ablation and inductively-coupled plasma MS analysis, which offer complementary capabilities for subcellular chemical imaging and profiling.

@@ -1,0 +1,1 @@
+Indeed, even well-known examples of functional mammalian lncRNAs, such as Gomafu [11], Evf-2 [12], XIST [13], Air [14], and HOTAIR [9], exhibit poor sequence conservation across species.

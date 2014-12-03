@@ -1,0 +1,1 @@
+Autophagy is a highly regulated intracellular degradation process by which cells remove cytosolic long-lived proteins and damaged organelles, and can be monitored by imaging the incorporation of microtubule-associated light chain 3 (LC3) fused to a fluorescent protein (GFP or mCherry) into nascent autophagosomes.

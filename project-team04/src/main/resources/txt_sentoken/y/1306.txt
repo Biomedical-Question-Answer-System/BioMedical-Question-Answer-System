@@ -1,0 +1,1 @@
+A CNE was classified as a transcriptional enhancer if it directed reproducible reporter gene expression in the same anatomical structure in at least three independent transgenic mouse embryos.CNE1CNE1 is a 76-bp sequence located approximately 619 kb upstream of human LHX2 within the 20th intron of DENND1A.

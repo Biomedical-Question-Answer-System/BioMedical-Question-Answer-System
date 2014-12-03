@@ -1,0 +1,1 @@
+These findings demonstrate that formalin fixation, paraffin processing, and LCM do not negatively impact protein quality and quantity as determined by MS and that FFPE samples are amenable to global proteomic analysis.

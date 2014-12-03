@@ -1,0 +1,1 @@
+.FPGAReconfigurable computing approaches accelerate the first stage of MSA by computing pairwise alignments with a pipeline of processing elements (PEs).

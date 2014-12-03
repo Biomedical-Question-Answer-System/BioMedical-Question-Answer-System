@@ -1,0 +1,1 @@
+Macroautophagy (hereafter autophagy) is a cellular degradation process, which in yeast is induced in response to nutrient deprivation.

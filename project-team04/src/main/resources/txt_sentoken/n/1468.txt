@@ -1,0 +1,1 @@
+Arabidopsis has two types of methyltransferases with demonstrated maintenance activity: MET1, which maintains CpG methylation and is homologous to mammalian DNMT1, and CHROMOMETHYLASE 3 (CMT3), which maintains CpNpG (N = A, T, C, or G) methylation and is unique to the plant kingdom.

@@ -1,0 +1,1 @@
+This paper shows how reconfigurable architectures can be used to derive an efficient fine-grained parallelization of the dynamic programming calculation. We describe how this technique leads to significant runtime savings for HMM database scanning on a standard off-the-shelf field-programmable gate array (FPGA).

@@ -1,0 +1,1 @@
+expanding our FPGA design to more powerful FPGA systems with parallel and higher density logic elements is a promising direction to significantly improve genomic sequence searching.

@@ -1,0 +1,1 @@
+Selected for validation were miR-20a, miR-21, miR-106a, miR-181b, and miR-203, and all 5 were enriched in tumors from the validation cohort (P < .001). Higher miR-21 expression was present in adenomas (P = .006) and in tumors with more advanced TNM staging (P < .001). In situ hybridization demonstrated miR-21 to be expressed at high levels in colonic carcinoma cells.

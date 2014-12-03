@@ -1,0 +1,1 @@
+Through a bioinformatics screening using TargetScan, we identified thyroid hormone receptor β1 (TRβ1), which negatively regulates β-MHC transcription, as a target of miR-27a

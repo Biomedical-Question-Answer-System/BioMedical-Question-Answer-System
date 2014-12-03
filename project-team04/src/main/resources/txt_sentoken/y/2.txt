@@ -1,0 +1,1 @@
+The mammalian DRM2 orthologs, Dnmt3a and Dnmt3b, are required to de novo methylate integrated retroviral sequences and imprinted genes [38], [39].

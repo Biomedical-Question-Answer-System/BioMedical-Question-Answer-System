@@ -1,0 +1,1 @@
+ORC binds to Nucleosome free regions (NFRs) in both budding yeast and Drosophila (1,37,38), suggesting that nucleosome organization may be a defining feature of origins in all eukaryotes

@@ -1,0 +1,1 @@
+Since the SW algorithm becomes computationally expensive for comparing sequences in a large database, we accelerated the computation time by using FPGA hardware.

@@ -1,0 +1,1 @@
+It remains unclear, however, whether starvation-induced and selective macroautophagy share identical adaptor molecules to capture their cargo. Here, we report that Alfy, a phosphatidylinositol 3-phosphate-binding protein, is central to the selective elimination of aggregated proteins.

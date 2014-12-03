@@ -1,0 +1,4 @@
+The ability of elevated pressure to significantly
+improve the recovery of intact proteins from FFPE tissues over the
+use of heat alone has great potential for broad application to top-down
+proteomic studies for the identification of disease biomarkers.

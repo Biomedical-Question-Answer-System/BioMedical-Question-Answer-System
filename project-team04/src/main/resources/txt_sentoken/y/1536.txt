@@ -1,0 +1,1 @@
+The accelerator implements a version of the Needleman-Wunsch algorithm for nucleotide sequence alignment. Sequence lengths are constrained only by available memory; the product of sequence lengths in the current implementation can be up to 2(22). The machine is implemented as two NuBus boards connected to a Mac IIf/x, using a mixture of TTL and FPGA technology clocked at 10 MHz.

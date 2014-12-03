@@ -1,0 +1,1 @@
+Analyzing the most parsimonious pathways, we find 87% of architectures to gain complexity over time through simple changes, among which fusion events account for 5.6 times as many architectures as fission.

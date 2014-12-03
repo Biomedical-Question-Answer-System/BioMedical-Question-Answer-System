@@ -1,0 +1,1 @@
+Many attempts have been made to accelerate the SW algorithm using either software or hardware by focusing on parallel processing of the score matrix [5]. This has been implemented using VLSI (Very Large Scale Integration) [6] and FPGA (Field Programmable Gate Array) [7] by simultaneously evaluating the cells along the minor diagonal of the score matrix.

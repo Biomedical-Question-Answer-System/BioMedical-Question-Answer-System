@@ -1,0 +1,1 @@
+Our prior work [4] has characterized the pairwise alignment performance of the FPGA accelerator

@@ -1,0 +1,1 @@
+RESULTS: A rare missense mutation (rs75932628-T) in the gene encoding the triggering receptor expressed on myeloid cells 2 (TREM2), which was predicted to result in an R47H substitution, was found to confer a significant risk of Alzheimer's disease in Iceland (odds ratio, 2.92; 95% confidence interval [CI], 2.09 to 4.09; P=3.42×10(-10)).

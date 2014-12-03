@@ -1,0 +1,1 @@
+Pharmacogenomics genes can be divided into drug target genes termed as pharmacodynamics genes (PD) and genes involved in drug transport and metabolism termed as pharmacokinetics genes (PK). To clarify the regulatory potential of miRNAs in pharmacogenomics, we have examined the potential regulation by miRNAs of PK and PD genes.

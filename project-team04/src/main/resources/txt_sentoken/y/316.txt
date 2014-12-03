@@ -1,0 +1,1 @@
+Phospholamban (PLN) is a key regulator of Ca(2+) homeostasis and contractility in the heart. Its regulatory effects are mediated through its interaction with the sarcoplasmic reticulum Ca(2+)-ATPase, (SERCA2a), resulting in alterations of its Ca(2+)-affinity

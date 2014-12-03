@@ -1,0 +1,1 @@
+he recent emergence of accelerator technologies such as FPGAs, GPUs and specialized processors have made it possible to achieve an excellent improvement in execution time for many bioinformatics applications, compared to current general-purpose platforms.

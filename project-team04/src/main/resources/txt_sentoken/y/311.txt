@@ -1,0 +1,1 @@
+SLN and PLN appear to bind to the same regulatory site in SERCA. However, in a ternary complex, PLN occupies the regulatory site and SLN binds to the exposed side of PLN and to SERCA.

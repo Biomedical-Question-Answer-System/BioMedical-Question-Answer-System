@@ -1,0 +1,1 @@
+A panel of drug-response genes was constructed, which contains 923 pharmacokinetic genes, 703 pharmacodynamic genes and 720 miRNAs.

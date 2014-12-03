@@ -1,0 +1,1 @@
+A pure software implementation of the SW algorithm was developed in the C language to benchmark against FPGA-based implementations

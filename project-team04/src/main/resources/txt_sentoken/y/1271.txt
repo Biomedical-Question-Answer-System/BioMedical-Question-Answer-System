@@ -1,0 +1,1 @@
+In this study, by using high-throughput microRNA profiling, we identified that two miRNAs (miR-21 and miR-148a) overexpressed in CD4+ T cells from both patients with lupus and lupus-prone MRL/lpr mice, which promote cell hypomethylation by repressing DNA methyltransferase 1 (DNMT1) expression.

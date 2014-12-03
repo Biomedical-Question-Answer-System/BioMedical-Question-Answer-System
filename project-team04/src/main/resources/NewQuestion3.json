@@ -1,0 +1,236 @@
+{"questions":  [
+  {  "id": "515ed87c298dcd4e51000032",
+    "body": "Do selenoproteins and selenium play a role in prostate cancer prevention?",
+    "type": "yesno"
+  },
+  {
+    "id": "5161cfa3298dcd4e5100003d",
+    "body": "Have germline variants been associated to colorectal cancer?",
+    "type": "yesno"
+  },
+  {
+    "id": "5162e9df298dcd4e5100004b",
+    "body": "Could DNA (cytosine-5-)-methyltransferases serve as tumour markers?",
+    "type": "yesno"
+  },
+  {
+    "id": "5162f5b6298dcd4e5100004c",
+    "body": "Do DNA double-strand breaks play a causal role in carcinogenesis?",
+    "type": "yesno"
+  },
+  {
+    "id": "51640b4a298dcd4e51000050",
+    "body": "Is it safe to take isotretinoin during pregnancy?",
+    "type": "yesno"
+  },
+  {
+    "id": "516523fd298dcd4e51000055",
+    "body": "Could Arimidex (anastrozole) cause hot flashes?",
+    "type": "yesno"
+  },
+  {
+    "id": "5168023b298dcd4e51000061",
+    "body": "Is MammaPrint cleared by the United States Food and Drug Administration? ",
+    "type": "yesno"
+  },
+  {
+    "id": "51680a49298dcd4e51000062",
+    "body": "Is it possible to detect survivin protein expression in normal human adult tissues?",
+    "type": "yesno"
+  },
+  {
+    "id": "513711055274a5fb0700000e",
+    "body": "Are viruses involved in the etiology of human subacute thyroiditis?",
+    "type": "yesno"
+  },
+  {
+    "id": "5148e42cd24251bc0500003b",
+    "body": "Can PLN mutations lead to dilated cardiomyopathy?",
+    "type": "yesno"
+  },
+  {
+    "id": "51490275d24251bc0500003d",
+    "body": "Is nimodipine recommended for prevention of vasospasm in aneurysmal subarachnoid hemorrhage patients?",
+    "type": "yesno"
+  },
+  {
+    "id": "514a1469d24251bc05000056",
+    "body": "Is there a pharmacogenetic test for trastuzumab?",
+    "type": "yesno"
+  },
+  {
+    "id": "514a59c2d24251bc0500005d",
+    "body": "Is paroxetine effective for treatment of premenstrual dysphoric disorder?",
+    "type": "yesno"
+  },
+  {
+    "id": "514b335dd24251bc05000061",
+    "body": "Does cortical spreading depression appear in ischemic penumbra following ischemic stroke?",
+    "type": "yesno"
+  },
+  {
+    "id": "514cbbf9d24251bc05000065",
+    "body": "Is there an association between c-reactive protein concentrations and outcomes of subarachnoid hemorrhage patients? ",
+    "type": "yesno"
+  },
+  {
+    "id": "514cc8dcd24251bc05000066",
+    "body": "Is depression associated with poor prognosis of brain tumor patients?",
+    "type": "yesno"
+  },
+  {
+    "id": "5151b8efd24251bc0500007a",
+    "body": "Is physical performance influenced by thyroid hormone metabolism?",
+    "type": "yesno"
+  },
+  {
+    "id": "51542e84d24251bc05000083",
+    "body": "Is imatinib an antidepressant drug?",
+    "type": "yesno"
+  },
+  {
+    "id": "5156be5ed24251bc05000087",
+    "body": "Is the microRNA 132 (miR-132) involved in brain pathologies?",
+    "type": "yesno"
+  },
+  {
+    "id": "5157fce5d24251bc0500008c",
+    "body": "Is it feasible to determine the complete proteome of yeast?",
+    "type": "yesno"
+  },
+  {
+    "id": "5158644cd24251bc0500008e",
+    "body": "Does physical activity influence gut hormones?",
+    "type": "yesno"
+  },
+  {
+    "id": "51588c1ad24251bc05000094",
+    "body": "Is factor XI deficient in Hemophilia C?",
+    "type": "yesno"
+  },
+  {
+    "id": "51588c34d24251bc05000095",
+    "body": "Is TREM2 associated with Alzheimer's disease in humans?",
+    "type": "yesno"
+  },
+  {
+    "id": "51593dc8d24251bc05000099",
+    "body": "Proteomic analyses need prior knowledge of the organism complete genome. Is the complete genome of the bacteria of the genus Arthrobacter available?",
+    "type": "yesno"
+  },
+  {
+    "id": "51598b08d24251bc0500009f",
+    "body": "Does strenuous physical activity affect thyroid hormone metabolism?",
+    "type": "yesno"
+  },
+  {
+    "id": "5159b990d24251bc050000a3",
+    "body": "Is cocaine use associated with increased risk for intracerebral hemorrhage?",
+    "type": "yesno"
+  },
+  {
+    "id": "515ac533d24251bc050000a9",
+    "body": "Does thyroid hormone regulate calcium transient in the myocardium? ",
+    "type": "yesno"
+  },
+  {
+    "id": "515d9e5c298dcd4e5100000e",
+    "body": "Are there randomised controlled trials on sevoflurane?",
+    "type": "yesno"
+  },
+  {
+    "id": "511a1e12df1ebcce7d000009",
+    "body": "Is it possible to determine the proteome of a formalin fixed and paraffin embedded  (FFPE) tissue?",
+    "type": "yesno"
+  },
+  {
+    "id": "511a4ec01159fa8212000004",
+    "body": "Is miR-21 related to carcinogenesis?",
+    "type": "yesno"
+  },
+  {
+    "id": "5133b15e5274a5fb0700000b",
+    "body": "Are CpG islands located close to housekeeping genes?",
+    "type": "yesno"
+  },
+  {
+    "id": "513596225274a5fb0700000d",
+    "body": "Are nucleosomes positioned at DNA replication origins?",
+    "type": "yesno"
+  },
+  {
+    "id": "5139ec51bee46bd34c000006",
+    "body": "Do Conserved noncoding elements act as enhancers?",
+    "type": "yesno"
+  },
+  {
+    "id": "513efe01bee46bd34c00000e",
+    "body": "Is paramyxovirus involved in human subacute thyroiditis?",
+    "type": "yesno"
+  },
+  {
+    "id": "513f3ab6bee46bd34c00000f",
+    "body": "Do proton pump inhibitors affect thyroxine absorption?",
+    "type": "yesno"
+  },
+  {
+    "id": "513f4025bee46bd34c000011",
+    "body": "Is microRNA(miRNA) 29 involved in post-ischemic cardiac remodeling?",
+    "type": "yesno"
+  },
+  {
+    "id": "513f4249bee46bd34c000012",
+    "body": "Is microRNA(miRNA) 30 involved in post-ischemic cardiac remodeling?",
+    "type": "yesno"
+  },
+  {
+    "id": "513f4892bee46bd34c000014",
+    "body": "Does triiodothyronine (T3) has cardiac angiogenic effects?",
+    "type": "yesno"
+  },
+  {
+    "id": "5144bc8fd24251bc0500000e",
+    "body": "Is single-cell analysis (SCA) possible in proteomics?",
+    "type": "yesno"
+  },
+  {
+    "id": "51485008d24251bc05000028",
+    "body": "Is miR-126 involved in heart failure?",
+    "type": "yesno"
+  },
+  {
+    "id": "5149b575d24251bc05000047",
+    "body": "Is there a difference in the rate between gene fusion and gene fission?",
+    "type": "yesno"
+  },
+  {
+    "id": "5149e23dd24251bc0500004b",
+    "body": "Is marijuana use associated with increased risk for stroke?",
+    "type": "yesno"
+  },
+  {
+    "id": "5158a5b8d24251bc05000097",
+    "body": "Have Quantitative Trait Loci affecting splicing (splicing QTLs) been linked to disease?",
+    "type": "yesno"
+  },
+  {
+    "id": "5171833c8ed59a060a00000f",
+    "body": "Are chromomethylases present in animal genomes?",
+    "type": "yesno"
+  },
+  {
+    "id": "517395b98ed59a060a00001a",
+    "body": "Are transcription and splicing connected?",
+    "type": "yesno"
+  },
+  {
+"id": "51763a278ed59a060a000030",
+"body": "Can protein coding exons originate from ALU sequences?",
+"type": "yesno"
+  },
+  {
+"id": "51be1750047fa84d1d000005",
+"body": "Has field-programmable gate array (FPGA) technology been used to solve sequence alignment problems?",
+"type": "yesno"
+  }]
+}

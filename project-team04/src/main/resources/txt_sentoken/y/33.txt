@@ -1,0 +1,1 @@
+Assays used a pooled RNA sample from fixed paraffin-embedded tissues to evaluate the analytical performance of a 21-gene panel with respect to amplification efficiency, precision, linearity, and dynamic range, as well as limits of detection and quantification.

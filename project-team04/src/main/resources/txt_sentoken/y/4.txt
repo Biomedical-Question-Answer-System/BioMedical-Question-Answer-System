@@ -1,0 +1,1 @@
+BLASTX searches and phylogenetic analysis suggested that five cDNAs belonged to four classes (Dnmt1, Dnmt2, CMT and Dnmt3) of DNA methyltransferase genes.

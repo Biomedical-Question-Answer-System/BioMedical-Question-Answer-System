@@ -1,0 +1,10 @@
+A variety of methods for profiling FFPE tissue
+have been employed
+recently. Some are practical for slide-mounted FFPE tissue, such as
+quantitative fluorescence imaging analysis (QFIA), which is reproducible
+and sensitive for specific standardized proteins,12−14 or MALDI-imaging
+mass spectrometry (MS).15−17 Other encouraging mass spectrometry
+(MS)-based proteomic studies of FFPE tissues have appeared in the
+recent literature;2−7,9,18−20 however, these investigations have typically been
+restricted to minute tissue specimens, such as those obtained by laser
+capture microdissection.

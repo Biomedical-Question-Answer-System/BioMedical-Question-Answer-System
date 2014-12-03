@@ -1,0 +1,1 @@
+To identify the mechanisms responsible for these genome-wide DNA methylation alterations, we measured the gene expression levels of several DNA methyltransferases (DNMTs) and their interacting proteins by TaqMan qPCR and observed increased expression of DNMT3A2, DNMT3B, and EZH2 in tumors.

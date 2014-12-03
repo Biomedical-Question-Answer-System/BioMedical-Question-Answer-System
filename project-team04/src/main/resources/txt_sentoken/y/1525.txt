@@ -1,0 +1,1 @@
+We have constructed a linear systolic array to perform pairwise sequence distance computations using dynamic programming. This results in an implementation with significant runtime savings on a standard FPGA.

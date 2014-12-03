@@ -98,12 +98,12 @@ public class CasConsumer extends CasConsumer_ImplBase {
     // the end of the question
     writer.printf("\t},\n");
     //exact answer
-    writer.printf("\t\t\"snippets\": [");
+    writer.printf("\t\t\"exact answer\": [");
     
     FSIterator answerIt = jcas.getJFSIndexRepository().getAllIndexedFS(Answer.type);
     while(answerIt.hasNext()){
       Answer answer = (Answer) answerIt.next();
-      writer.printf("\n\t\t\t[\n\t\t\t\t\"exact answer\": \"%s\"\n\t\t\t]", answer.getText());
+      writer.printf("\n\t\t\t[\n\t\t\t\t%s\"\n\t\t\t]", answer.getText());
       if (answerIt.hasNext())
         writer.printf(",");
     }

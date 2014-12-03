@@ -1,0 +1,1 @@
+n Arabidopsis thaliana, we have successfully identified nine unique proteins in a single-cell sample and 56 proteins from a pool of 15 single-cell samples from glucosinolate-rich S-cells by nanoLC-MS/MS proteomic analysis, thus establishing the proof-of-concept for true single-cell proteomic analysis

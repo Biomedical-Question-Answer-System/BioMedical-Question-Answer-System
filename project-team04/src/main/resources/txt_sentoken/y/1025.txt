@@ -1,0 +1,1 @@
+So far, attempts to generate such maps for any proteome have failed to reach complete proteome coverage. Here we use a strategy based on high-throughput peptide synthesis and mass spectrometry to generate an almost complete reference map (97% of the genome-predicted proteins) of the Saccharomyces cerevisiae proteome.

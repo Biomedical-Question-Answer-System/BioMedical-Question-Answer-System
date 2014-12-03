@@ -1,0 +1,1 @@
+We demonstrate that E2F1 requires SC35 to switch the alternative splicing profile of various apoptotic genes such as c-flip, caspases-8 and -9 and Bcl-x, towards the expression of pro-apoptotic splice variants. Finally, we provide evidence that E2F1 upregulates SC35 in response to DNA-damaging agents and show that SC35 is required for apoptosis in response to these drugs.

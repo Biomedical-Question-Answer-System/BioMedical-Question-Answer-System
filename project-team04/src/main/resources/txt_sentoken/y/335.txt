@@ -1,0 +1,1 @@
+Addition of T3 to the incubation medium, significantly modified the insulin release, but its effect varied according to the glucose concentration in the medium, i.e. it enhanced the insulin release at a glucose concentration between 2 to 8 mmol/l; it has no effect at 12 mmol/glucose, and significantly inhibited the secretion of insulin in the presence of 16.6 mmol/l glucose.

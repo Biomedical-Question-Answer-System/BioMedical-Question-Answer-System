@@ -1,0 +1,1 @@
+Methylation-free CpG clusters, so-called HTF islands, are most often associated with the promoter regions of housekeeping genes, whereas genes expressed in a single-cell type are usually deficient in these sequences.

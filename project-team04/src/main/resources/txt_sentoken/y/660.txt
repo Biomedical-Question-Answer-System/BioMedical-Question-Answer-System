@@ -1,0 +1,1 @@
+The tumor suppressor breast cancer susceptibility protein 1 (BRCA1) protects our cells from genomic instability in part by facilitating the efficient repair of DNA double-strand breaks (DSBs). BRCA1 promotes the error-free repair of DSBs through homologous recombination and is also implicated in the regulation of nonhomologous end joining (NHEJ) repair fidelity.

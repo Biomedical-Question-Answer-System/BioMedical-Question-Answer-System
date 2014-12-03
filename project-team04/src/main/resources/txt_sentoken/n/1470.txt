@@ -1,0 +1,1 @@
+A cytosine DNA methyltransferase containing a chromodomain, Zea methyltransferase2 (Zmet2), was cloned from maize. The sequence of ZMET2 is similar to that of the Arabidopsis chromomethylases CMT1 and CMT3, with C-terminal motifs characteristic of eukaryotic and prokaryotic DNA methyltransferases.

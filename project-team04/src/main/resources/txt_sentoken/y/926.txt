@@ -1,0 +1,1 @@
+After simulated infarction, the model displays the linear relation between final infarct size and the number of CSD waves traversing the penumbra that has been reported experimentally, although damage with each individual wave progresses nonlinearly with time.
