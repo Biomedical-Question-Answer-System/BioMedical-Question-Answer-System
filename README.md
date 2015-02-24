@@ -1,5 +1,5 @@
 We are a team of students in Language Technologies Institute (LTI), School of Computer Science (SCS) at Carnegie Mellon University (CMU).  
-We are doing a project to build an Question Answer System.  
+We have done a project to build an Question Answer System During Aug.-Dec. 2014.  
 
 ==============  
 You can find more information on our project Wiki.  
