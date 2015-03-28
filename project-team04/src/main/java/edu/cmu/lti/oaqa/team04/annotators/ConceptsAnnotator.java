@@ -23,7 +23,7 @@ import edu.cmu.lti.oaqa.type.retrieval.ConceptSearchResult;
 public class ConceptsAnnotator extends JCasAnnotator_ImplBase {
   private static GoPubMedService service = null;
 
-  @Override
+   
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     try {
       service = new GoPubMedService("./project.properties");
@@ -33,7 +33,7 @@ public class ConceptsAnnotator extends JCasAnnotator_ImplBase {
     }
   }
 
-  @Override
+   
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
     // TODO Auto-generated method stub
     FSIterator it = aJCas.getAnnotationIndex(Question.type).iterator();
@@ -81,7 +81,7 @@ public class ConceptsAnnotator extends JCasAnnotator_ImplBase {
 
       OntologyServiceResponse.Result meshResult = service.findMeshEntitiesPaged(text, 0);
       for (OntologyServiceResponse.Finding finding : meshResult.getFindings()) {
-        if (finding.getScore() >scorebar) {
+        if (finding.getScore() > scorebar) {
           findingList.add(finding);
         } else {
           break;
@@ -109,7 +109,7 @@ public class ConceptsAnnotator extends JCasAnnotator_ImplBase {
         result.setScore(f.getScore());
         result.setRank(count++);
         result.addToIndexes(aJCas);
-        if(count>100){
+        if (count > 100) {
           break;
         }
       }

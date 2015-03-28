@@ -44,7 +44,7 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
 
   // private int questionnum =0;
 
-  @Override
+   
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     String filePath = "/BioASQ-SampleData1B.json";
     Object value = filePath;
@@ -78,7 +78,7 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     }
   }
 
-  @Override
+   
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
     // TODO Auto-generated method stub
     boolean flag = true;
@@ -94,25 +94,26 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
         supposed_num += s.getOffsetInEndSection() - s.getOffsetInBeginSection();
 
       }
-      //System.out.println("hahahah"+goldSnippetMap.toString());
+      // System.out.println("hahahah"+goldSnippetMap.toString());
       // supposed_num += goldSnippetMap.size();
       FSIterator<?> snippetResultIt = aJCas.getJFSIndexRepository().getAllIndexedFS(Passage.type);
       HashMap<String, Snippet> snippetResultMap = new HashMap<String, Snippet>();
-      //System.out.println("here i am @@@@@@@@@");
+      // System.out.println("here i am @@@@@@@@@");
       while (snippetResultIt.hasNext()) {
-        //System.out.println("what the ffff&&&&&&&&&");
+        // System.out.println("what the ffff&&&&&&&&&");
         Passage snippetResult = (Passage) snippetResultIt.next();
         answer_num += snippetResult.getOffsetInEndSection()
                 - snippetResult.getOffsetInBeginSection();
         if (goldSnippetMap.containsKey(snippetResult.getUri())) {
           Snippet goldSnippet = goldSnippetMap.get(snippetResult.getUri());
-          if (goldSnippet!=null&&snippetResult!=null&&goldSnippet.getBeginSection().equals(snippetResult.getBeginSection())) {
+          if (goldSnippet != null && snippetResult != null
+                  && goldSnippet.getBeginSection().equals(snippetResult.getBeginSection())) {
 
             correct_num += getintersection(goldSnippet.getOffsetInBeginSection(),
                     goldSnippet.getOffsetInEndSection(), snippetResult.getOffsetInBeginSection(),
                     snippetResult.getOffsetInEndSection());
           }
-        
+
         }
       }
 
@@ -140,30 +141,37 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
   }
 
   public int getintersection(int start1, int end1, int start2, int end2) {
-    if(start1>end2) return 0;
-    if(start2>end1) return 0;
-    if(start1<=end2 && start1>=start2&&end1>=end2) return end2-start1;
-    if(start1<=end2 && start1>=start2&&end1<end2) return end1-start1;
-    if(start1<=start2 && start2<=end1 && end1 <= end2) return end1-start2;
-    if(start1<start2 && start2<=end2 && end2<=end1) return end2-start2;
-    else return 0;
-//    if (start1 > start2) {
-//      if (end2 < start1) {
-//        return 0;
-//      } else if (end2 < end1) {
-//        return end2 - start1;
-//      } else {
-//        return end1 - start1;
-//      }
-//    } else {
-//      if (end1 < start2) {
-//        return 0;
-//      } else if (end1 < end2) {
-//        return end1 - start2;
-//      } else {
-//        return end2 - start2;
-//      }
-//    }
+    if (start1 > end2)
+      return 0;
+    if (start2 > end1)
+      return 0;
+    if (start1 <= end2 && start1 >= start2 && end1 >= end2)
+      return end2 - start1;
+    if (start1 <= end2 && start1 >= start2 && end1 < end2)
+      return end1 - start1;
+    if (start1 <= start2 && start2 <= end1 && end1 <= end2)
+      return end1 - start2;
+    if (start1 < start2 && start2 <= end2 && end2 <= end1)
+      return end2 - start2;
+    else
+      return 0;
+    // if (start1 > start2) {
+    // if (end2 < start1) {
+    // return 0;
+    // } else if (end2 < end1) {
+    // return end2 - start1;
+    // } else {
+    // return end1 - start1;
+    // }
+    // } else {
+    // if (end1 < start2) {
+    // return 0;
+    // } else if (end1 < end2) {
+    // return end1 - start2;
+    // } else {
+    // return end2 - start2;
+    // }
+    // }
   }
 
   public void printReport() {
@@ -178,4 +186,3 @@ public class SnippetEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     // System.out.println("GMAP:" + getGmap());
   }
 }
-

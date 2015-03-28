@@ -44,28 +44,28 @@ public class SnippetAnnotator extends JCasAnnotator_ImplBase {
   static final SentenceChunker SENTENCE_CHUNKER = new SentenceChunker(TOKENIZER_FACTORY,
           SENTENCE_MODEL);
 
-  @Override
+   
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
 
   }
 
-  @Override
+   
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
     // TODO Auto-generated method stub
-    FSIterator questionsIt = aJCas
-            .getAnnotationIndex(Question.type).iterator();
+    FSIterator questionsIt = aJCas.getAnnotationIndex(Question.type).iterator();
     Question question = new Question(aJCas);
     if (questionsIt.hasNext()) {
       question = (Question) questionsIt.next();
     }
-    FSIterator documentsIt = aJCas.getJFSIndexRepository().getAllIndexedFS(edu.cmu.lti.oaqa.type.retrieval.Document.type);
+    FSIterator documentsIt = aJCas.getJFSIndexRepository().getAllIndexedFS(
+            edu.cmu.lti.oaqa.type.retrieval.Document.type);
     edu.cmu.lti.oaqa.type.retrieval.Document documents = null;
     SnippetWebService snippetService = new SnippetWebService();
     List<Snippet> snippetList = new ArrayList<Snippet>();
     while (documentsIt.hasNext()) {
       documents = (edu.cmu.lti.oaqa.type.retrieval.Document) documentsIt.next();
       JSONObject jsonObject = snippetService.getSnippets(documents.getUri());
-      if(jsonObject == null){
+      if (jsonObject == null) {
         continue;
       }
       JSONArray jsonArray = (JSONArray) jsonObject.get("sections");
@@ -87,21 +87,22 @@ public class SnippetAnnotator extends JCasAnnotator_ImplBase {
         Chunk sentence = it.next();
         int start = sentence.start();
         int end = sentence.end();
-        Snippet snippet = new Snippet(snippetService.getUrl(documents.getUri()).toString(), slice.substring(start, end), start, end, "sections.0", "sections.0", 0);
+        Snippet snippet = new Snippet(snippetService.getUrl(documents.getUri()).toString(),
+                slice.substring(start, end), start, end, "sections.0", "sections.0", 0);
         snippetList.add(snippet);
         tfIdf.handle(snippet.getText());
-   //     System.out.println(slice.substring(start, end));
+        // System.out.println(slice.substring(start, end));
       }
-      for(Snippet s:snippetList){
+      for (Snippet s : snippetList) {
         s.setConfidence(tfIdf.proximity(question.getText(), s.getText()));
       }
     }
     snippetList.sort(new SnippetComparator());
     int count = Math.min(10, snippetList.size());
-    for(int i =0 ;i<count;i++ ){
+    for (int i = 0; i < count; i++) {
       Snippet snippetResult = snippetList.get(i);
       Passage snippets = new Passage(aJCas);
-      snippets.setRank(i+1);
+      snippets.setRank(i + 1);
       snippets.setTitle(snippetResult.getDocument());
       snippets.setText(snippetResult.getText());
       snippets.setScore(snippetResult.getConfidence());

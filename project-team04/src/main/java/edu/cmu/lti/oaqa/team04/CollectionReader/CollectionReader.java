@@ -54,7 +54,7 @@ public class CollectionReader extends CollectionReader_ImplBase {
     NumofQues = inputs.size();
   }
 
-  @Override
+   
   public void getNext(CAS aCAS) throws IOException, CollectionException {
     JCas jcas;
     try {
@@ -69,17 +69,17 @@ public class CollectionReader extends CollectionReader_ImplBase {
     jcas.setDocumentText(question.getBody());
   }
 
-  @Override
+   
   public boolean hasNext() throws IOException, CollectionException {
     return CurrPos < inputs.size();
   }
 
-  @Override
+   
   public Progress[] getProgress() {
     return new Progress[] { new ProgressImpl(CurrPos, inputs.size(), Progress.ENTITIES) };
   }
 
-  @Override
+   
   public void close() throws IOException {
   }
 

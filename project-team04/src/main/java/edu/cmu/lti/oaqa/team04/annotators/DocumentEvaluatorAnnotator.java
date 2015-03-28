@@ -39,14 +39,14 @@ public class DocumentEvaluatorAnnotator extends JCasAnnotator_ImplBase {
   private int answer_num = 0;
 
   private int supposed_num = 0;
-  
-  private double  totalMap =0;
-  
-  private double totalGmap = 1;
-  
-//  private int questionnum =0;
 
-  @Override
+  private double totalMap = 0;
+
+  private double totalGmap = 1;
+
+  // private int questionnum =0;
+
+   
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     String filePath = "/BioASQ-SampleData1B.json";
     Object value = filePath;
@@ -80,11 +80,11 @@ public class DocumentEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     }
   }
 
-  @Override
+   
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
     // TODO Auto-generated method stub
- //   double map = 0;
-//    double gmap = 1;
+    // double map = 0;
+    // double gmap = 1;
     boolean flag = true;
     int max = 0;
     Question question = new Question(aJCas);
@@ -95,8 +95,7 @@ public class DocumentEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     if (documentMap.containsKey(question.getId())) {
       ArrayList<String> golddocumentList = documentMap.get(question.getId());
       supposed_num += golddocumentList.size();
-      FSIterator<?> docResultIt = aJCas.getJFSIndexRepository().getAllIndexedFS(
-              Document.type);
+      FSIterator<?> docResultIt = aJCas.getJFSIndexRepository().getAllIndexedFS(Document.type);
       HashMap<String, Integer> documentResultMap = new HashMap<String, Integer>();
       while (docResultIt.hasNext()) {
         Document document = (Document) docResultIt.next();
@@ -128,10 +127,10 @@ public class DocumentEvaluatorAnnotator extends JCasAnnotator_ImplBase {
         }
 
       }
- //     System.out.println("MAP: " + map / conceptList.size() + "\n");
-  //    System.out.println("GMAP: " + Math.pow(gmap, 1.0 / conceptList.size()) + "\n");
- //     totalMap += map;
-  //    totalGmap *= gmap;
+      // System.out.println("MAP: " + map / conceptList.size() + "\n");
+      // System.out.println("GMAP: " + Math.pow(gmap, 1.0 / conceptList.size()) + "\n");
+      // totalMap += map;
+      // totalGmap *= gmap;
       printReport();
     }
   }
@@ -149,13 +148,15 @@ public class DocumentEvaluatorAnnotator extends JCasAnnotator_ImplBase {
   public double getRecall() {
     return (double) correct_num / supposed_num;
   }
+
   public double getMap() {
     return (double) totalMap / supposed_num;
   }
 
   public double getGmap() {
-    return (double) Math.pow(totalGmap, 1.0/supposed_num);
+    return (double) Math.pow(totalGmap, 1.0 / supposed_num);
   }
+
   public void printReport() {
     System.out.println();
     System.out.println("Correct Num:" + correct_num);

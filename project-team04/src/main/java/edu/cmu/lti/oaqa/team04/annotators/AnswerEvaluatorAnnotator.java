@@ -47,7 +47,7 @@ public class AnswerEvaluatorAnnotator extends JCasAnnotator_ImplBase {
 
   // private int questionnum =0;
 
-  @Override
+   
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     String filePath = "/NewAnswer.json";
     Object value = filePath;
@@ -65,14 +65,14 @@ public class AnswerEvaluatorAnnotator extends JCasAnnotator_ImplBase {
 
     for (json.gson.Question q : inputs) {
       if (q instanceof TrainingYesNoQuestion) {
-        yesnoMap.put(q.getId(), ((TrainingYesNoQuestion)q).getExactAnswer());
-    
+        yesnoMap.put(q.getId(), ((TrainingYesNoQuestion) q).getExactAnswer());
+
       }
 
     }
   }
 
-  @Override
+   
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
     // TODO Auto-generated method stub
     boolean flag = true;
@@ -82,7 +82,7 @@ public class AnswerEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     if (questionIt.hasNext()) {
       question = (Question) questionIt.next();
     }
-    if(!question.getQuestionType().equals("YES_NO")){
+    if (!question.getQuestionType().equals("YES_NO")) {
       return;
     }
     if (yesnoMap.containsKey(question.getId())) {
@@ -90,11 +90,12 @@ public class AnswerEvaluatorAnnotator extends JCasAnnotator_ImplBase {
       answer_num++;
       FSIterator<?> answerIt = aJCas.getJFSIndexRepository().getAllIndexedFS(Answer.type);
       Answer resultAnswer = new Answer(aJCas);
-      if(answerIt.hasNext()){
-        resultAnswer =  (Answer) answerIt.next();
+      if (answerIt.hasNext()) {
+        resultAnswer = (Answer) answerIt.next();
       }
-        if(resultAnswer.getText().substring(0, 1).toLowerCase().equals(goldAnswer.substring(0,1).toLowerCase())){
-          correct_num++;
+      if (resultAnswer.getText().substring(0, 1).toLowerCase()
+              .equals(goldAnswer.substring(0, 1).toLowerCase())) {
+        correct_num++;
       }
 
     }
@@ -145,10 +146,10 @@ public class AnswerEvaluatorAnnotator extends JCasAnnotator_ImplBase {
     System.out.println();
     System.out.println("Correct Num:" + correct_num);
     System.out.println("Total Returned Answer:" + answer_num);
-//    System.out.println("Gold Answer Num:" + supposed_num);
+    // System.out.println("Gold Answer Num:" + supposed_num);
     System.out.println("Precision:" + getPrecision());
- //   System.out.println("Recall:" + getRecall());
-//    System.out.println("F-socre:" + getfScore());
+    // System.out.println("Recall:" + getRecall());
+    // System.out.println("F-socre:" + getfScore());
     // System.out.println("MAP:" + getMap());
     // System.out.println("GMAP:" + getGmap());
   }

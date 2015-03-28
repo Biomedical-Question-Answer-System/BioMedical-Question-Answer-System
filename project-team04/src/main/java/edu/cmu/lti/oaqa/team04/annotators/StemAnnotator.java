@@ -17,13 +17,10 @@ import org.apache.uima.resource.ResourceInitializationException;
 
 import edu.cmu.lti.oaqa.type.input.Question;
 
-
-
-
 public class StemAnnotator extends JCasAnnotator_ImplBase {
   static private HashSet<String> stopwordsSet;
 
-  @Override
+   
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     stopwordsSet = new HashSet<String>();
     String sLine;
@@ -48,7 +45,7 @@ public class StemAnnotator extends JCasAnnotator_ImplBase {
 
   }
 
-  @Override
+   
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
     // TODO Auto-generated method stub
     FSIterator it = aJCas.getAnnotationIndex(Question.type).iterator();
@@ -58,8 +55,8 @@ public class StemAnnotator extends JCasAnnotator_ImplBase {
       questionTypeSys = (Question) it.next();
     }
     String text = questionTypeSys.getText();
- //   System.out.println(text);
-    String finaltext ="";
+    // System.out.println(text);
+    String finaltext = "";
     text = text.replace(",", " ");
     text = text.replace(".", " ");
     text = text.replace("!", " ");
@@ -67,17 +64,16 @@ public class StemAnnotator extends JCasAnnotator_ImplBase {
     text = text.replace("?", " ");
     text = text.replace("-", " ");
     text = text.replace("'s ", " ");
-//    System.out.println(text);
+    // System.out.println(text);
     List<String> res = new ArrayList<String>();
-    for (String s: text.replaceAll("[^0-9a-zA-Z ]", "").toLowerCase().split("\\s+"))
-          if(!stopwordsSet.contains(s))
-            res.add(s);
-    for(String s :res){
-      finaltext += s+" "+"AND"+" ";
+    for (String s : text.replaceAll("[^0-9a-zA-Z ]", "").toLowerCase().split("\\s+"))
+      if (!stopwordsSet.contains(s))
+        res.add(s);
+    for (String s : res) {
+      finaltext += s + " " + "AND" + " ";
     }
     System.out.println(finaltext.substring(0, finaltext.lastIndexOf("AND")).trim());
     questionTypeSys.setText(finaltext.substring(0, finaltext.lastIndexOf("AND")).trim());
   }
 
 }
-

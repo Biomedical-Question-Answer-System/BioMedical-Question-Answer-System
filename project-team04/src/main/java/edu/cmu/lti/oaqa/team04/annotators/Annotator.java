@@ -26,7 +26,7 @@ import edu.cmu.lti.oaqa.type.kb.Triple;
 public class Annotator extends JCasAnnotator_ImplBase {
   static GoPubMedService service = null;
 
-  @Override
+   
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     try {
       GoPubMedService service = new GoPubMedService("./project.properties");
@@ -36,7 +36,7 @@ public class Annotator extends JCasAnnotator_ImplBase {
     }
   }
 
-  @Override
+   
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
     // TODO Auto-generated method stub
     FSIterator it = aJCas.getAnnotationIndex(Question.type).iterator();
@@ -65,8 +65,9 @@ public class Annotator extends JCasAnnotator_ImplBase {
         confidenceList.add(finding.getScore());
       }
       conceptTypeSys.setName("Disease Ontology");
-      //conceptTypeSys.setUris(Utils.createStringList(aJCas, conceptList));
-      //conceptTypeSys.setMentions(Utils.fromCollectionToFSList(aJCas, (Collection) confidenceList));
+      // conceptTypeSys.setUris(Utils.createStringList(aJCas, conceptList));
+      // conceptTypeSys.setMentions(Utils.fromCollectionToFSList(aJCas, (Collection)
+      // confidenceList));
       conceptTypeSys.addToIndexes(aJCas);
       conceptList = new ArrayList<String>();
       confidenceList = new ArrayList<Double>();
@@ -78,8 +79,9 @@ public class Annotator extends JCasAnnotator_ImplBase {
         confidenceList.add(finding.getScore());
       }
       conceptTypeSys.setName("Gene Ontology");
-      //conceptTypeSys.setUris(Utils.createStringList(aJCas, conceptList));
-      //conceptTypeSys.setMentions(Utils.fromCollectionToFSList(aJCas, (Collection) confidenceList));
+      // conceptTypeSys.setUris(Utils.createStringList(aJCas, conceptList));
+      // conceptTypeSys.setMentions(Utils.fromCollectionToFSList(aJCas, (Collection)
+      // confidenceList));
       conceptTypeSys.addToIndexes(aJCas);
       conceptList = new ArrayList<String>();
       confidenceList = new ArrayList<Double>();
@@ -90,8 +92,9 @@ public class Annotator extends JCasAnnotator_ImplBase {
         confidenceList.add(finding.getScore());
       }
       conceptTypeSys.setName("Jochem");
-      //conceptTypeSys.setUris(Utils.createStringList(aJCas, conceptList));
-      //conceptTypeSys.setMentions(Utils.fromCollectionToFSList(aJCas, (Collection) confidenceList));
+      // conceptTypeSys.setUris(Utils.createStringList(aJCas, conceptList));
+      // conceptTypeSys.setMentions(Utils.fromCollectionToFSList(aJCas, (Collection)
+      // confidenceList));
       conceptTypeSys.addToIndexes(aJCas);
       conceptList = new ArrayList<String>();
       confidenceList = new ArrayList<Double>();
@@ -102,8 +105,9 @@ public class Annotator extends JCasAnnotator_ImplBase {
         confidenceList.add(finding.getScore());
       }
       conceptTypeSys.setName("MeSH");
-      //conceptTypeSys.setUris(Utils.createStringList(aJCas, conceptList));
-      //conceptTypeSys.setMentions(Utils.fromCollectionToFSList(aJCas, (Collection) confidenceList));
+      // conceptTypeSys.setUris(Utils.createStringList(aJCas, conceptList));
+      // conceptTypeSys.setMentions(Utils.fromCollectionToFSList(aJCas, (Collection)
+      // confidenceList));
       conceptTypeSys.addToIndexes(aJCas);
       conceptList = new ArrayList<String>();
       confidenceList = new ArrayList<Double>();
@@ -114,8 +118,9 @@ public class Annotator extends JCasAnnotator_ImplBase {
         confidenceList.add(finding.getScore());
       }
       conceptTypeSys.setName("UniProt");
-      //conceptTypeSys.setUris(Utils.createStringList(aJCas, conceptList));
-      //conceptTypeSys.setMentions(Utils.fromCollectionToFSList(aJCas, (Collection) confidenceList));
+      // conceptTypeSys.setUris(Utils.createStringList(aJCas, conceptList));
+      // conceptTypeSys.setMentions(Utils.fromCollectionToFSList(aJCas, (Collection)
+      // confidenceList));
       conceptTypeSys.addToIndexes(aJCas);
       // Triples
       LinkedLifeDataServiceResponse.Result linkedLifeDataResult = service

@@ -51,6 +51,7 @@ public class AnswerAnnotator extends JCasAnnotator_ImplBase {
   DynamicLMClassifier<NGramProcessLM> mClassifier;
 
   private int question_count = 0;
+
   void train() throws IOException {
     int numTrainingCases = 0;
     int numTrainingChars = 0;
@@ -74,7 +75,7 @@ public class AnswerAnnotator extends JCasAnnotator_ImplBase {
     System.out.println("  # Training Chars=" + numTrainingChars);
   }
 
-  @Override
+   
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     mPolarityDir = new File("./src/main/resources/txt_sentoken");
     // System.out.println("\nData Directory=" + mPolarityDir);
@@ -89,7 +90,7 @@ public class AnswerAnnotator extends JCasAnnotator_ImplBase {
     }
   }
 
-  @Override
+   
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
     // TODO Auto-generated method stub
     FSIterator questionsIt = aJCas.getAnnotationIndex(Question.type).iterator();
@@ -102,27 +103,24 @@ public class AnswerAnnotator extends JCasAnnotator_ImplBase {
     if (!question.getQuestionType().equals("YES_NO")) {
       return;
     }
-    FSIterator snippetsIt = aJCas.getJFSIndexRepository().getAllIndexedFS(
-            Passage.type);
-    while(snippetsIt.hasNext()){
+    FSIterator snippetsIt = aJCas.getJFSIndexRepository().getAllIndexedFS(Passage.type);
+    while (snippetsIt.hasNext()) {
       Passage snippetResult = (Passage) snippetsIt.next();
       Classification classification = mClassifier.classify(snippetResult.getText());
-      if (classification.bestCategory().equals("n")){
+      if (classification.bestCategory().equals("n")) {
         no++;
-      }
-      else{
+      } else {
         yes++;
       }
-      
+
     }
     Answer finalAnswer = new Answer(aJCas);
-    if(no>0){
+    if (no > 0) {
       finalAnswer.setText("No");
-    }
-    else{
+    } else {
       finalAnswer.setText("Yes");
     }
-    System.out.println("Question :"+question_count+"  Yes:"+yes+"  No:"+no);
+    System.out.println("Question :" + question_count + "  Yes:" + yes + "  No:" + no);
     finalAnswer.addToIndexes(aJCas);
   }
 

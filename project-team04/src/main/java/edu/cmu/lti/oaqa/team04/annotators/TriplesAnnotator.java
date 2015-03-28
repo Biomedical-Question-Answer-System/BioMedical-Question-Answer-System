@@ -19,7 +19,7 @@ import edu.cmu.lti.oaqa.type.retrieval.TripleSearchResult;
 public class TriplesAnnotator extends JCasAnnotator_ImplBase {
   private static GoPubMedService service = null;
 
-  @Override
+   
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     try {
       service = new GoPubMedService("./project.properties");
@@ -30,7 +30,7 @@ public class TriplesAnnotator extends JCasAnnotator_ImplBase {
 
   }
 
-  @Override
+   
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
     // TODO Auto-generated method stub
     FSIterator it = aJCas.getAnnotationIndex(Question.type).iterator();
@@ -60,13 +60,12 @@ public class TriplesAnnotator extends JCasAnnotator_ImplBase {
             tripleSearchRe.setScore(entity.getScore());
             tripleSearchRe.setRank(count++);
             tripleSearchRe.addToIndexes(aJCas);
-     //       count++;
+            // count++;
             if (count >= 10) {
               break;
             }
           }
-        }
-        else{
+        } else {
           continue;
         }
       }

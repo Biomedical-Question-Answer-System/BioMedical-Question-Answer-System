@@ -21,6 +21,7 @@ import edu.cmu.lti.oaqa.type.retrieval.TripleSearchResult;
 
 /**
  * @author alfie
+ *        Ryan Sun
  *
  */
 public class CasConsumer extends CasConsumer_ImplBase {
@@ -41,7 +42,7 @@ public class CasConsumer extends CasConsumer_ImplBase {
    * 
    * @see org.apache.uima.collection.base_cpm.CasObjectProcessor#processCas(org.apache.uima.cas.CAS)
    */
-  @Override
+   
   public void processCas(CAS aCAS) throws ResourceProcessException {
     // TODO Auto-generated method stub
     JCas jcas;
@@ -97,11 +98,11 @@ public class CasConsumer extends CasConsumer_ImplBase {
     writer.printf("\t\t\"id\": \"" + question.getId() + "\",\n");
     // the end of the question
     writer.printf("\t},\n");
-    //exact answer
+    // exact answer
     writer.printf("\t\t\"exact answer\": [");
-    
+
     FSIterator answerIt = jcas.getJFSIndexRepository().getAllIndexedFS(Answer.type);
-    while(answerIt.hasNext()){
+    while (answerIt.hasNext()) {
       Answer answer = (Answer) answerIt.next();
       writer.printf("\n\t\t\t[\n\t\t\t\t%s\"\n\t\t\t]", answer.getText());
       if (answerIt.hasNext())
@@ -115,7 +116,8 @@ public class CasConsumer extends CasConsumer_ImplBase {
       Passage snippet = (Passage) snippetIt.next();
       writer.printf(
               "\n\t\t\t{\n\t\t\t\t\"beginSection\": \"%s\"\n\t\t\t\t\"document\": \"%s\"\n\t\t\t\t\"endSection\": \"%s\"\n\t\t\t\t\"offsetInBeginSection\": \"%s\"\n\t\t\t\t\"offsetInEndSection\": \"%s\"\n\t\t\t\t\"text\": \"%s\"\n\t\t\t}",
-              snippet.getBeginSection(),snippet.getTitle(),snippet.getEndSection(),snippet.getOffsetInBeginSection(),snippet.getOffsetInEndSection(),snippet.getText());
+              snippet.getBeginSection(), snippet.getTitle(), snippet.getEndSection(),
+              snippet.getOffsetInBeginSection(), snippet.getOffsetInEndSection(), snippet.getText());
       if (conceptIt.hasNext())
         writer.printf(",");
     }

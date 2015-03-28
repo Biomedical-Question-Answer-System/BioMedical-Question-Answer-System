@@ -1,6 +1,5 @@
 package edu.cmu.lti.oaqa.team04.annotators;
 
-
 import java.io.IOException;
 import java.util.List;
 
@@ -20,7 +19,7 @@ import edu.cmu.lti.oaqa.type.input.Question;
 public class DocumentAnnotator extends JCasAnnotator_ImplBase {
   private static GoPubMedService service = null;
 
-  @Override
+   
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     try {
       service = new GoPubMedService("./project.properties");
@@ -31,7 +30,7 @@ public class DocumentAnnotator extends JCasAnnotator_ImplBase {
 
   }
 
-  @Override
+   
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
     // TODO Auto-generated method stub
     FSIterator it = aJCas.getAnnotationIndex(Question.type).iterator();
@@ -52,11 +51,11 @@ public class DocumentAnnotator extends JCasAnnotator_ImplBase {
         documentTypeSys = new edu.cmu.lti.oaqa.type.retrieval.Document(aJCas);
         documentTypeSys.setTitle("http://www.ncbi.nlm.nih.gov/pubmed/" + doc.getPmid());
         documentTypeSys.setDocId(doc.getPmid());
-   //     System.out.println(doc.getPmid()+"********");
+        // System.out.println(doc.getPmid()+"********");
         documentTypeSys.setUri(doc.getPmid());
         documentTypeSys.setRank(count++);
         documentTypeSys.addToIndexes(aJCas);
-        if(count>=30){
+        if (count >= 30) {
 
           break;
         }
@@ -68,5 +67,3 @@ public class DocumentAnnotator extends JCasAnnotator_ImplBase {
     }
   }
 }
-
-
