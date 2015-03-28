@@ -30,9 +30,8 @@ public class Annotator extends JCasAnnotator_ImplBase {
   public void initialize(UimaContext aContext) throws ResourceInitializationException {
     try {
       GoPubMedService service = new GoPubMedService("./project.properties");
-    } catch (ConfigurationException e) {
-      // TODO Auto-generated catch block
-      e.printStackTrace();
+    } catch (ConfigurationException ex) {
+      ex.printStackTrace();
     }
   }
 
